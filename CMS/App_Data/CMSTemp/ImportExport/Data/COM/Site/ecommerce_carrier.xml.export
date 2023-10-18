@@ -1,0 +1,14 @@
+﻿<ecommerce_carrier version="13.0">
+  <NewDataSet>
+    <com_carrier>
+      <CarrierID>1</CarrierID>
+      <CarrierDisplayName>Default carrier</CarrierDisplayName>
+      <CarrierName>DefaultCarrier</CarrierName>
+      <CarrierSiteID>1</CarrierSiteID>
+      <CarrierGUID>bd59ba1b-aaa4-4df7-bb88-ecdaebc398cc</CarrierGUID>
+      <CarrierAssemblyName>CMS.Ecommerce</CarrierAssemblyName>
+      <CarrierClassName>CMS.Ecommerce.DefaultCarrierProvider</CarrierClassName>
+      <CarrierLastModified>2020-11-25T00:55:46.4378841+07:00</CarrierLastModified>
+    </com_carrier>
+  </NewDataSet>
+</ecommerce_carrier>

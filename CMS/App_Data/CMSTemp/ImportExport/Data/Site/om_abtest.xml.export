@@ -1,0 +1,16 @@
+﻿<om_abtest version="13.0">
+  <NewDataSet>
+    <om_abtest>
+      <ABTestID>1</ABTestID>
+      <ABTestName>Home_en-US</ABTestName>
+      <ABTestCulture>en-US</ABTestCulture>
+      <ABTestOriginalPage>/Home</ABTestOriginalPage>
+      <ABTestSiteID>1</ABTestSiteID>
+      <ABTestGUID>6534bf25-1e27-4147-a99d-2598589d858f</ABTestGUID>
+      <ABTestLastModified>2020-11-25T00:55:51.9267968+07:00</ABTestLastModified>
+      <ABTestDisplayName>Home (en-US)</ABTestDisplayName>
+      <ABTestIncludedTraffic>100</ABTestIncludedTraffic>
+      <ABTestConversions>&lt;conversions&gt;&lt;conversion name="PageVisit|/store/coffees/colombia-carlos-imbachi" value="1" item="/store/coffees/colombia-carlos-imbachi" itemname="/store/coffees/colombia-carlos-imbachi" /&gt;&lt;conversion name="Purchase" value="0" /&gt;&lt;/conversions&gt;</ABTestConversions>
+    </om_abtest>
+  </NewDataSet>
+</om_abtest>

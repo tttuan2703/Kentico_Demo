@@ -1,0 +1,13 @@
+﻿<om_contactgroup version="13.0">
+  <NewDataSet>
+    <om_contactgroup>
+      <ContactGroupID>1</ContactGroupID>
+      <ContactGroupName>DancingGoatCore.BirthdaySuccessGroup</ContactGroupName>
+      <ContactGroupDisplayName>Birthday success group (Dancing Goat Core)</ContactGroupDisplayName>
+      <ContactGroupDescription>Used by the 'Send birthday message' marketing automation process example. Contacts are assigned to this group if they make a purchase after receiving the birthday message.</ContactGroupDescription>
+      <ContactGroupEnabled>true</ContactGroupEnabled>
+      <ContactGroupLastModified>2020-11-25T00:55:27.9057597+07:00</ContactGroupLastModified>
+      <ContactGroupGUID>98492bb9-26a6-40b4-a20d-5cb42308f680</ContactGroupGUID>
+    </om_contactgroup>
+  </NewDataSet>
+</om_contactgroup>

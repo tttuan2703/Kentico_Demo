@@ -1,0 +1,538 @@
+﻿<cms_widget version="13.0">
+  <NewDataSet>
+    <cms_widget>
+      <WidgetID>167</WidgetID>
+      <WidgetWebPartID>836</WidgetWebPartID>
+      <WidgetDisplayName>Report Value</WidgetDisplayName>
+      <WidgetName>ReportValue</WidgetName>
+      <WidgetDescription>This widget can be used to directly display an individual value from a specified report, without the report's remaining content. Only values contained in existing reports created using the Reporting module can be selected.</WidgetDescription>
+      <WidgetCategoryID>88</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="ReportValue" guid="4e42a701-1bd0-460a-8c64-f0ac50b887f1" /&gt;&lt;field column="EnableSubscription" guid="e05c883f-5a5c-4f1b-b2bf-2d97b832c086" /&gt;&lt;field column="CacheItemName" visible="false" guid="3750cc1d-caa6-46f9-949d-5bd203f05a2b" /&gt;&lt;field column="CacheMinutes" visible="false" guid="bbc56a00-97c1-4466-b96f-75a8688bc49c" /&gt;&lt;field column="CacheDependencies" visible="false" guid="433c0691-7509-4672-91d2-d53180edb4c8" /&gt;&lt;field column="ParametersXmlSchema" guid="cf78afe9-650e-4818-a451-fceb039d0e15" /&gt;&lt;field column="ParametersXmlData" guid="9f555c37-5408-4438-909b-a82d064e8097" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>f4a804d2-4d70-4678-aacf-191349728d5e</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.8395796+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetIconClass>icon-w-report-value</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>417</WidgetID>
+      <WidgetWebPartID>1221</WidgetWebPartID>
+      <WidgetDisplayName>My pending contacts</WidgetDisplayName>
+      <WidgetName>MyPendingContacts</WidgetName>
+      <WidgetDescription>Displays a list of pending contacts and allows them to be managed.</WidgetDescription>
+      <WidgetCategoryID>90</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="PageSize" guid="51ef144d-336c-4b01-b42a-eac03ee5c040" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>4b78f1a2-caf0-46b8-b830-223c356c4b49</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.585604+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetSkipInsertProperties>false</WidgetSkipInsertProperties>
+      <WidgetIconClass>icon-w-my-pending-contacts</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>426</WidgetID>
+      <WidgetWebPartID>1223</WidgetWebPartID>
+      <WidgetDisplayName>Products</WidgetDisplayName>
+      <WidgetName>Products</WidgetName>
+      <WidgetDescription>Displays a list of products that match the specified filter criteria, e.g. products to reorder.</WidgetDescription>
+      <WidgetCategoryID>138</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="ProductType" guid="46b324c8-d901-42c1-9547-32fc439968b1" /&gt;&lt;field column="Representing" guid="a59f6725-86ee-44d3-bf5c-3fd688dcd517" /&gt;&lt;field column="ProductNumber" guid="ab230fcc-e00e-49f8-a732-29aa0fa1af39" /&gt;&lt;field column="Department" guid="9ac4d83a-9bce-4ddd-ac63-8c6405650e8f" /&gt;&lt;field column="Brand" guid="315854be-2c92-446c-896f-c34b5bbc70d6" /&gt;&lt;field column="Manufacturer" guid="3fb303b3-f956-4cfe-9d5e-f1318af3dab6" /&gt;&lt;field column="Supplier" guid="a0101483-923d-4b52-8931-103f7ed64e34" /&gt;&lt;field column="Collection" guid="53330df1-12c9-4fec-b48b-40d6b283f1c1" /&gt;&lt;field column="TaxClass" guid="b51f2073-4cc0-4168-abe3-2b837e4daf6a" /&gt;&lt;field column="NeedsShipping" guid="af6f4152-9523-4cda-9844-3d4e9c442976" /&gt;&lt;field column="PriceFrom" guid="9db1f2da-3f16-488d-a63d-6bf7e8529030" /&gt;&lt;field column="PriceTo" guid="c1da13a1-ad4c-4aab-860a-1d6e1562a54f" /&gt;&lt;field column="PublicStatus" guid="ad9cf97a-e2cf-4d44-9ddd-2acfd1922fe1" /&gt;&lt;field column="InternalStatus" guid="1cc87e1c-d46a-4493-80c7-dc05b69a8486" /&gt;&lt;field column="AllowForSale" guid="06a54fba-9d0c-4b73-b3be-f9aa6f670ea3" /&gt;&lt;field column="AvailableItems" guid="61b1deaa-2c7f-4197-b3f2-7f12482ab189" /&gt;&lt;field column="NeedsToBeReordered" guid="e06dc88d-1413-46d4-9937-fe1a7a104288" /&gt;&lt;field column="TopN" guid="2a34efea-6063-4491-b1fa-76eebdb2a5dd" /&gt;&lt;field column="OrderBy" guid="edd3d433-eb7f-460c-977c-e94cbd2f9de8" /&gt;&lt;field column="PageSize" guid="bbeba576-9b76-4fa1-9438-1f74e6cfb769" /&gt;&lt;field column="VisibleColumns" guid="0d0f8b9d-a74b-480b-aa7d-298c9d0c09b3" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>f8945aa0-da10-4f2f-9bbc-3061e80bc7be</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.7417453+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetSkipInsertProperties>false</WidgetSkipInsertProperties>
+      <WidgetIconClass>icon-w-products</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>422</WidgetID>
+      <WidgetWebPartID>834</WidgetWebPartID>
+      <WidgetDisplayName>Report - Sales by order status</WidgetDisplayName>
+      <WidgetName>SalesByOrderStatuses</WidgetName>
+      <WidgetDescription>Displays sales by order status. To display more report charts with advanced options, use Web analytics -&gt; Analytics chart viewer widget.</WidgetDescription>
+      <WidgetCategoryID>139</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;category name="Chart properties"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="ReportChart" visible="" spellcheck="" guid="2c5bcc32-0c7b-4e2b-a960-97539746a7ed"&gt;&lt;settings&gt;&lt;controlname /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;defaultvalue&gt;SalesByOrderStatus;graph&lt;/defaultvalue&gt;&lt;fieldcaption /&gt;&lt;fielddescription /&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Width" guid="9ce65554-e462-4c60-a0ff-ac824d2a8ba0"&gt;&lt;properties&gt;&lt;defaultvalue&gt;700&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Height" guid="8d046d1a-95e3-4f4a-9911-ae0b0e2bd9ef"&gt;&lt;properties&gt;&lt;defaultvalue&gt;400&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Range" guid="3c8e231e-04f0-465e-a816-78f399cbe287" /&gt;&lt;field column="RangeValue" guid="f13b970a-d4b5-434a-a191-867d1130a8c8" /&gt;&lt;field column="EnableExport" visible="" guid="54574aa7-2e0b-4b15-8571-b489917db248" /&gt;&lt;field column="EnableSubscription" visible="" guid="6a7f34ec-c63a-41b8-a29d-9d972fcaae69" visibility=""&gt;&lt;settings&gt;&lt;controlname /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;defaultvalue&gt;true&lt;/defaultvalue&gt;&lt;fieldcaption /&gt;&lt;fielddescription /&gt;&lt;/properties&gt;&lt;/field&gt;&lt;category name="System settings"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="CacheItemName" visible="" guid="7c76f100-3297-45a2-ba35-007be6b17881" /&gt;&lt;field column="CacheMinutes" visible="" guid="6118458f-6cb2-47f7-a3f2-8425d9baa564" /&gt;&lt;field column="CacheDependencies" visible="" guid="220dab06-6fff-4ecb-b8f3-917e4fa6ee52" /&gt;&lt;category name="Hidden data properties"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="ParametersXmlSchema" guid="9bdd861c-ef65-4df8-b9a3-4fbac6b51bb3" /&gt;&lt;field column="ParametersXmlData" guid="e01b50f5-4303-48d6-ab97-f56cefd20cf7" /&gt;&lt;field column="PartialCacheMinutes" guid="8df2fd3a-0484-4b99-8d6e-075ee846d056" /&gt;&lt;field column="PartialCacheDependencies" guid="93d1adf0-0cc0-4ae2-9072-0428df61a85a" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>beab6634-5390-4872-9c69-40c75205977b</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.9146097+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetSkipInsertProperties>false</WidgetSkipInsertProperties>
+      <WidgetIconClass>icon-w-report-sales-by-order-status</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>166</WidgetID>
+      <WidgetWebPartID>835</WidgetWebPartID>
+      <WidgetDisplayName>Report Table</WidgetDisplayName>
+      <WidgetName>ReportTable</WidgetName>
+      <WidgetDescription>This widget can be used to directly display an individual table from a specified report, without the report's remaining content. Only tables contained in existing reports created using the Reporting module can be selected.</WidgetDescription>
+      <WidgetCategoryID>88</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="ReportTable" guid="fdc02339-1205-433e-820b-7db9c029d2c3" /&gt;&lt;field column="Range" guid="e7e44338-d2a2-4dda-b659-10308f30dfd9" /&gt;&lt;field column="RangeValue" guid="47a6f863-d8d1-4e44-9a03-66ddb0585c47" /&gt;&lt;field column="EnableExport" visible="false" spellcheck="true" guid="d346975a-d441-44bc-9c10-042926b57053"&gt;&lt;settings&gt;&lt;controlname /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;fieldcaption /&gt;&lt;fielddescription /&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="EnableSubscription" guid="7bc79510-4692-4a57-81ff-5df1104ddc6d" /&gt;&lt;field column="EnablePaging" guid="0144bcc7-699e-42ab-86cf-ffab2f2597e7" /&gt;&lt;field column="PageSize" guid="56bb197b-5608-42f3-af7c-f6e6283cd3af" /&gt;&lt;field column="CacheItemName" visible="false" guid="6bae70df-74b3-40ab-8b30-83436c2a9f7c" /&gt;&lt;field column="CacheMinutes" visible="false" guid="686ab630-5bd1-4594-bcfe-7ffdcf92f879" /&gt;&lt;field column="CacheDependencies" visible="false" guid="df7a735c-7d8e-4712-beca-4eba15f56432" /&gt;&lt;field column="ParametersXmlSchema" guid="0ba76d08-73e5-41a8-9bc2-a52ea5a308d5" /&gt;&lt;field column="ParametersXmlData" guid="12c48f0b-f4c0-4641-b4e8-2292d9c651b5" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>18c429ac-1167-4156-99a9-45043949df67</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.8236601+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetIconClass>icon-w-report-table</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>210</WidgetID>
+      <WidgetWebPartID>871</WidgetWebPartID>
+      <WidgetDisplayName>Email queue</WidgetDisplayName>
+      <WidgetName>EmailQueue</WidgetName>
+      <WidgetDescription>Displays a list of emails that are currently waiting to be sent and those that were not sent successfully. It also provides an interface for resending emails.</WidgetDescription>
+      <WidgetCategoryID>90</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="SiteName" guid="22a60510-0a9f-4048-b2de-0cd1d19f59f9" /&gt;&lt;field column="OrderBy" guid="7418cfff-1249-4dd4-a30f-5a71aa9e5194" /&gt;&lt;field column="Sorting" guid="6440e69d-984a-4362-80cd-a731f6a806a4" /&gt;&lt;field column="ItemsPerPage" guid="26d8e944-43ce-4aa9-8396-5c348748dca6" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>7</WidgetSecurity>
+      <WidgetGUID>09e78242-1585-4aca-8448-56644aaa6964</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.0807474+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetSkipInsertProperties>false</WidgetSkipInsertProperties>
+      <WidgetIconClass>icon-w-e-mail-queue</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>330</WidgetID>
+      <WidgetWebPartID>983</WidgetWebPartID>
+      <WidgetDisplayName>Link</WidgetDisplayName>
+      <WidgetName>Link</WidgetName>
+      <WidgetDescription>Displays a hyperlink to a specified target URL. The link can be rendered either in text format or as an image.</WidgetDescription>
+      <WidgetCategoryID>123</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="LinkText" guid="30a4b79f-bedb-4263-92b4-270730b6a980" /&gt;&lt;field column="LinkCssClass" guid="b6850bc0-0bc0-4bc9-93d3-9faea88faacf" /&gt;&lt;field column="ShowAsButton" visible="" guid="f1eab810-3fd2-426f-8be5-98236f2a9e8b" /&gt;&lt;field column="ImageUrl" guid="c8c8bd83-f293-4d90-9040-b2a4ac97b109" /&gt;&lt;field column="ImageAltText" guid="38a5b3e7-9f9c-402e-b32f-0bbc94d66ba3" /&gt;&lt;field column="ImageCssClass" guid="e7fcbaa3-f454-4aaa-ae32-322e3b921e72" /&gt;&lt;field column="LinkUrl" guid="b7f25ed5-c9a2-41a8-9d98-e1711f251fc5" /&gt;&lt;field column="LinkTarget" guid="fb3d135a-c9e9-4231-8521-81c2e816f0d9" /&gt;&lt;field column="LinkEvent" visible="" guid="8856af3e-7622-4efb-80eb-c8ffebdde6d0" /&gt;&lt;field column="LinkJavascript" visible="" guid="55292811-2250-42ef-962c-dddc56452bb1" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>769259ce-9189-4a41-9bf1-577da77b59f5</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.3880829+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetIconClass>icon-w-link</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>209</WidgetID>
+      <WidgetWebPartID>863</WidgetWebPartID>
+      <WidgetDisplayName>EventLog</WidgetDisplayName>
+      <WidgetName>EventLog</WidgetName>
+      <WidgetDescription>Displays the system event log. You can filter which events should be included in the log. Detailed information about each of the logged events can also be viewed.</WidgetDescription>
+      <WidgetCategoryID>90</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="SiteName" guid="22a60510-0a9f-4048-b2de-0cd1d19f59f9" /&gt;&lt;field column="ShowGlobalEventsOnly" guid="c5aed8c9-ff8e-471b-9e42-70212c7884a5" /&gt;&lt;field column="EventType" guid="fa162a76-6eed-44d4-b9a4-2894a8beb202" /&gt;&lt;field column="Source" guid="240ba985-a260-4204-ad77-fcd15705388c" /&gt;&lt;field column="EventCode" guid="59858d0d-ddc2-471f-bb9a-a1f9552bf6ae" /&gt;&lt;field column="OrderBy" guid="64925520-1488-4e2f-b78b-12d1a70f24a9"&gt;&lt;settings&gt;&lt;controlname&gt;dropdownlistcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="Sorting" guid="c609dde4-4727-4bb4-bafb-71015f9baf14" /&gt;&lt;field column="ItemsPerPage" guid="26d8e944-43ce-4aa9-8396-5c348748dca6" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>7</WidgetSecurity>
+      <WidgetGUID>bcea943b-91fc-42b1-bc93-60048cb35481</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.113747+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetIconClass>icon-w-eventlog</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>326</WidgetID>
+      <WidgetWebPartID>119</WidgetWebPartID>
+      <WidgetDisplayName>Static text</WidgetDisplayName>
+      <WidgetName>statictextWidget</WidgetName>
+      <WidgetDescription>This widget can be used to place plain text content onto the page.</WidgetDescription>
+      <WidgetCategoryID>123</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="Text" guid="dda567a5-f65a-4405-80ee-884b3d7ce0a6" ismacro="false" hasdependingfields="false" /&gt;&lt;field column="Tag" guid="85158c87-b28a-4af0-bd65-08961c728e65" /&gt;&lt;field column="EncodeText" visible="false" guid="abc5de63-8c1c-4b97-baaa-e965a434e408" hasdependingfields="false"&gt;&lt;properties&gt;&lt;defaultvalue&gt;true&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="ResolveDynamicControls" visible="false" guid="d709a046-8342-4f42-bf69-c2970e0a9805" spellcheck="false" hasdependingfields="false"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Encode text&lt;/fieldcaption&gt;&lt;defaultvalue&gt;false&lt;/defaultvalue&gt;&lt;fielddescription&gt;Indicates whether the text will be HTML encoded.&lt;/fielddescription&gt;&lt;/properties&gt;&lt;/field&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>39d89c5b-9fae-4040-9bfe-61660b8649fc</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:09.0106083+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetIconClass>icon-w-static-text</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>333</WidgetID>
+      <WidgetWebPartID>834</WidgetWebPartID>
+      <WidgetDisplayName>Analytics chart viewer</WidgetDisplayName>
+      <WidgetName>AnalyticsChartViewer</WidgetName>
+      <WidgetDescription>This widget can be used to display a chart from a selected web analytics report. The chart may be set to display only data that was logged during a specified time period.</WidgetDescription>
+      <WidgetCategoryID>125</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="ReportChart" guid="2c5bcc32-0c7b-4e2b-a960-97539746a7ed" /&gt;&lt;field column="Width" guid="9ce65554-e462-4c60-a0ff-ac824d2a8ba0" /&gt;&lt;field column="Height" guid="8d046d1a-95e3-4f4a-9911-ae0b0e2bd9ef" /&gt;&lt;field column="Range" guid="3c8e231e-04f0-465e-a816-78f399cbe287" visible="true"&gt;&lt;properties&gt;&lt;fielddescription&gt;Selects the unit of time which will be used in the Range value property.&lt;/fielddescription&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="RangeValue" guid="f13b970a-d4b5-434a-a191-867d1130a8c8" visible="true"&gt;&lt;properties&gt;&lt;fielddescription&gt;Sets the length of the time period from which data will be displayed, using the unit of time selected in the Range property. For example, if the range is set to 'Month' and you enter 4 into this property, only data that was logged during the last four months will be displayed in the chart.&lt;/fielddescription&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="EnableExport" guid="54574aa7-2e0b-4b15-8571-b489917db248" /&gt;&lt;field column="EnableSubscription" guid="6a7f34ec-c63a-41b8-a29d-9d972fcaae69" /&gt;&lt;field column="CacheItemName" visible="false" guid="7c76f100-3297-45a2-ba35-007be6b17881" /&gt;&lt;field column="CacheMinutes" visible="false" guid="6118458f-6cb2-47f7-a3f2-8425d9baa564" /&gt;&lt;field column="CacheDependencies" visible="false" guid="220dab06-6fff-4ecb-b8f3-917e4fa6ee52" /&gt;&lt;field column="ParametersXmlSchema" guid="9bdd861c-ef65-4df8-b9a3-4fbac6b51bb3" /&gt;&lt;field column="ParametersXmlData" guid="e01b50f5-4303-48d6-ab97-f56cefd20cf7" /&gt;&lt;field column="PartialCacheMinutes" guid="8df2fd3a-0484-4b99-8d6e-075ee846d056" /&gt;&lt;field column="PartialCacheDependencies" guid="93d1adf0-0cc0-4ae2-9072-0428df61a85a" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>e5b8fe67-7cf6-412b-8577-63b4b0a00877</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:07.6584429+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetIconClass>icon-w-analytics-chart-viewer</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>337</WidgetID>
+      <WidgetWebPartID>994</WidgetWebPartID>
+      <WidgetDisplayName>Activities</WidgetDisplayName>
+      <WidgetName>Activities</WidgetName>
+      <WidgetDescription>This widget shows list of activities.</WidgetDescription>
+      <WidgetCategoryID>90</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="Site" guid="a8374485-344b-4c78-82e7-5a1a599170a5" /&gt;&lt;field column="ActivityType" guid="3250555b-6222-489a-b53c-353d2b380cac"&gt;&lt;settings&gt;&lt;controlname&gt;ActivityTypeSelector&lt;/controlname&gt;&lt;ShowAll&gt;True&lt;/ShowAll&gt;&lt;ShowCustomActivitiesOnly&gt;False&lt;/ShowCustomActivitiesOnly&gt;&lt;ShowEnabledActivitiesOnly&gt;False&lt;/ShowEnabledActivitiesOnly&gt;&lt;ShowManuallyCreatableActivities&gt;False&lt;/ShowManuallyCreatableActivities&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="DateInterval" guid="1d166d8e-2427-4b52-856b-b54958f45e99"&gt;&lt;settings&gt;&lt;controlname&gt;DateIntervalSelector&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="PageSize" guid="5b9542a3-0a20-48ff-b1aa-2134a0e77b63"&gt;&lt;settings&gt;&lt;controlname&gt;DropDownListControl&lt;/controlname&gt;&lt;DisplayActualValueAsItem&gt;False&lt;/DisplayActualValueAsItem&gt;&lt;EditText&gt;False&lt;/EditText&gt;&lt;Options&gt;10
+25
+50
+100
+-1;(all)&lt;/Options&gt;&lt;SortItems&gt;False&lt;/SortItems&gt;&lt;/settings&gt;&lt;/field&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>3f486fa1-5a1c-4cb6-a973-7aed7978b926</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:07.6314403+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetIconClass>icon-w-activities</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>47</WidgetID>
+      <WidgetWebPartID>298</WidgetWebPartID>
+      <WidgetDisplayName>YouTube video</WidgetDisplayName>
+      <WidgetName>YouTubeVideo</WidgetName>
+      <WidgetDescription>Enables to insert the video from specified URL location.</WidgetDescription>
+      <WidgetCategoryID>51</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="VideoURL" guid="a8544b5c-3a16-462d-9352-9520dc74ea3f" visibility="none" /&gt;&lt;field column="Width" guid="3a87bb05-901f-451d-a005-f7e6b5d1d945" visibility="none" ismacro="false" /&gt;&lt;field column="Height" guid="9429d86b-3754-402b-b449-a21c1730727f" visibility="none" ismacro="false" /&gt;&lt;field column="AutoPlay" guid="b65ec4cb-aaf9-4bd2-b2cf-25af0e71556e" visibility="none" ismacro="false" /&gt;&lt;field column="Rel" guid="39af7fcd-763b-412a-bc49-5f9b8ff97db8" visible="false" /&gt;&lt;field column="FullScreen" guid="193c796e-eedb-4cda-b3ec-7802fb12ceb3" visible="false" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>26605f77-0c1c-46bc-a256-85eff60df8ac</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:09.1346091+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetIconClass>icon-w-youtube-video</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>334</WidgetID>
+      <WidgetWebPartID>835</WidgetWebPartID>
+      <WidgetDisplayName>Analytics table viewer</WidgetDisplayName>
+      <WidgetName>AnalyticsTableViewer</WidgetName>
+      <WidgetDescription>This widget can be used to display a table from a selected web analytics report. The chart may be set to display only data that was logged during a specified time period.</WidgetDescription>
+      <WidgetCategoryID>125</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="ReportTable" guid="fdc02339-1205-433e-820b-7db9c029d2c3" /&gt;&lt;field column="Range" guid="e7e44338-d2a2-4dda-b659-10308f30dfd9" visible="true"&gt;&lt;settings&gt;&lt;Options&gt;&amp;lt;item value="year" text="Year" /&amp;gt;&amp;lt;item value="month" text="Month" /&amp;gt;&amp;lt;item value="week" text="Week" /&amp;gt;&amp;lt;item value="day" text="Day" /&amp;gt;&amp;lt;item value="hour" text="Hour" /&amp;gt;&lt;/Options&gt;&lt;controlname&gt;dropdownlistcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;properties&gt;&lt;fieldcaption&gt;Range&lt;/fieldcaption&gt;&lt;fielddescription&gt;Selects the unit of time which will be used in the Range value property.&lt;/fielddescription&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="RangeValue" guid="47a6f863-d8d1-4e44-9a03-66ddb0585c47" visible="true"&gt;&lt;settings&gt;&lt;AutoCompleteEnableCaching&gt;False&lt;/AutoCompleteEnableCaching&gt;&lt;AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;False&lt;/AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;&lt;Trim&gt;False&lt;/Trim&gt;&lt;AutoCompleteFirstRowSelected&gt;False&lt;/AutoCompleteFirstRowSelected&gt;&lt;controlname&gt;textboxcontrol&lt;/controlname&gt;&lt;FilterMode&gt;False&lt;/FilterMode&gt;&lt;/settings&gt;&lt;properties&gt;&lt;fieldcaption&gt;Range value&lt;/fieldcaption&gt;&lt;fielddescription&gt;Sets the length of the time period from which data will be displayed, using the unit of time selected in the Range property. For example, if the range is set to 'Month' and you enter 4 into this property, only data that was logged during the last four months will be displayed in the table.&lt;/fielddescription&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="EnableExport" guid="d346975a-d441-44bc-9c10-042926b57053" /&gt;&lt;field column="EnableSubscription" guid="7bc79510-4692-4a57-81ff-5df1104ddc6d" /&gt;&lt;field column="EnablePaging" guid="0144bcc7-699e-42ab-86cf-ffab2f2597e7" /&gt;&lt;field column="PageSize" guid="56bb197b-5608-42f3-af7c-f6e6283cd3af" /&gt;&lt;field column="CacheItemName" visible="" guid="6bae70df-74b3-40ab-8b30-83436c2a9f7c" /&gt;&lt;field column="CacheMinutes" visible="" guid="686ab630-5bd1-4594-bcfe-7ffdcf92f879" /&gt;&lt;field column="CacheDependencies" visible="" guid="df7a735c-7d8e-4712-beca-4eba15f56432" /&gt;&lt;field column="ParametersXmlSchema" guid="0ba76d08-73e5-41a8-9bc2-a52ea5a308d5" /&gt;&lt;field column="ParametersXmlData" guid="12c48f0b-f4c0-4641-b4e8-2292d9c651b5" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>487f7c0f-f1d3-47ab-aa2b-8b1ffbe6aef3</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:07.6744429+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetIconClass>icon-w-analytics-table-viewer</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>350</WidgetID>
+      <WidgetWebPartID>969</WidgetWebPartID>
+      <WidgetDisplayName>Static Google maps</WidgetDisplayName>
+      <WidgetName>StaticGoogleMaps</WidgetName>
+      <WidgetDescription>Displays maps with single marker according to location or address obtained from the Google maps service.</WidgetDescription>
+      <WidgetCategoryID>83</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="Location" guid="d02a92c8-865e-4dd0-b797-749a7b4f41b0" /&gt;&lt;field column="EnableServerProcessing" guid="c42d23a6-1ca8-4ec9-aacc-19365a634b7a" visible="" /&gt;&lt;field column="Latitude" guid="beb664dc-e592-4319-ba00-fb5fe85c278f" /&gt;&lt;field column="Longitude" guid="098541d6-f430-4b3f-a05b-2f1c3d49b9c0" /&gt;&lt;field column="ToolTip" guid="f0237e3c-952b-4698-af07-b3099a5ade8d"&gt;&lt;settings&gt;&lt;AutoCompleteEnableCaching&gt;False&lt;/AutoCompleteEnableCaching&gt;&lt;AutoCompleteFirstRowSelected&gt;False&lt;/AutoCompleteFirstRowSelected&gt;&lt;AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;False&lt;/AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;&lt;FilterMode&gt;False&lt;/FilterMode&gt;&lt;Trim&gt;False&lt;/Trim&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="Content" guid="acd75178-a39c-40a7-bceb-a164a4eeff83"&gt;&lt;settings&gt;&lt;ToolbarSet&gt;Widgets&lt;/ToolbarSet&gt;&lt;DisplayAutoResize /&gt;&lt;DisplayEmailTabSetting /&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="Scale" guid="becee78d-3281-44e1-aa14-5cc0f6a22d4e" /&gt;&lt;field column="IconURL" guid="175dba28-fbec-468d-98d2-8f554a0b9de9" visible="" /&gt;&lt;field column="ZoomScale" guid="e616c730-2538-4a84-9d00-b55e56641f10" /&gt;&lt;field column="Width" guid="aeacce47-5459-417d-97c7-c9edd471dc4e" /&gt;&lt;field column="Height" guid="b2ad9df7-3a67-43f2-9d61-93be76f3c89c" /&gt;&lt;field column="MapType" guid="02ad68af-30c8-4fb3-9916-3c99247b37dd"&gt;&lt;settings&gt;&lt;options&gt;ROADMAP;Roadmap
+SATELLITE;Satellite
+HYBRID;Hybrid
+TERRAIN;Terrain&lt;/options&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ShowNavigationControl" guid="150e9473-56ff-478b-ae44-e779d6f8bf8a" /&gt;&lt;field column="ShowStreetViewControl" guid="87f125fd-38ba-495f-9c82-149f7b40567f" /&gt;&lt;field column="ShowZoomControl" guid="59a7c23d-9489-4dd7-b2d5-8903a2bb1abc" /&gt;&lt;field column="NavigationControlType" guid="efe56520-e3b3-460e-9ceb-6f88a77d3675"&gt;&lt;properties&gt;&lt;defaultvalue&gt;0&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="ZoomControlType" guid="ddcb99b6-dbcf-4b5c-959d-455257d1ffb0" /&gt;&lt;field column="ShowScaleControl" guid="4978c2e1-aaaa-426d-b7bd-f36f9588fb57" visible="" /&gt;&lt;field column="ShowMapTypeControl" guid="ac715ba7-8bdb-4dba-abd9-5b5867656630" visible="" /&gt;&lt;field column="EnableMapDragging" guid="f7756896-f791-415f-8fae-039611929ed5" visible="" /&gt;&lt;field column="EnableKeyboardShortcuts" guid="bca1b061-e7de-4f37-ba53-670972acd956" visible="" /&gt;&lt;field column="ApiKey" guid="a80d48f2-1765-4c1c-abc7-11769982658a" /&gt;&lt;field column="CacheItemName" guid="6c54915b-c967-4d21-a7f7-58747fff5b5b" visible="" /&gt;&lt;field column="CacheMinutes" guid="622c2e40-bdd4-44e7-b5d8-a64efebe6030" visible="" /&gt;&lt;field column="UseUpdatePanel" guid="4ee1c8fa-038f-4015-8b36-e561e26462e3" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>9f38503f-e733-466b-9bc8-8faa0a3093ec</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.9727097+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetIconClass>icon-w-static-google-maps</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>420</WidgetID>
+      <WidgetWebPartID>834</WidgetWebPartID>
+      <WidgetDisplayName>Report - Monthly sales</WidgetDisplayName>
+      <WidgetName>MonthlySales</WidgetName>
+      <WidgetDescription>Displays sales during the specified number of last months. To display more report charts with advanced options, use Web analytics -&gt; Analytics chart viewer widget.</WidgetDescription>
+      <WidgetCategoryID>139</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;category name="Chart properties"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="ReportChart" visible="" spellcheck="" guid="2c5bcc32-0c7b-4e2b-a960-97539746a7ed"&gt;&lt;settings&gt;&lt;controlname /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;defaultvalue&gt;Sales.MonthReport;graph&lt;/defaultvalue&gt;&lt;fieldcaption /&gt;&lt;fielddescription /&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Width" guid="9ce65554-e462-4c60-a0ff-ac824d2a8ba0"&gt;&lt;properties&gt;&lt;defaultvalue&gt;700&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Height" visible="" guid="8d046d1a-95e3-4f4a-9911-ae0b0e2bd9ef"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Width&lt;/fieldcaption&gt;&lt;defaultvalue&gt;400&lt;/defaultvalue&gt;&lt;fielddescription&gt;Can be used to override the width that is configured for the displayed chart in the reporting interface. If the percentage symbol ('%') is added to the value, the chart width will be relative to the maximum possible width, e.g. 100%&lt;/fielddescription&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Range" guid="3c8e231e-04f0-465e-a816-78f399cbe287"&gt;&lt;settings&gt;&lt;AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;False&lt;/AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;&lt;Trim&gt;False&lt;/Trim&gt;&lt;AutoCompleteFirstRowSelected&gt;False&lt;/AutoCompleteFirstRowSelected&gt;&lt;FilterMode&gt;False&lt;/FilterMode&gt;&lt;controlname&gt;textboxcontrol&lt;/controlname&gt;&lt;AutoCompleteEnableCaching&gt;False&lt;/AutoCompleteEnableCaching&gt;&lt;Options /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;fieldcaption&gt;Width&lt;/fieldcaption&gt;&lt;defaultvalue&gt;Month&lt;/defaultvalue&gt;&lt;fielddescription&gt;Can be used to override the width that is configured for the displayed chart in the reporting interface. If the percentage symbol ('%') is added to the value, the chart width will be relative to the maximum possible width, e.g. 100%&lt;/fielddescription&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="RangeValue" guid="f13b970a-d4b5-434a-a191-867d1130a8c8" visible="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Number of last months to display&lt;/fieldcaption&gt;&lt;defaultvalue&gt;12&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="EnableExport" visible="" guid="54574aa7-2e0b-4b15-8571-b489917db248" /&gt;&lt;field column="EnableSubscription" visible="" guid="6a7f34ec-c63a-41b8-a29d-9d972fcaae69" visibility=""&gt;&lt;settings&gt;&lt;controlname /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;defaultvalue&gt;true&lt;/defaultvalue&gt;&lt;fieldcaption /&gt;&lt;fielddescription /&gt;&lt;/properties&gt;&lt;/field&gt;&lt;category name="System settings"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="CacheItemName" visible="" guid="7c76f100-3297-45a2-ba35-007be6b17881" /&gt;&lt;field column="CacheMinutes" visible="" guid="6118458f-6cb2-47f7-a3f2-8425d9baa564" /&gt;&lt;field column="CacheDependencies" visible="" guid="220dab06-6fff-4ecb-b8f3-917e4fa6ee52" /&gt;&lt;category name="Hidden data properties"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="ParametersXmlSchema" guid="9bdd861c-ef65-4df8-b9a3-4fbac6b51bb3" /&gt;&lt;field column="ParametersXmlData" guid="e01b50f5-4303-48d6-ab97-f56cefd20cf7" /&gt;&lt;field column="PartialCacheMinutes" guid="8df2fd3a-0484-4b99-8d6e-075ee846d056" /&gt;&lt;field column="PartialCacheDependencies" guid="93d1adf0-0cc0-4ae2-9072-0428df61a85a" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>1fa91ccc-99ea-4b1f-9ad5-942a3b15b431</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.499136+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetSkipInsertProperties>false</WidgetSkipInsertProperties>
+      <WidgetIconClass>icon-w-report-monthly-sales</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>201</WidgetID>
+      <WidgetWebPartID>845</WidgetWebPartID>
+      <WidgetDisplayName>Pages</WidgetDisplayName>
+      <WidgetName>Documents</WidgetName>
+      <WidgetDescription>{$widgets.pagesdesc$}</WidgetDescription>
+      <WidgetCategoryID>90</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="ListingType" guid="ea8033b3-9a72-4e60-b086-999420607a74" /&gt;&lt;field column="DocumentName" guid="01d465d3-63d4-4b0a-9829-360ca0e5d5fd" /&gt;&lt;field column="DocumentAge" guid="44aba39b-157d-4c34-9189-3cac903a9be3" /&gt;&lt;field column="DocumentType" guid="b66cf521-b59f-4c79-ad8f-d5c23df20b07" /&gt;&lt;field column="SiteName" guid="1696ef37-8ff7-4e6e-9503-fc2e7e3df7ae" /&gt;&lt;field column="Path" guid="2afdf48e-0ef8-4281-acdc-3428a26cc995" /&gt;&lt;field column="ItemsPerPage" guid="3377b602-c98d-49ff-9399-6419d677122d" /&gt;&lt;field column="OrderBy" guid="e404ede6-d353-4706-af54-6fd482bbc74f" /&gt;&lt;field column="Sorting" guid="3794991b-9e9e-4480-9493-b2f9ff65c940" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>9a2a2eeb-9b02-4cd6-8c75-96761d4b9ae6</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.0407489+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetSkipInsertProperties>false</WidgetSkipInsertProperties>
+      <WidgetIconClass>icon-w-documents</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>419</WidgetID>
+      <WidgetWebPartID>834</WidgetWebPartID>
+      <WidgetDisplayName>Report - Daily sales</WidgetDisplayName>
+      <WidgetName>DailySales</WidgetName>
+      <WidgetDescription>Displays sales during the specified number of last days. To display more report charts with advanced options, use Web analytics -&gt; Analytics chart viewer widget.</WidgetDescription>
+      <WidgetCategoryID>139</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;category name="Chart properties"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="ReportChart" visible="" spellcheck="" guid="2c5bcc32-0c7b-4e2b-a960-97539746a7ed"&gt;&lt;settings&gt;&lt;controlname /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;defaultvalue&gt;Sales.DayReport;graph&lt;/defaultvalue&gt;&lt;fieldcaption /&gt;&lt;fielddescription /&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Width" guid="9ce65554-e462-4c60-a0ff-ac824d2a8ba0"&gt;&lt;properties&gt;&lt;defaultvalue&gt;700&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Height" guid="8d046d1a-95e3-4f4a-9911-ae0b0e2bd9ef"&gt;&lt;properties&gt;&lt;defaultvalue&gt;400&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Range" guid="3c8e231e-04f0-465e-a816-78f399cbe287"&gt;&lt;properties&gt;&lt;defaultvalue&gt;Day&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="RangeValue" guid="f13b970a-d4b5-434a-a191-867d1130a8c8" visible="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Number of last days to display&lt;/fieldcaption&gt;&lt;defaultvalue&gt;30&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="EnableExport" visible="" guid="54574aa7-2e0b-4b15-8571-b489917db248" /&gt;&lt;field column="EnableSubscription" visible="" guid="6a7f34ec-c63a-41b8-a29d-9d972fcaae69" visibility=""&gt;&lt;settings&gt;&lt;controlname /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;defaultvalue&gt;true&lt;/defaultvalue&gt;&lt;fieldcaption /&gt;&lt;fielddescription /&gt;&lt;/properties&gt;&lt;/field&gt;&lt;category name="System settings"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="CacheItemName" visible="" guid="7c76f100-3297-45a2-ba35-007be6b17881" /&gt;&lt;field column="CacheMinutes" visible="" guid="6118458f-6cb2-47f7-a3f2-8425d9baa564" /&gt;&lt;field column="CacheDependencies" visible="" guid="220dab06-6fff-4ecb-b8f3-917e4fa6ee52" /&gt;&lt;category name="Hidden data properties"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="ParametersXmlSchema" guid="9bdd861c-ef65-4df8-b9a3-4fbac6b51bb3" /&gt;&lt;field column="ParametersXmlData" guid="e01b50f5-4303-48d6-ab97-f56cefd20cf7" /&gt;&lt;field column="PartialCacheMinutes" guid="8df2fd3a-0484-4b99-8d6e-075ee846d056" /&gt;&lt;field column="PartialCacheDependencies" guid="93d1adf0-0cc0-4ae2-9072-0428df61a85a" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>50b0d0fc-1ef9-4994-b05a-aa8092031123</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:07.9855423+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetSkipInsertProperties>false</WidgetSkipInsertProperties>
+      <WidgetIconClass>icon-w-report-daily-sales</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>206</WidgetID>
+      <WidgetWebPartID>860</WidgetWebPartID>
+      <WidgetDisplayName>System</WidgetDisplayName>
+      <WidgetName>System</WidgetName>
+      <WidgetDescription>Displays current information about the CMS. The data is refreshed regularly according to a specified interval. The widget may also be used to restart the application or clear its cache.</WidgetDescription>
+      <WidgetCategoryID>90</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="RefreshInterval" guid="5749ccde-abd8-4deb-83f7-26258c5a8c75" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>7</WidgetSecurity>
+      <WidgetGUID>25a0f860-e6e0-41cc-85f0-af63f8720c88</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:09.0486083+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetIconClass>icon-w-system</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>328</WidgetID>
+      <WidgetWebPartID>989</WidgetWebPartID>
+      <WidgetDisplayName>Object recycle bin</WidgetDisplayName>
+      <WidgetName>ObjectRecycleBin</WidgetName>
+      <WidgetDescription>Displays a list of deleted system objects and allows users to manage them (i.e. restore or remove them permanently).</WidgetDescription>
+      <WidgetCategoryID>90</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="ObjectDisplayName" guid="f70e15fb-c3e1-43d4-8546-f75f153bbeb0" /&gt;&lt;field column="ObjectType" guid="01c6a4b9-4637-4a74-bf5b-cbcbc20c8d94" /&gt;&lt;field column="ItemsPerPage" guid="f6ad7c59-a135-4e4e-81b4-8246968c0fbf" /&gt;&lt;field column="OrderBy" guid="cfe3dc8d-eac8-4649-bf2b-ce3491034761" /&gt;&lt;field column="Sorting" guid="25d205ef-16b1-4ae3-a9d3-0271524c1eeb" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>86a12cd3-9a8f-4870-860e-b0e8a1168d5f</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.6436026+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetIconClass>icon-w-object-recycle-bin</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>165</WidgetID>
+      <WidgetWebPartID>834</WidgetWebPartID>
+      <WidgetDisplayName>Report Chart</WidgetDisplayName>
+      <WidgetName>ReportChart</WidgetName>
+      <WidgetDescription>This widget can be used to directly display an individual chart from a specified report, without the report's remaining content. Only charts contained in existing reports created using the Reporting module can be selected.</WidgetDescription>
+      <WidgetCategoryID>88</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="ReportChart" guid="2c5bcc32-0c7b-4e2b-a960-97539746a7ed" /&gt;&lt;field column="Width" guid="9ce65554-e462-4c60-a0ff-ac824d2a8ba0"&gt;&lt;properties&gt;&lt;fielddescription&gt;Can be used to override the width that is configured for the displayed chart in the reporting interface.&lt;/fielddescription&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Height" guid="8d046d1a-95e3-4f4a-9911-ae0b0e2bd9ef" /&gt;&lt;field column="Range" guid="3c8e231e-04f0-465e-a816-78f399cbe287" /&gt;&lt;field column="RangeValue" guid="f13b970a-d4b5-434a-a191-867d1130a8c8" /&gt;&lt;field column="EnableExport" guid="54574aa7-2e0b-4b15-8571-b489917db248" /&gt;&lt;field column="EnableSubscription" guid="6a7f34ec-c63a-41b8-a29d-9d972fcaae69" /&gt;&lt;field column="CacheItemName" visible="false" guid="7c76f100-3297-45a2-ba35-007be6b17881" /&gt;&lt;field column="CacheMinutes" visible="false" guid="6118458f-6cb2-47f7-a3f2-8425d9baa564" /&gt;&lt;field column="CacheDependencies" visible="false" guid="220dab06-6fff-4ecb-b8f3-917e4fa6ee52" /&gt;&lt;field column="ParametersXmlSchema" guid="9bdd861c-ef65-4df8-b9a3-4fbac6b51bb3" /&gt;&lt;field column="ParametersXmlData" guid="e01b50f5-4303-48d6-ab97-f56cefd20cf7" /&gt;&lt;field column="PartialCacheMinutes" guid="8df2fd3a-0484-4b99-8d6e-075ee846d056" /&gt;&lt;field column="PartialCacheDependencies" guid="93d1adf0-0cc0-4ae2-9072-0428df61a85a" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>1cef5345-672e-4571-a0bd-bc7bd217b1a0</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.8066612+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetIconClass>icon-w-report-chart</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>51</WidgetID>
+      <WidgetWebPartID>314</WidgetWebPartID>
+      <WidgetDisplayName>Date &amp; time</WidgetDisplayName>
+      <WidgetName>DateTime</WidgetName>
+      <WidgetDescription>Displays the current date and time.</WidgetDescription>
+      <WidgetCategoryID>52</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="JsUseServerTime" guid="29ba7b1a-c0a1-4ccb-a45f-cc848e8196aa" /&gt;&lt;field column="JsFormat" guid="3d309197-b155-4205-910b-bc92d834d208" visible="false" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>90642787-ed0c-4908-b9b5-c447fa7e19d7</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.0037453+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetSkipInsertProperties>true</WidgetSkipInsertProperties>
+      <WidgetIconClass>icon-w-date-and-time</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>424</WidgetID>
+      <WidgetWebPartID>1222</WidgetWebPartID>
+      <WidgetDisplayName>Orders</WidgetDisplayName>
+      <WidgetName>Orders</WidgetName>
+      <WidgetDescription>Displays list of orders that match the specified filter criteria, e.g., new orders or unpaid orders.</WidgetDescription>
+      <WidgetCategoryID>138</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="OrderStatus" guid="7334435c-5154-41c3-9032-71f641c8b76a"&gt;&lt;settings&gt;&lt;DisplayOnlyEnabled&gt;False&lt;/DisplayOnlyEnabled&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="CustomerOrCompany" guid="e6c50bd2-e2c4-4b82-9e7e-83948fa71fef" /&gt;&lt;field column="HasNote" guid="34c8df24-fb10-46d6-94ce-3d2fba7e0f0c" /&gt;&lt;field column="PaymentMethod" guid="3cafa40b-627e-4390-a4d5-7b50f539fa1e" /&gt;&lt;field column="PaymentStatus" guid="966e5a59-c399-49fb-8a74-ba37bb7c4708" /&gt;&lt;field column="Currency" guid="eb73f6ca-e586-4edd-8556-5c96cf09c1f5" /&gt;&lt;field column="MinPriceInMainCurrency" guid="67fcd6e8-9edd-45ef-ab42-f498c747df7e" /&gt;&lt;field column="MaxPriceInMainCurrency" guid="9e1525fc-ff84-4a4f-823f-54400a75ea92" /&gt;&lt;field column="ShippingOption" guid="5b9892da-13c8-4021-999f-94b4227069db" /&gt;&lt;field column="ShippingCountry" guid="14546b4b-4a9c-4bd5-ad87-42c1943d1edd" /&gt;&lt;field column="HowOld" guid="d4b5c5c3-a935-447b-8c4d-53f35defc63c" /&gt;&lt;field column="OlderThan" guid="f574cb24-5e04-4c6c-82b9-00bc34f9c9e3"&gt;&lt;properties&gt;&lt;fielddescription&gt;If you specify this field, Created during last field will not have effect.&lt;/fielddescription&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="TopN" guid="922317c7-484d-4e4c-af01-6b611ef68809" /&gt;&lt;field column="OrderBy" guid="b9674652-79e0-415f-bbe6-1951331386ba" /&gt;&lt;field column="PageSize" guid="a7bc25a4-7aa5-45e8-ae81-de81b271e705" /&gt;&lt;field column="VisibleColumns" guid="8707e724-406b-4ac0-9d7e-7863ce523593" /&gt;&lt;field column="VisibleActions" guid="c63c5c5a-ba37-4e3e-8e4f-dc6d69107966" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>7e3d664e-02a1-4384-a951-c4b95a18854f</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.6636028+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetSkipInsertProperties>false</WidgetSkipInsertProperties>
+      <WidgetIconClass>icon-w-orders</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>351</WidgetID>
+      <WidgetWebPartID>968</WidgetWebPartID>
+      <WidgetDisplayName>Static Bing maps</WidgetDisplayName>
+      <WidgetName>StaticBingMaps</WidgetName>
+      <WidgetDescription>Displays maps with single marker according to location or address obtained from the Bing maps service.</WidgetDescription>
+      <WidgetCategoryID>83</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="Location" guid="217a0049-8b13-41c2-9aa4-b16720ef069c" /&gt;&lt;field column="EnableServerProcessing" visible="" guid="0e804b90-79bf-464c-b322-b3a159c00498" /&gt;&lt;field column="Latitude" guid="beb664dc-e592-4319-ba00-fb5fe85c278f" /&gt;&lt;field column="Longitude" guid="098541d6-f430-4b3f-a05b-2f1c3d49b9c0" /&gt;&lt;field column="ToolTip" guid="f0237e3c-952b-4698-af07-b3099a5ade8d"&gt;&lt;settings&gt;&lt;AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;False&lt;/AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;&lt;AutoCompleteEnableCaching&gt;False&lt;/AutoCompleteEnableCaching&gt;&lt;FilterMode&gt;False&lt;/FilterMode&gt;&lt;Trim&gt;False&lt;/Trim&gt;&lt;AutoCompleteFirstRowSelected&gt;False&lt;/AutoCompleteFirstRowSelected&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="Content" guid="b59e17fc-d42c-4325-8fac-ae199ea266c2"&gt;&lt;settings&gt;&lt;ToolbarSet&gt;Widgets&lt;/ToolbarSet&gt;&lt;DisplayEmailTabSetting /&gt;&lt;DisplayAutoResize /&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="Scale" guid="becee78d-3281-44e1-aa14-5cc0f6a22d4e" /&gt;&lt;field column="IconURL" visible="" guid="23f81b93-86e6-4724-8694-6c2816df0307" /&gt;&lt;field column="ZoomScale" guid="e616c730-2538-4a84-9d00-b55e56641f10" /&gt;&lt;field column="Width" guid="aeacce47-5459-417d-97c7-c9edd471dc4e" /&gt;&lt;field column="Height" guid="b2ad9df7-3a67-43f2-9d61-93be76f3c89c" /&gt;&lt;field column="MapType" guid="02ad68af-30c8-4fb3-9916-3c99247b37dd"&gt;&lt;properties&gt;&lt;defaultvalue&gt;Road&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="ShowNavigationControl" visible="" guid="150e9473-56ff-478b-ae44-e779d6f8bf8a" /&gt;&lt;field column="ShowScaleControl" visible="" guid="4978c2e1-aaaa-426d-b7bd-f36f9588fb57" /&gt;&lt;field column="EnableMapDragging" visible="" guid="f7756896-f791-415f-8fae-039611929ed5" /&gt;&lt;field column="MapKey" guid="616c1e61-c455-4ee2-9372-f08a7f3e1434" /&gt;&lt;field column="CacheItemName" visible="" guid="41ea058a-2d8d-4b9b-8d96-dfde4c23dcfd" /&gt;&lt;field column="CacheMinutes" visible="" guid="18f3618a-a05c-4a5e-88a7-1b63ced39e1b" /&gt;&lt;field column="UseUpdatePanel" guid="510119cf-d588-4ed4-8d38-62554547b654" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>4a12ec30-a7eb-499d-911d-e0c5fbb2b7ba</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.9536409+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetIconClass>icon-w-static-bing-maps</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>421</WidgetID>
+      <WidgetWebPartID>834</WidgetWebPartID>
+      <WidgetDisplayName>Report - Number of orders by status</WidgetDisplayName>
+      <WidgetName>NumberOfOrdersByStatus</WidgetName>
+      <WidgetDescription>Displays number of orders by order status. To display more report charts with advanced options, use Web analytics -&gt; Analytics chart viewer widget.</WidgetDescription>
+      <WidgetCategoryID>139</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;category name="Chart properties"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="ReportChart" visible="" spellcheck="" guid="2c5bcc32-0c7b-4e2b-a960-97539746a7ed"&gt;&lt;settings&gt;&lt;controlname /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;defaultvalue&gt;NumberOfOrdersByStatus;graph&lt;/defaultvalue&gt;&lt;fieldcaption /&gt;&lt;fielddescription /&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Width" guid="9ce65554-e462-4c60-a0ff-ac824d2a8ba0"&gt;&lt;properties&gt;&lt;defaultvalue&gt;700&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Height" guid="8d046d1a-95e3-4f4a-9911-ae0b0e2bd9ef"&gt;&lt;properties&gt;&lt;defaultvalue&gt;400&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="Range" guid="3c8e231e-04f0-465e-a816-78f399cbe287"&gt;&lt;settings&gt;&lt;controlname /&gt;&lt;Options /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;fieldcaption /&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="RangeValue" guid="f13b970a-d4b5-434a-a191-867d1130a8c8"&gt;&lt;settings&gt;&lt;AutoCompleteShowOnlyCurrentWordInCompletionListItem /&gt;&lt;AutoCompleteFirstRowSelected /&gt;&lt;controlname /&gt;&lt;FilterMode /&gt;&lt;Trim /&gt;&lt;AutoCompleteEnableCaching /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;fieldcaption /&gt;&lt;/properties&gt;&lt;/field&gt;&lt;field column="EnableExport" visible="" guid="54574aa7-2e0b-4b15-8571-b489917db248" /&gt;&lt;field column="EnableSubscription" visible="" guid="6a7f34ec-c63a-41b8-a29d-9d972fcaae69" visibility=""&gt;&lt;settings&gt;&lt;controlname /&gt;&lt;/settings&gt;&lt;properties&gt;&lt;defaultvalue&gt;true&lt;/defaultvalue&gt;&lt;fieldcaption /&gt;&lt;fielddescription /&gt;&lt;/properties&gt;&lt;/field&gt;&lt;category name="System settings"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="CacheItemName" visible="" guid="7c76f100-3297-45a2-ba35-007be6b17881" /&gt;&lt;field column="CacheMinutes" visible="" guid="6118458f-6cb2-47f7-a3f2-8425d9baa564" /&gt;&lt;field column="CacheDependencies" visible="" guid="220dab06-6fff-4ecb-b8f3-917e4fa6ee52" /&gt;&lt;category name="Hidden data properties"&gt;&lt;properties&gt;&lt;visible /&gt;&lt;/properties&gt;&lt;/category&gt;&lt;field column="ParametersXmlSchema" guid="9bdd861c-ef65-4df8-b9a3-4fbac6b51bb3" /&gt;&lt;field column="ParametersXmlData" guid="e01b50f5-4303-48d6-ab97-f56cefd20cf7" /&gt;&lt;field column="PartialCacheMinutes" guid="8df2fd3a-0484-4b99-8d6e-075ee846d056" /&gt;&lt;field column="PartialCacheDependencies" guid="93d1adf0-0cc0-4ae2-9072-0428df61a85a" /&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>4fa5bbb4-2100-40f9-a0c7-e896921b3924</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.6266031+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetSkipInsertProperties>false</WidgetSkipInsertProperties>
+      <WidgetIconClass>icon-w-report-number-of-orders-by-status</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>339</WidgetID>
+      <WidgetWebPartID>996</WidgetWebPartID>
+      <WidgetDisplayName>My contacts</WidgetDisplayName>
+      <WidgetName>MyContacts</WidgetName>
+      <WidgetDescription>This widget shows list of contacts owned by current user.</WidgetDescription>
+      <WidgetCategoryID>90</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="VisibleFields" guid="76799c91-065b-4053-9d4b-c5884df587e9" /&gt;&lt;field column="PageSize" guid="5b9542a3-0a20-48ff-b1aa-2134a0e77b63"&gt;&lt;settings&gt;&lt;controlname&gt;DropDownListControl&lt;/controlname&gt;&lt;DisplayActualValueAsItem&gt;False&lt;/DisplayActualValueAsItem&gt;&lt;EditText&gt;False&lt;/EditText&gt;&lt;Options&gt;10
+25
+50
+100
+-1;(all)&lt;/Options&gt;&lt;SortItems&gt;False&lt;/SortItems&gt;&lt;/settings&gt;&lt;/field&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>4ef7980b-8f4b-429a-9cb9-f4242bf25440</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.5666769+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetIconClass>icon-w-my-contacts</WidgetIconClass>
+    </cms_widget>
+    <cms_widget>
+      <WidgetID>340</WidgetID>
+      <WidgetWebPartID>997</WidgetWebPartID>
+      <WidgetDisplayName>My accounts</WidgetDisplayName>
+      <WidgetName>MyAccounts</WidgetName>
+      <WidgetDescription>This widget shows list of accounts owned by current user.</WidgetDescription>
+      <WidgetCategoryID>90</WidgetCategoryID>
+      <WidgetProperties>&lt;form version="2"&gt;&lt;field column="VisibleFields" guid="76799c91-065b-4053-9d4b-c5884df587e9"&gt;&lt;settings&gt;&lt;controlname&gt;MultipleChoiceControl&lt;/controlname&gt;&lt;RepeatLayout&gt;Flow&lt;/RepeatLayout&gt;&lt;SortItems&gt;False&lt;/SortItems&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="PageSize" guid="5b9542a3-0a20-48ff-b1aa-2134a0e77b63"&gt;&lt;settings&gt;&lt;controlname&gt;DropDownListControl&lt;/controlname&gt;&lt;DisplayActualValueAsItem&gt;False&lt;/DisplayActualValueAsItem&gt;&lt;EditText&gt;False&lt;/EditText&gt;&lt;Options&gt;10
+25
+50
+100
+-1;(all)&lt;/Options&gt;&lt;SortItems&gt;False&lt;/SortItems&gt;&lt;/settings&gt;&lt;/field&gt;&lt;/form&gt;</WidgetProperties>
+      <WidgetSecurity>1</WidgetSecurity>
+      <WidgetGUID>dd69245a-4dc2-46c2-adce-fedb5c3db41f</WidgetGUID>
+      <WidgetLastModified>2020-03-29T13:32:08.5321705+07:00</WidgetLastModified>
+      <WidgetIsEnabled>true</WidgetIsEnabled>
+      <WidgetDocumentation></WidgetDocumentation>
+      <WidgetIconClass>icon-w-my-accounts</WidgetIconClass>
+    </cms_widget>
+    <cms_widgetcategory>
+      <WidgetCategoryID>3</WidgetCategoryID>
+      <WidgetCategoryName>/</WidgetCategoryName>
+      <WidgetCategoryDisplayName>All widgets</WidgetCategoryDisplayName>
+      <WidgetCategoryPath>/</WidgetCategoryPath>
+      <WidgetCategoryLevel>0</WidgetCategoryLevel>
+      <WidgetCategoryChildCount>8</WidgetCategoryChildCount>
+      <WidgetCategoryWidgetChildCount>0</WidgetCategoryWidgetChildCount>
+      <WidgetCategoryGUID>b51398f0-a113-11de-a93c-048c55d89593</WidgetCategoryGUID>
+      <WidgetCategoryLastModified>2017-03-03T19:19:44.9651567+07:00</WidgetCategoryLastModified>
+    </cms_widgetcategory>
+    <cms_widgetcategory>
+      <WidgetCategoryID>90</WidgetCategoryID>
+      <WidgetCategoryName>Dashboard</WidgetCategoryName>
+      <WidgetCategoryDisplayName>Dashboard</WidgetCategoryDisplayName>
+      <WidgetCategoryParentID>3</WidgetCategoryParentID>
+      <WidgetCategoryPath>/Dashboard</WidgetCategoryPath>
+      <WidgetCategoryLevel>1</WidgetCategoryLevel>
+      <WidgetCategoryChildCount>0</WidgetCategoryChildCount>
+      <WidgetCategoryWidgetChildCount>9</WidgetCategoryWidgetChildCount>
+      <WidgetCategoryImagePath></WidgetCategoryImagePath>
+      <WidgetCategoryGUID>d230ceb4-ca2f-4815-8ada-f344a2394ef8</WidgetCategoryGUID>
+      <WidgetCategoryLastModified>2017-03-03T19:19:44.657308+07:00</WidgetCategoryLastModified>
+    </cms_widgetcategory>
+    <cms_widgetcategory>
+      <WidgetCategoryID>138</WidgetCategoryID>
+      <WidgetCategoryName>Ecommerce</WidgetCategoryName>
+      <WidgetCategoryDisplayName>E-commerce</WidgetCategoryDisplayName>
+      <WidgetCategoryParentID>3</WidgetCategoryParentID>
+      <WidgetCategoryPath>/Ecommerce</WidgetCategoryPath>
+      <WidgetCategoryLevel>1</WidgetCategoryLevel>
+      <WidgetCategoryChildCount>1</WidgetCategoryChildCount>
+      <WidgetCategoryWidgetChildCount>2</WidgetCategoryWidgetChildCount>
+      <WidgetCategoryImagePath></WidgetCategoryImagePath>
+      <WidgetCategoryGUID>e6208a3a-7ea5-421c-922e-1743e8e0765c</WidgetCategoryGUID>
+      <WidgetCategoryLastModified>2017-03-03T19:19:44.6975932+07:00</WidgetCategoryLastModified>
+    </cms_widgetcategory>
+    <cms_widgetcategory>
+      <WidgetCategoryID>52</WidgetCategoryID>
+      <WidgetCategoryName>General</WidgetCategoryName>
+      <WidgetCategoryDisplayName>General</WidgetCategoryDisplayName>
+      <WidgetCategoryParentID>3</WidgetCategoryParentID>
+      <WidgetCategoryPath>/General</WidgetCategoryPath>
+      <WidgetCategoryLevel>1</WidgetCategoryLevel>
+      <WidgetCategoryChildCount>0</WidgetCategoryChildCount>
+      <WidgetCategoryWidgetChildCount>1</WidgetCategoryWidgetChildCount>
+      <WidgetCategoryImagePath></WidgetCategoryImagePath>
+      <WidgetCategoryGUID>5f70d8e4-6736-4334-97f0-d1c34b645db5</WidgetCategoryGUID>
+      <WidgetCategoryLastModified>2017-03-03T19:19:44.7550863+07:00</WidgetCategoryLastModified>
+    </cms_widgetcategory>
+    <cms_widgetcategory>
+      <WidgetCategoryID>83</WidgetCategoryID>
+      <WidgetCategoryName>Maps</WidgetCategoryName>
+      <WidgetCategoryDisplayName>Maps</WidgetCategoryDisplayName>
+      <WidgetCategoryParentID>3</WidgetCategoryParentID>
+      <WidgetCategoryPath>/Maps</WidgetCategoryPath>
+      <WidgetCategoryLevel>1</WidgetCategoryLevel>
+      <WidgetCategoryChildCount>0</WidgetCategoryChildCount>
+      <WidgetCategoryWidgetChildCount>2</WidgetCategoryWidgetChildCount>
+      <WidgetCategoryImagePath></WidgetCategoryImagePath>
+      <WidgetCategoryGUID>87347c1d-8432-4c68-9b43-2f135ba4221e</WidgetCategoryGUID>
+      <WidgetCategoryLastModified>2017-03-03T19:19:44.8171308+07:00</WidgetCategoryLastModified>
+    </cms_widgetcategory>
+    <cms_widgetcategory>
+      <WidgetCategoryID>51</WidgetCategoryID>
+      <WidgetCategoryName>MediaServices</WidgetCategoryName>
+      <WidgetCategoryDisplayName>Media &amp; services</WidgetCategoryDisplayName>
+      <WidgetCategoryParentID>3</WidgetCategoryParentID>
+      <WidgetCategoryPath>/MediaServices</WidgetCategoryPath>
+      <WidgetCategoryLevel>1</WidgetCategoryLevel>
+      <WidgetCategoryChildCount>0</WidgetCategoryChildCount>
+      <WidgetCategoryWidgetChildCount>1</WidgetCategoryWidgetChildCount>
+      <WidgetCategoryImagePath></WidgetCategoryImagePath>
+      <WidgetCategoryGUID>54aa6abe-a8d0-4589-a53a-d6ce1cb306c2</WidgetCategoryGUID>
+      <WidgetCategoryLastModified>2017-03-03T19:19:44.8361282+07:00</WidgetCategoryLastModified>
+    </cms_widgetcategory>
+    <cms_widgetcategory>
+      <WidgetCategoryID>88</WidgetCategoryID>
+      <WidgetCategoryName>Reporting</WidgetCategoryName>
+      <WidgetCategoryDisplayName>Reporting</WidgetCategoryDisplayName>
+      <WidgetCategoryParentID>3</WidgetCategoryParentID>
+      <WidgetCategoryPath>/Reporting</WidgetCategoryPath>
+      <WidgetCategoryLevel>1</WidgetCategoryLevel>
+      <WidgetCategoryChildCount>0</WidgetCategoryChildCount>
+      <WidgetCategoryWidgetChildCount>3</WidgetCategoryWidgetChildCount>
+      <WidgetCategoryImagePath></WidgetCategoryImagePath>
+      <WidgetCategoryGUID>70afdec1-f9c4-4e02-a98b-879a751cb671</WidgetCategoryGUID>
+      <WidgetCategoryLastModified>2017-03-03T19:19:44.9309649+07:00</WidgetCategoryLastModified>
+    </cms_widgetcategory>
+    <cms_widgetcategory>
+      <WidgetCategoryID>123</WidgetCategoryID>
+      <WidgetCategoryName>Text</WidgetCategoryName>
+      <WidgetCategoryDisplayName>Text</WidgetCategoryDisplayName>
+      <WidgetCategoryParentID>3</WidgetCategoryParentID>
+      <WidgetCategoryPath>/Text</WidgetCategoryPath>
+      <WidgetCategoryLevel>1</WidgetCategoryLevel>
+      <WidgetCategoryChildCount>0</WidgetCategoryChildCount>
+      <WidgetCategoryWidgetChildCount>2</WidgetCategoryWidgetChildCount>
+      <WidgetCategoryImagePath></WidgetCategoryImagePath>
+      <WidgetCategoryGUID>9a002a14-275d-4ad7-87d6-e4de10a7d0c3</WidgetCategoryGUID>
+      <WidgetCategoryLastModified>2017-03-03T19:19:45.0171239+07:00</WidgetCategoryLastModified>
+    </cms_widgetcategory>
+    <cms_widgetcategory>
+      <WidgetCategoryID>125</WidgetCategoryID>
+      <WidgetCategoryName>WebAnalytics</WidgetCategoryName>
+      <WidgetCategoryDisplayName>Web analytics</WidgetCategoryDisplayName>
+      <WidgetCategoryParentID>3</WidgetCategoryParentID>
+      <WidgetCategoryPath>/WebAnalytics</WidgetCategoryPath>
+      <WidgetCategoryLevel>1</WidgetCategoryLevel>
+      <WidgetCategoryChildCount>0</WidgetCategoryChildCount>
+      <WidgetCategoryWidgetChildCount>2</WidgetCategoryWidgetChildCount>
+      <WidgetCategoryImagePath></WidgetCategoryImagePath>
+      <WidgetCategoryGUID>c511dbd6-b354-4e8c-a4b5-6edcf5b4911c</WidgetCategoryGUID>
+      <WidgetCategoryLastModified>2017-03-03T19:19:45.0351535+07:00</WidgetCategoryLastModified>
+    </cms_widgetcategory>
+    <cms_widgetcategory>
+      <WidgetCategoryID>139</WidgetCategoryID>
+      <WidgetCategoryName>Reports</WidgetCategoryName>
+      <WidgetCategoryDisplayName>Reports</WidgetCategoryDisplayName>
+      <WidgetCategoryParentID>138</WidgetCategoryParentID>
+      <WidgetCategoryPath>/Ecommerce/Reports</WidgetCategoryPath>
+      <WidgetCategoryLevel>2</WidgetCategoryLevel>
+      <WidgetCategoryChildCount>0</WidgetCategoryChildCount>
+      <WidgetCategoryWidgetChildCount>4</WidgetCategoryWidgetChildCount>
+      <WidgetCategoryImagePath></WidgetCategoryImagePath>
+      <WidgetCategoryGUID>e4476aac-fa28-47eb-9ee3-27d2d57d79a9</WidgetCategoryGUID>
+      <WidgetCategoryLastModified>2017-03-03T19:19:44.9511583+07:00</WidgetCategoryLastModified>
+    </cms_widgetcategory>
+  </NewDataSet>
+</cms_widget>

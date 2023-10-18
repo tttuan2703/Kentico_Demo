@@ -1,0 +1,31 @@
+﻿<cms_searchindex version="13.0">
+  <NewDataSet>
+    <cms_searchindex>
+      <IndexID>37</IndexID>
+      <IndexName>DancingGoatCore.Index</IndexName>
+      <IndexDisplayName>Dancing Goat Core</IndexDisplayName>
+      <IndexAnalyzerType>subset</IndexAnalyzerType>
+      <IndexSettings>&lt;index&gt;&lt;item classnames="" id="45200f6e-e0aa-4ecf-b0bb-2b95d6f6d13c" inclatt="False" inclcats="False" path="/%" type="allowed" /&gt;&lt;item classnames="" id="ddba17c3-6657-4a9b-86c1-4099a9fc47a8" inclatt="False" inclcats="False" path="/Manufacturers/%" type="excluded" /&gt;&lt;/index&gt;</IndexSettings>
+      <IndexGUID>f3563e11-0390-4707-b53d-041f8ff511ee</IndexGUID>
+      <IndexLastModified>2023-10-16T13:18:19.0406338+07:00</IndexLastModified>
+      <IndexLastRebuildTime>2023-10-16T13:18:19.0201056+07:00</IndexLastRebuildTime>
+      <IndexType>cms.document</IndexType>
+      <IndexCustomAnalyzerClassName></IndexCustomAnalyzerClassName>
+      <IndexBatchSize>10000</IndexBatchSize>
+      <IndexIsOutdated>false</IndexIsOutdated>
+      <IndexProvider>Lucene</IndexProvider>
+    </cms_searchindex>
+    <cms_searchindexculture>
+      <IndexID>37</IndexID>
+      <IndexCultureID>50</IndexCultureID>
+    </cms_searchindexculture>
+    <cms_searchindexculture>
+      <IndexID>37</IndexID>
+      <IndexCultureID>120</IndexCultureID>
+    </cms_searchindexculture>
+    <cms_searchindexsite>
+      <IndexID>37</IndexID>
+      <IndexSiteID>1</IndexSiteID>
+    </cms_searchindexsite>
+  </NewDataSet>
+</cms_searchindex>

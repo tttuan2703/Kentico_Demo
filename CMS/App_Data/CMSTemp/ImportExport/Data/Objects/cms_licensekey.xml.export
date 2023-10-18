@@ -1,0 +1,66 @@
+﻿<cms_licensekey version="13.0">
+  <NewDataSet>
+    <cms_licensekey>
+      <LicenseKeyID>2</LicenseKeyID>
+      <LicenseDomain>127.0.0.1</LicenseDomain>
+      <LicenseKey>CX13-20231016-HLuVE9</LicenseKey>
+      <LicenseEdition>X</LicenseEdition>
+      <LicenseExpiration>10/16/2023</LicenseExpiration>
+      <LicenseServers>0</LicenseServers>
+    </cms_licensekey>
+    <cms_licensekey>
+      <LicenseKeyID>4</LicenseKeyID>
+      <LicenseDomain>localhost</LicenseDomain>
+      <LicenseKey>DOMAIN:localhost
+PRODUCT:CX13
+EXPIRATION:20231030
+SERVERS:0
+X+DWbKstH2h74MfMLo80qE5kQwo/9oQF5o2IfKdY+1uTF1x1wPlsO/WO1z0TA5jVzdnRyt1nOTkbPceaK2zbfosuG2l2nYk3byw4YKxUFJBJUaLOD4UffqEdF8PQUDa6hMBKPTIHMIudDFsOKaw6i6uaiIV+qjjyC9/bVj/I2+kpj4dnqMf/VidAO8EV8ITFlf2ovvxfy4BFKXpu9jolvZIKj1rgQ6oCQEP3znWFmSi5Vjdl6hs834DElfeMsNGTdqSZelPOyxi1ttusn0yHcUMIWzVpaQhbgBOXwbuu/LBkMaFg6TyzD62wmHjkPA1CU54ikq9m4FN9CBe7mHdANw==</LicenseKey>
+      <LicenseEdition>X</LicenseEdition>
+      <LicenseExpiration>10/30/2023</LicenseExpiration>
+      <LicenseServers>0</LicenseServers>
+    </cms_licensekey>
+    <export_task>
+      <TaskID>1</TaskID>
+      <TaskTitle>Delete License key 'localhost'</TaskTitle>
+      <TaskData>&lt;NewDataSet&gt;
+&lt;CMS_LicenseKey&gt;
+  &lt;LicenseKeyID&gt;1&lt;/LicenseKeyID&gt;
+  &lt;LicenseDomain&gt;localhost&lt;/LicenseDomain&gt;
+  &lt;LicenseKey&gt;CX13-20231016-HLuVE9&lt;/LicenseKey&gt;
+  &lt;LicenseEdition&gt;X&lt;/LicenseEdition&gt;
+  &lt;LicenseExpiration&gt;10/16/2023&lt;/LicenseExpiration&gt;
+  &lt;LicenseServers&gt;0&lt;/LicenseServers&gt;
+&lt;/CMS_LicenseKey&gt;
+&lt;/NewDataSet&gt;
+</TaskData>
+      <TaskTime>2023-10-16T11:49:29.2778314+07:00</TaskTime>
+      <TaskType>DELETEOBJ</TaskType>
+      <TaskObjectType>cms.licensekey</TaskObjectType>
+      <TaskObjectID>1</TaskObjectID>
+    </export_task>
+    <export_task>
+      <TaskID>2</TaskID>
+      <TaskTitle>Delete License key 'localhost'</TaskTitle>
+      <TaskData>&lt;NewDataSet&gt;
+&lt;CMS_LicenseKey&gt;
+  &lt;LicenseKeyID&gt;3&lt;/LicenseKeyID&gt;
+  &lt;LicenseDomain&gt;localhost&lt;/LicenseDomain&gt;
+  &lt;LicenseKey&gt;DOMAIN:localhost
+PRODUCT:CX13
+EXPIRATION:20231030
+SERVERS:0
+X+DWbKstH2h74MfMLo80qE5kQwo/9oQF5o2IfKdY+1uTF1x1wPlsO/WO1z0TA5jVzdnRyt1nOTkbPceaK2zbfosuG2l2nYk3byw4YKxUFJBJUaLOD4UffqEdF8PQUDa6hMBKPTIHMIudDFsOKaw6i6uaiIV+qjjyC9/bVj/I2+kpj4dnqMf/VidAO8EV8ITFlf2ovvxfy4BFKXpu9jolvZIKj1rgQ6oCQEP3znWFmSi5Vjdl6hs834DElfeMsNGTdqSZelPOyxi1ttusn0yHcUMIWzVpaQhbgBOXwbuu/LBkMaFg6TyzD62wmHjkPA1CU54ikq9m4FN9CBe7mHdANw==&lt;/LicenseKey&gt;
+  &lt;LicenseEdition&gt;X&lt;/LicenseEdition&gt;
+  &lt;LicenseExpiration&gt;10/30/2023&lt;/LicenseExpiration&gt;
+  &lt;LicenseServers&gt;0&lt;/LicenseServers&gt;
+&lt;/CMS_LicenseKey&gt;
+&lt;/NewDataSet&gt;
+</TaskData>
+      <TaskTime>2023-10-16T13:01:27.9112793+07:00</TaskTime>
+      <TaskType>DELETEOBJ</TaskType>
+      <TaskObjectType>cms.licensekey</TaskObjectType>
+      <TaskObjectID>3</TaskObjectID>
+    </export_task>
+  </NewDataSet>
+</cms_licensekey>

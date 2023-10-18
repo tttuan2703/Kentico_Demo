@@ -1,0 +1,1498 @@
+﻿<cms_emailtemplate version="13.0">
+  <NewDataSet>
+    <cms_emailtemplate>
+      <EmailTemplateID>750</EmailTemplateID>
+      <EmailTemplateName>RegistrationUserApproved</EmailTemplateName>
+      <EmailTemplateDisplayName>Membership - Registration approved</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+	&lt;head&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		Your registration has been approved by administrator. Now you can sign in using your username and password.  
+	&lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>017c6bf7-16bf-4c65-ac16-03b5fa8ed5b7</EmailTemplateGUID>
+      <EmailTemplateLastModified>2020-11-25T00:55:37.8597958+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>Your registration has been approved by administrator. Now you can sign in using your username and password.</EmailTemplatePlainText>
+      <EmailTemplateSubject>{$membership.registrationapprovedsubject$}</EmailTemplateSubject>
+      <EmailTemplateType>registrationapproval</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>874</EmailTemplateID>
+      <EmailTemplateName>Reporting_Subscription_information</EmailTemplateName>
+      <EmailTemplateDisplayName>Reporting - Subscription confirmation</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+	&lt;head&gt;
+	  &lt;style&gt;
+		BODY, TD
+		{
+		  font-size: 12px; 
+		  font-family: arial
+		}
+	  &lt;/style&gt;   
+	&lt;/head&gt;	
+	&lt;body&gt;
+      &lt;h3&gt;{%ReportSubscription.ReportSubscriptionSubject|(identity)GlobalAdministrator|(hash)a3ca9c599c09dbd0030603589fe0a546acf22ce34e0ba6479ad00b4dd2dee792%}&lt;/h3&gt;
+	&lt;p&gt;
+        You have been successfully subscribed to {%ItemName%}		
+       report &lt;strong&gt; {%Report.ReportDisplayName |(identity)GlobalAdministrator|(hash)4cae766b1e80f432af1eab795a47d85bb4f37acbd761a4d9739bb84cbe7231ab%} &lt;/strong&gt;.
+	&lt;p/&gt;
+	&lt;p&gt;
+      &lt;a href="{%UnsubscriptionLink%}"&gt;Click here to unsubscribe&lt;/a&gt;
+	&lt;/p&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</EmailTemplateText>
+      <EmailTemplateGUID>8a4938c3-ef94-4bec-b4c9-0a8ecbab8d79</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6217686+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>{%ReportSubscription.ReportSubscriptionSubject|(identity)GlobalAdministrator|(hash)a3ca9c599c09dbd0030603589fe0a546acf22ce34e0ba6479ad00b4dd2dee792%}
+
+You have been successfully subscribed to {%ItemName%} report {%Report.ReportDisplayName |(identity)GlobalAdministrator|(hash)4cae766b1e80f432af1eab795a47d85bb4f37acbd761a4d9739bb84cbe7231ab%}.
+
+Click here to unsubscribe:
+{%UnsubscriptionLink%}</EmailTemplatePlainText>
+      <EmailTemplateSubject>Report subscription information</EmailTemplateSubject>
+      <EmailTemplateFrom></EmailTemplateFrom>
+      <EmailTemplateCc></EmailTemplateCc>
+      <EmailTemplateBcc></EmailTemplateBcc>
+      <EmailTemplateType>reporting</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>166</EmailTemplateID>
+      <EmailTemplateName>Ecommerce.OrderNotificationToCustomer</EmailTemplateName>
+      <EmailTemplateDisplayName>E-commerce - Order notification to customer</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;Thank you for your order. Below you can find the order details.&lt;/p&gt;
+&lt;table width="600" cellspacing="0" cellpadding="5" border="1" style="border-color:black;"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td height="50" valign="bottom" colspan="2"&gt;
+            &lt;table width="100%"&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left; vertical-align: bottom;"&gt;&lt;span style="font-size: 18pt;"&gt;Your order&lt;/span&gt;&lt;/td&gt;
+                        &lt;td style="text-align: center; vertical-align: middle;"&gt;&lt;span style="font-family: Garamond,Times,serif; font-size: 24pt; font-style: italic;"&gt;Company logo&lt;/span&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+			&lt;td style="text-align: left; padding: 8px"&gt;
+			&lt;table style="width: 287px; height: 23px"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; color:black; font-weight:bold;"&gt;Invoice number&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 10px; padding: 8px"&gt;{%Order.OrderInvoiceNumber|(encode)true|(identity)GlobalAdministrator|(hash)03b66b61ccd9a1de1d418a9b3c2a3e3450f2e51f7fe2ac9f2641ed9a007f17c2%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td style="text-align: left; padding: 8px"&gt;
+			&lt;table width="100%"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; color:black; font-weight:bold;"&gt;Order date:&lt;/td&gt;
+						&lt;td style="text-align: right; padding: 8px"&gt;{% GetCurrentDateTimeString(Format(Order.OrderDate, "{0:g}"), (Customer.CustomerUser == null) ? "" : Customer.CustomerUser.UserName) |(identity)GlobalAdministrator|(hash)7280e572475e2fe5170c393269b562db97ebe257e0a2461baf71bf4f67f6cd52%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td style="text-align: left; vertical-align: top; padding: 8px" width="50%"&gt;&lt;span style="color:black; font-weight:bold"&gt;Supplier&lt;/span&gt;&lt;br /&gt;
+			&amp;nbsp;
+			&lt;table&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Company address&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td style="text-align: left; vertical-align: top; padding: 8px" width="50%"&gt;&lt;span style="color:black; font-weight:bold"&gt;Customer &lt;/span&gt;&lt;br /&gt;
+
+			&lt;p&gt;{%BillingAddress.ApplyTransformation("Ecommerce.Transformations.Order_Address") |(identity)GlobalAdministrator|(hash)2ad442589377e7e199cf12592d36dfec1d872771f4cd99c0e4c159d9cfcb2248%}&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2"&gt;
+			&lt;table width="100%"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; padding: 8px"&gt;&lt;span style="color:black; font-weight:bold"&gt;Payment option&lt;/span&gt;&lt;/td&gt;
+						&lt;td style="text-align: left; padding: 8px"&gt;{%PaymentOption.PaymentOptionDisplayName |(identity)GlobalAdministrator|(hash)142debacf04e5241e565cb7e0ed3f29a47f448326046cbe1a07371b4f71875ae%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2" style="text-align: left; padding: 8px"&gt;{%ContentTable.ApplyTransformation("Ecommerce.Transformations.Order_ContentTable", "Ecommerce.Transformations.Order_ContentTableHeader", "Ecommerce.Transformations.Order_ContentTableFooter") |(identity)GlobalAdministrator|(hash)be09e52e2c9ee46cd0b9df2a3c88928d9023a2256b2de80381fe571bfc2e4245%} 
+			&lt;hr size="1" /&gt;
+			&lt;table cellpadding="5" width="50%" style="float: right;"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Subtotal&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalItemsPrice.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)4a1f59038c33f32fa169af32e28ea0beb225306793a8a361cbf934ca5274e6fb%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+					  &lt;td colspan="2" style="padding: 0; text-align: right;"&gt;{% OrderDiscountSummary.Any() ? OrderDiscountSummary.ApplyTransformation("Ecommerce.Transformations.Order_OrderRelatedDiscountsContent", "Ecommerce.Transformations.Order_OrderRelatedDiscountsHeader", "Ecommerce.Transformations.Order_OrderRelatedDiscountsFooter") : "" |(identity)GlobalAdministrator|(hash)e97b31a7c88ecc729aeba4a8d6f36ab971c57c97820a878183a82964ddf92a92%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Shipping&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalShipping.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)1ce2fba37ef00910511278930998e2c3b2cff315705e1998d3aed7d972ee19b5%}&lt;/td&gt;
+					&lt;/tr&gt;
+                    &lt;tr&gt;
+						&lt;td colspan="2" style="padding: 0; text-align: right;"&gt;{% OtherPaymentsSummary.Any() ? OtherPaymentsSummary.ApplyTransformation("Ecommerce.Transformations.Order_OrderRelatedDiscountsContent", "Ecommerce.Transformations.Order_OrderRelatedDiscountsHeader", "Ecommerce.Transformations.Order_OrderRelatedDiscountsFooter") : "" |(identity)GlobalAdministrator|(hash)2aa043bcdc430d500a35051e3e11393cb3bc16e52674b1e4ac87229c2c59f2a8%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td&gt;&lt;span style="color:black; font-weight:bold"&gt;TOTAL (incl. tax):&lt;/span&gt;&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px; color:black; font-weight:bold"&gt;{% GrandTotal.Format(Currency.CurrencyFormatString)|(encode)true|(identity)GlobalAdministrator|(hash)0b2e181aa1bedeaad7231647c38b35d4c42bc96d6e267af4f1842c168c4e7348%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+            &lt;table width="100%"&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left;"&gt;&lt;span style="font-weight: bold;"&gt;Order note&lt;/span&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left;"&gt;{%Order.OrderNote|(encode)true|(identity)GlobalAdministrator|(hash)08304e10dabcb3d2c930bed25a5c7218c65f2cd249f26ac747f15929ca0bb3dc%}&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>674d1b85-ce19-40bd-b2df-166a5891090a</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6132761+07:00</EmailTemplateLastModified>
+      <EmailTemplateType>ecommerce</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>706</EmailTemplateID>
+      <EmailTemplateName>Ecommerce.OrderPaymentNotificationToAdmin</EmailTemplateName>
+      <EmailTemplateDisplayName>E-commerce - Order payment notification to administrator</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;Payment for the order below received.&lt;/p&gt;
+    &lt;table cellspacing="0" cellpadding="5" border="1" width="600px" style="border-color: black;"&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2" valign="bottom" height="50"&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left; vertical-align: bottom;"&gt;
+                            &lt;span style="font-size: 18pt"&gt;New order&lt;/span&gt;
+                        &lt;/td&gt;
+                        &lt;td style="text-align: center; vertical-align: middle;"&gt;
+                            &lt;span style="font-family: Garamond Times serif; font-size: 24pt; font-style: italic;"&gt;Company logo&lt;/span&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+			&lt;td style="text-align: left; padding: 8px"&gt;
+			&lt;table style="width: 287px; height: 23px"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; color:black; font-weight:bold;"&gt;Invoice number&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 10px; padding: 8px"&gt;{%Order.OrderInvoiceNumber|(encode)true|(identity)GlobalAdministrator|(hash)03b66b61ccd9a1de1d418a9b3c2a3e3450f2e51f7fe2ac9f2641ed9a007f17c2%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td style="text-align: left; padding: 8px"&gt;
+			&lt;table width="100%"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; color:black; font-weight:bold;"&gt;Order date:&lt;/td&gt;
+						&lt;td style="text-align: right; padding: 8px"&gt;{% GetSiteDateTime(Order.OrderDate) |(identity)GlobalAdministrator|(hash)3eae9376ad75c87a4c819ed0eb63beb2f3db74abfd78516ef8bbb1cf46921680%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td style="text-align: left; vertical-align: top; padding: 8px" width="50%"&gt;&lt;span style="color:black; font-weight:bold"&gt;Supplier&lt;/span&gt;&lt;br /&gt;
+			&amp;nbsp;
+			&lt;table&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Company address&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td style="text-align: left; vertical-align: top; padding: 8px" width="50%"&gt;&lt;span style="color:black; font-weight:bold"&gt;Customer &lt;/span&gt;&lt;br /&gt;
+
+			&lt;p&gt;{%BillingAddress.ApplyTransformation("Ecommerce.Transformations.Order_Address") |(identity)GlobalAdministrator|(hash)2ad442589377e7e199cf12592d36dfec1d872771f4cd99c0e4c159d9cfcb2248%}&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2"&gt;
+			&lt;table width="100%"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; padding: 8px"&gt;&lt;span style="color:black; font-weight:bold"&gt;Payment option&lt;/span&gt;&lt;/td&gt;
+						&lt;td style="text-align: left; padding: 8px"&gt;{%PaymentOption.PaymentOptionDisplayName |(identity)GlobalAdministrator|(hash)142debacf04e5241e565cb7e0ed3f29a47f448326046cbe1a07371b4f71875ae%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2" style="text-align: left; padding: 8px"&gt;{%ContentTable.ApplyTransformation("Ecommerce.Transformations.Order_ContentTable", "Ecommerce.Transformations.Order_ContentTableHeader", "Ecommerce.Transformations.Order_ContentTableFooter") |(identity)GlobalAdministrator|(hash)be09e52e2c9ee46cd0b9df2a3c88928d9023a2256b2de80381fe571bfc2e4245%} 
+			&lt;hr size="1" /&gt;
+			&lt;table cellpadding="5" width="50%" style="float: right;"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Subtotal&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalItemsPrice.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)4a1f59038c33f32fa169af32e28ea0beb225306793a8a361cbf934ca5274e6fb%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Shipping&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalShipping.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)1ce2fba37ef00910511278930998e2c3b2cff315705e1998d3aed7d972ee19b5%}&lt;/td&gt;
+					&lt;/tr&gt;
+                    &lt;tr&gt;
+						&lt;td colspan="2" style="padding: 0; text-align: right;"&gt;{% OtherPaymentsSummary.Any() ? OtherPaymentsSummary.ApplyTransformation("Ecommerce.Transformations.Order_OrderRelatedDiscountsContent" "Ecommerce.Transformations.Order_OrderRelatedDiscountsHeader" "Ecommerce.Transformations.Order_OrderRelatedDiscountsFooter") : "" |(identity)GlobalAdministrator|(hash)96cb6182933304d964233f678a107da921c0974edb9532c3aa215b7f14a2eadd%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td&gt;&lt;span style="color:black; font-weight:bold"&gt;TOTAL (incl. tax):&lt;/span&gt;&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px; color:black; font-weight:bold"&gt;{% GrandTotal.Format(Currency.CurrencyFormatString)|(encode)true|(identity)GlobalAdministrator|(hash)0b2e181aa1bedeaad7231647c38b35d4c42bc96d6e267af4f1842c168c4e7348%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left"&gt;
+                            &lt;span style="font-weight: bold"&gt;Order note &lt;/span&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left"&gt;{%Order.OrderNote|(encode)true|(identity)GlobalAdministrator|(hash)08304e10dabcb3d2c930bed25a5c7218c65f2cd249f26ac747f15929ca0bb3dc%}
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>7b821e4a-d695-42a7-85f2-1ca14c208953</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6132761+07:00</EmailTemplateLastModified>
+      <EmailTemplateType>ecommerce</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>159</EmailTemplateID>
+      <EmailTemplateName>Workflow.Published</EmailTemplateName>
+      <EmailTemplateDisplayName>Workflow - Page published</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body style="font-size: 12px; font-family: arial"&gt;
+    &lt;p&gt;
+    This is an automatic notification sent by Kentico CMS. The following page was published.
+    &lt;/p&gt;
+    &lt;p&gt;
+    &lt;strong&gt;Page:&lt;/strong&gt; &lt;a href="{%DocumentEditUrl%}"&gt;{%documentname%}&lt;/a&gt; {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "(&lt;a href=\"" + DocumentPreviewUrl + "\"&gt;preview&lt;/a&gt;)"|(encode)false|(identity)GlobalAdministrator|(hash)3c6e1ab9bc2d48299b1a9575114884c6e4d1a25230c0fa954cfc92c1512ef47f%}
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;strong&gt;Last approved by:&lt;/strong&gt; {%approvedby%}
+    &lt;br /&gt;
+    &lt;strong&gt;Last approved when:&lt;/strong&gt; {%approvedwhen%}
+    &lt;br /&gt;
+    &lt;strong&gt;Original step:&lt;/strong&gt; {%originalstepname%}
+    &lt;br /&gt;
+    &lt;strong&gt;Comment:&lt;/strong&gt;
+    &lt;br /&gt;
+    {%comment%}
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>d2c5a1b0-c434-4427-ab81-22c0ca8f2313</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6319471+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>This is an automatic notification sent by Kentico CMS. The following page was published. 
+
+Page: [url={%DocumentEditUrl%}]{%documentname%}[/url] {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "([url=" + DocumentPreviewUrl + "]preview[/url])"|(identity)GlobalAdministrator|(hash)78dd9bf9b0dc61e23208dfb0e6364a13a2c285a2cbd3ffb4ad2415e29f625894%}
+Last approved by: {%approvedby%} 
+Last approved when: {%approvedwhen%} 
+Original step: {%originalstepname%} 
+Comment: 
+{%comment%} 
+</EmailTemplatePlainText>
+      <EmailTemplateSubject>Page '{%DocumentName%}' published</EmailTemplateSubject>
+      <EmailTemplateType>workflow</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>707</EmailTemplateID>
+      <EmailTemplateName>Ecommerce.OrderPaymentNotificationToCustomer</EmailTemplateName>
+      <EmailTemplateDisplayName>E-commerce - Order payment notification to customer</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;We have received your payment for the order below:&lt;/p&gt;
+    &lt;table cellspacing="0" cellpadding="5" border="1" width="600px" style="border-color: black;"&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2" valign="bottom" height="50"&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left; vertical-align: bottom;"&gt;
+                            &lt;span style="font-size: 18pt"&gt;Your order&lt;/span&gt;
+                        &lt;/td&gt;
+                        &lt;td style="text-align: center; vertical-align: middle;"&gt;
+                            &lt;span style="font-family: Garamond, Times, serif; font-size: 24pt; font-style: italic;"&gt;Company logo&lt;/span&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+			&lt;td style="text-align: left; padding: 8px"&gt;
+			&lt;table style="width: 287px; height: 23px"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; color:black; font-weight:bold;"&gt;Invoice number&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 10px; padding: 8px"&gt;{%Order.OrderInvoiceNumber|(encode)true |(identity)GlobalAdministrator|(hash)be1d6bb6e0612623840c17f2133d9eedb81e38c21fc27f9d4faa1b123a1e97d0%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td style="text-align: left; padding: 8px"&gt;
+			&lt;table width="100%"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; color:black; font-weight:bold;"&gt;Order date:&lt;/td&gt;
+						&lt;td style="text-align: right; padding: 8px"&gt;{% GetCurrentDateTimeString(Format(Order.OrderDate, "{0:g}"), (Customer.CustomerUser == null) ? "" : Customer.CustomerUser.UserName) |(identity)GlobalAdministrator|(hash)7280e572475e2fe5170c393269b562db97ebe257e0a2461baf71bf4f67f6cd52%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td style="text-align: left; vertical-align: top; padding: 8px" width="50%"&gt;&lt;span style="color:black; font-weight:bold"&gt;Supplier&lt;/span&gt;&lt;br /&gt;
+			&amp;nbsp;
+			&lt;table&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Company address&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td style="text-align: left; vertical-align: top; padding: 8px" width="50%"&gt;&lt;span style="color:black; font-weight:bold"&gt;Customer &lt;/span&gt;&lt;br /&gt;
+
+			&lt;p&gt;{%BillingAddress.ApplyTransformation("Ecommerce.Transformations.Order_Address") |(identity)GlobalAdministrator|(hash)2ad442589377e7e199cf12592d36dfec1d872771f4cd99c0e4c159d9cfcb2248%}&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2"&gt;
+			&lt;table width="100%"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; padding: 8px"&gt;&lt;span style="color:black; font-weight:bold"&gt;Payment option&lt;/span&gt;&lt;/td&gt;
+						&lt;td style="text-align: left; padding: 8px"&gt;{%PaymentOption.PaymentOptionDisplayName |(identity)GlobalAdministrator|(hash)142debacf04e5241e565cb7e0ed3f29a47f448326046cbe1a07371b4f71875ae%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2" style="text-align: left; padding: 8px"&gt;{%ContentTable.ApplyTransformation("Ecommerce.Transformations.Order_ContentTable", "Ecommerce.Transformations.Order_ContentTableHeader", "Ecommerce.Transformations.Order_ContentTableFooter") |(identity)GlobalAdministrator|(hash)be09e52e2c9ee46cd0b9df2a3c88928d9023a2256b2de80381fe571bfc2e4245%} 
+			&lt;hr size="1" /&gt;
+			&lt;table cellpadding="5" width="50%" style="float: right;"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Subtotal&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalItemsPrice.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)4a1f59038c33f32fa169af32e28ea0beb225306793a8a361cbf934ca5274e6fb%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Shipping&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalShipping.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)1ce2fba37ef00910511278930998e2c3b2cff315705e1998d3aed7d972ee19b5%}&lt;/td&gt;
+					&lt;/tr&gt;
+                    &lt;tr&gt;
+						&lt;td colspan="2" style="padding: 0; text-align: right;"&gt;{% OtherPaymentsSummary.Any() ? OtherPaymentsSummary.ApplyTransformation("Ecommerce.Transformations.Order_OrderRelatedDiscountsContent", "Ecommerce.Transformations.Order_OrderRelatedDiscountsHeader", "Ecommerce.Transformations.Order_OrderRelatedDiscountsFooter") : "" |(identity)GlobalAdministrator|(hash)2aa043bcdc430d500a35051e3e11393cb3bc16e52674b1e4ac87229c2c59f2a8%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td&gt;&lt;span style="color:black; font-weight:bold"&gt;TOTAL (incl. tax):&lt;/span&gt;&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px; color:black; font-weight:bold"&gt;{% GrandTotal.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)226c5d327cdfa9ba439637743cd527a36720d647136f289953001a89fe21ef60%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left"&gt;
+                            &lt;span style="font-weight: bold"&gt;Order note &lt;/span&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left"&gt;{% Order.OrderNote|(encode)true |(identity)GlobalAdministrator|(hash)dd7c1dad2c18aac9e511a25310de8ceac6a392dd2681dcb630439782bc59386e%}
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+
+    {% if (EproductsTable != null &amp;&amp; EproductsTable.Any()) { %}
+      &lt;p&gt;Your &lt;b&gt;e-products download links were activated&lt;/b&gt;, please download the files before their expiration. Once the files expire, you won't be able to download them.&lt;/p&gt;
+      {% EproductsTable.ApplyTransformation("Ecommerce.Transformations.Order_EproductsTable") %}
+    {% } |(identity)GlobalAdministrator|(hash)1dc5cabb40d8f75a7a5490366e09909cb2f246419aeb2bf8198d6771392076e3%}
+
+&lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>5da46ce2-23bf-4c2e-9dbb-22d67c550399</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.615269+07:00</EmailTemplateLastModified>
+      <EmailTemplateType>ecommerce</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>732</EmailTemplateID>
+      <EmailTemplateName>Ecommerce.OrderStatusNotificationToCustomer</EmailTemplateName>
+      <EmailTemplateDisplayName>E-commerce - Order status notification to customer</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;Status of your order has changed.&lt;/p&gt;
+    &lt;table cellspacing="0" cellpadding="5" border="1" width="600px" style="border-color: black;"&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2" valign="bottom" height="50"&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left; vertical-align: bottom;"&gt;
+                            &lt;span style="font-size: 18pt"&gt;Your order&lt;/span&gt;
+                        &lt;/td&gt;
+                        &lt;td style="text-align: center; vertical-align: middle;"&gt;
+                            &lt;span style="font-family: Garamond, Times, serif; font-size: 24pt; font-style: italic;"&gt;Company logo&lt;/span&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style="text-align: left"&gt;
+                &lt;br /&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left;" valign="bottom"&gt;
+                            &lt;strong&gt;Invoice number:&lt;/strong&gt;
+                        &lt;/td&gt;
+                        &lt;td style="text-align: right; padding-right: 10px"&gt;{%Order.OrderInvoiceNumber|(identity)GlobalAdministrator|(hash)997992a384b768a63b1d1245395104e69b0d6cf2fbd97948dce55ecab8d85e52%}
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+                &lt;br /&gt;
+            &lt;/td&gt;
+            &lt;td style="text-align: left"&gt;
+                &lt;br /&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left;" valign="bottom"&gt;
+                            &lt;strong&gt;Order date:&lt;/strong&gt;
+                        &lt;/td&gt;
+                        &lt;td style="text-align: right; padding-right: 10px"&gt;{% GetCurrentDateTimeString(Format(Order.OrderDate, "{0:g}"), (Customer.CustomerUser == null) ? "" : Customer.CustomerUser.UserName)|(identity)GlobalAdministrator|(hash)dc95bfcae0b7614da41d63b469a9d6ccb72416cdac651128bc4850dcd4a872d7%}
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left;" valign="bottom"&gt;
+                            &lt;strong&gt;Order status:&lt;/strong&gt;
+                        &lt;/td&gt;
+                        &lt;td style="text-align: right; padding-right: 10px"&gt;{%GetResourceString(OrderStatus.StatusDisplayName)|(identity)GlobalAdministrator|(hash)35c575126d74e014c72d16f95815ac11343311919c924813344fd1c7f8c778c3%}
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+                &lt;br /&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style="text-align: left; vertical-align: top" width="50%"&gt;
+                &lt;strong&gt;Supplier&lt;/strong&gt;
+                &lt;br /&gt;
+                &lt;br /&gt;
+                &lt;table&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Company address
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+                &lt;br /&gt;
+            &lt;/td&gt;
+            &lt;td style="text-align: left; vertical-align: top" width="50%"&gt;
+                &lt;span style="font-weight: bold"&gt;Customer &lt;/span&gt;
+                &lt;br /&gt;
+                &lt;br /&gt;
+                {%BillingAddress.ApplyTransformation("Ecommerce.Transformations.Order_Address")|(identity)GlobalAdministrator|(hash)fd60315fa3a6fcb3fbd4a1c85ec4fb658a20676553126348cebe274b565c658e%}
+      &lt;br /&gt;
+                &lt;strong&gt;Company address:&lt;/strong&gt;
+                {%CompanyAddress.ApplyTransformation("Ecommerce.Transformations.Order_Address")|(identity)GlobalAdministrator|(hash)411bcb340a4980fd85cb5b6dec1be0bbd48d9d7cba9bd05e80ab441e8a55b2b6%}
+      &lt;br /&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left"&gt;
+                            &lt;span style="font-weight: bold"&gt;Payment option &lt;/span&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: center"&gt;{%GetResourceString(PaymentOption.PaymentOptionDisplayName)|(identity)GlobalAdministrator|(hash)581f62ae3c16a701fc7e39b01daab8bc9ea3828f0870d2c9da86d059523b6545%}
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left"&gt;
+                            &lt;span style="font-weight: bold"&gt;Shipping option &lt;/span&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: center"&gt;{%GetResourceString(ShippingOption.ShippingOptionDisplayName)|(identity)GlobalAdministrator|(hash)29c579922f658143fa092b7877e1f532b8d42ed999a3a0948edaee21726dc51f%}
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+
+        &lt;tr&gt;
+            &lt;td colspan="2" style="text-align: left; padding: 8px"&gt;{%ContentTable.ApplyTransformation("Ecommerce.Transformations.Order_ContentTable", "Ecommerce.Transformations.Order_ContentTableHeader", "Ecommerce.Transformations.Order_ContentTableFooter") |(identity)GlobalAdministrator|(hash)be09e52e2c9ee46cd0b9df2a3c88928d9023a2256b2de80381fe571bfc2e4245%} 
+			&lt;hr size="1" /&gt;
+                &lt;table cellpadding="5" width="50%" style="float: right;"&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Subtotal&lt;/td&gt;
+                            &lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalItemsPrice.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)4a1f59038c33f32fa169af32e28ea0beb225306793a8a361cbf934ca5274e6fb%}&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Shipping&lt;/td&gt;
+                            &lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalShipping.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)1ce2fba37ef00910511278930998e2c3b2cff315705e1998d3aed7d972ee19b5%}&lt;/td&gt;
+                        &lt;/tr&gt;
+                       &lt;tr&gt;
+                            &lt;td colspan="2" style="padding: 0; text-align: right;"&gt;{% OtherPaymentsSummary.Any() ? OtherPaymentsSummary.ApplyTransformation("Ecommerce.Transformations.Order_OrderRelatedDiscountsContent", "Ecommerce.Transformations.Order_OrderRelatedDiscountsHeader", "Ecommerce.Transformations.Order_OrderRelatedDiscountsFooter") : "" |(identity)GlobalAdministrator|(hash)2aa043bcdc430d500a35051e3e11393cb3bc16e52674b1e4ac87229c2c59f2a8%}&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;&lt;span style="color: black; font-weight: bold"&gt;TOTAL (incl. tax):&lt;/span&gt;&lt;/td&gt;
+                            &lt;td style="text-align: right; padding-right: 0px; color: black; font-weight: bold"&gt;{% GrandTotal.Format(Currency.CurrencyFormatString)|(encode)true|(identity)GlobalAdministrator|(hash)0b2e181aa1bedeaad7231647c38b35d4c42bc96d6e267af4f1842c168c4e7348%}&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left"&gt;
+                            &lt;span style="font-weight: bold"&gt;Order note &lt;/span&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left"&gt;{%Order.OrderNote|(encode)true|(identity)GlobalAdministrator|(hash)08304e10dabcb3d2c930bed25a5c7218c65f2cd249f26ac747f15929ca0bb3dc%}
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>68ca5608-f80f-4972-88f3-24daaf669c32</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6170975+07:00</EmailTemplateLastModified>
+      <EmailTemplateType>ecommerce</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>731</EmailTemplateID>
+      <EmailTemplateName>Ecommerce.OrderStatusNotificationToAdmin</EmailTemplateName>
+      <EmailTemplateDisplayName>E-commerce - Order status notification to administrator</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;Status of the order bellow has changed&lt;/p&gt;
+    &lt;table cellspacing="0" cellpadding="5" border="1" width="600px" style="border-color: black;"&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2" valign="bottom" height="50"&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left; vertical-align: bottom;"&gt;
+                            &lt;span style="font-size: 18pt"&gt;New order&lt;/span&gt;
+                        &lt;/td&gt;
+                        &lt;td style="text-align: center; vertical-align: middle;"&gt;
+                            &lt;span style="font-family: Garamond Times serif; font-size: 24pt; font-style: italic;"&gt;Company logo&lt;/span&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+			&lt;td style="text-align: left; padding: 8px"&gt;
+			&lt;table style="width: 287px; height: 23px"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; color:black; font-weight:bold;"&gt;Invoice number&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 10px; padding: 8px"&gt;{%Order.OrderInvoiceNumber|(encode)true |(identity)GlobalAdministrator|(hash)be1d6bb6e0612623840c17f2133d9eedb81e38c21fc27f9d4faa1b123a1e97d0%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td style="text-align: left; padding: 8px"&gt;
+			&lt;table width="100%"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; color:black; font-weight:bold;"&gt;Order date:&lt;/td&gt;
+						&lt;td style="text-align: right; padding: 8px"&gt;{% GetSiteDateTime(Order.OrderDate) |(identity)GlobalAdministrator|(hash)3eae9376ad75c87a4c819ed0eb63beb2f3db74abfd78516ef8bbb1cf46921680%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td style="text-align: left; vertical-align: top; padding: 8px" width="50%"&gt;&lt;span style="color:black; font-weight:bold"&gt;Supplier&lt;/span&gt;&lt;br /&gt;
+			&amp;nbsp;
+			&lt;table&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Company address&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td style="text-align: left; vertical-align: top; padding: 8px" width="50%"&gt;&lt;span style="color:black; font-weight:bold"&gt;Customer &lt;/span&gt;&lt;br /&gt;
+
+			&lt;p&gt;{%BillingAddress.ApplyTransformation("Ecommerce.Transformations.Order_Address") |(identity)GlobalAdministrator|(hash)2ad442589377e7e199cf12592d36dfec1d872771f4cd99c0e4c159d9cfcb2248%}&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2"&gt;
+			&lt;table width="100%"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; padding: 8px"&gt;&lt;span style="color:black; font-weight:bold"&gt;Payment option&lt;/span&gt;&lt;/td&gt;
+						&lt;td style="text-align: left; padding: 8px"&gt;{%PaymentOption.PaymentOptionDisplayName |(identity)GlobalAdministrator|(hash)142debacf04e5241e565cb7e0ed3f29a47f448326046cbe1a07371b4f71875ae%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2" style="text-align: left; padding: 8px"&gt;{%ContentTable.ApplyTransformation("Ecommerce.Transformations.Order_ContentTable", "Ecommerce.Transformations.Order_ContentTableHeader", "Ecommerce.Transformations.Order_ContentTableFooter") |(identity)GlobalAdministrator|(hash)be09e52e2c9ee46cd0b9df2a3c88928d9023a2256b2de80381fe571bfc2e4245%} 
+			&lt;hr size="1" /&gt;
+			&lt;table cellpadding="5" width="50%" style="float: right;"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Subtotal&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalItemsPrice.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)4a1f59038c33f32fa169af32e28ea0beb225306793a8a361cbf934ca5274e6fb%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Shipping&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalShipping.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)1ce2fba37ef00910511278930998e2c3b2cff315705e1998d3aed7d972ee19b5%}&lt;/td&gt;
+					&lt;/tr&gt;
+                    &lt;tr&gt;
+						&lt;td colspan="2" style="padding: 0; text-align: right;"&gt;{% OtherPaymentsSummary.Any() ? OtherPaymentsSummary.ApplyTransformation("Ecommerce.Transformations.Order_OrderRelatedDiscountsContent" "Ecommerce.Transformations.Order_OrderRelatedDiscountsHeader" "Ecommerce.Transformations.Order_OrderRelatedDiscountsFooter") : "" |(identity)GlobalAdministrator|(hash)96cb6182933304d964233f678a107da921c0974edb9532c3aa215b7f14a2eadd%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td&gt;&lt;span style="color:black; font-weight:bold"&gt;TOTAL (incl. tax):&lt;/span&gt;&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px; color:black; font-weight:bold"&gt;{% GrandTotal.Format(Currency.CurrencyFormatString)|(encode)true|(identity)GlobalAdministrator|(hash)0b2e181aa1bedeaad7231647c38b35d4c42bc96d6e267af4f1842c168c4e7348%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;table width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left"&gt;
+                            &lt;span style="font-weight: bold"&gt;Order note &lt;/span&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left"&gt;{% Order.OrderNote|(encode)true|(identity)GlobalAdministrator|(hash)335c4f540bc6c73a00a73f480c559ba4f52e3b64bda89b16151c2929f7088526%}
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>a32836fb-5d7e-4e71-9dcf-33bc920859b6</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6164722+07:00</EmailTemplateLastModified>
+      <EmailTemplateType>ecommerce</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>852</EmailTemplateID>
+      <EmailTemplateName>scoring.notification</EmailTemplateName>
+      <EmailTemplateDisplayName>Scoring - Notification email</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body style="font-size: 12px; font-family: arial"&gt;
+    &lt;p&gt;
+    This is an automatic notification sent by Kentico CMS.
+    &lt;/p&gt;
+    &lt;p&gt;
+    Contact {%Contact.ContactFirstName|(identity)GlobalAdministrator|(hash)6952efda6458eac1106e3d19a1de297c7154ce6ccd53bb88e9a51ab07a408302%} {%Contact.ContactLastName|(identity)GlobalAdministrator|(hash)0042f40a1d342c77a9b301827101dc013b160738cc557f1ea95c503da3cfdfe2%} has reached limit in score '{%Score.ScoreDisplayName|(identity)GlobalAdministrator|(hash)156ee4e868fa83daa648588c6dc1635b2a68acea9628aef53c558f77e89b56b8%}'.
+    &lt;/p&gt;
+    &lt;p&gt;
+    Contact's current score is {%ScoreValue%}.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>5aea940d-ade5-4419-9f21-4744db45e917</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6257564+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>This is an automatic notification sent by Kentico CMS.
+
+Contact {%Contact.ContactFirstName|(identity)GlobalAdministrator|(hash)6952efda6458eac1106e3d19a1de297c7154ce6ccd53bb88e9a51ab07a408302%} {%Contact.ContactLastName|(identity)GlobalAdministrator|(hash)0042f40a1d342c77a9b301827101dc013b160738cc557f1ea95c503da3cfdfe2%} has reached limit in score '{%Score.ScoreDisplayName|(identity)GlobalAdministrator|(hash)156ee4e868fa83daa648588c6dc1635b2a68acea9628aef53c558f77e89b56b8%}'.
+
+Contact's current score is {%ScoreValue%}.</EmailTemplatePlainText>
+      <EmailTemplateSubject>{% GetResourceString("om.score.notificationsubject")|(recursive)true |(identity)GlobalAdministrator|(hash)021488c2a52976660ac49d56aae3bf777d9f67772b5f4e97d0846fc125bf4ad9%}</EmailTemplateSubject>
+      <EmailTemplateType>scoring</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>872</EmailTemplateID>
+      <EmailTemplateName>Report_subscription_template</EmailTemplateName>
+      <EmailTemplateDisplayName>Reporting - Subscription template</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+     &lt;style type="text/css"&gt;
+        {%DefaultSubscriptionCSS%}
+     &lt;/style&gt;
+  &lt;/head&gt;
+&lt;body&gt;
+    &lt;h3&gt;{%ReportSubscription.ReportSubscriptionSubject|(identity)GlobalAdministrator|(hash)a3ca9c599c09dbd0030603589fe0a546acf22ce34e0ba6479ad00b4dd2dee792%}&lt;/h3&gt;
+    &lt;p&gt;
+      {%SubscriptionBody%}
+    &lt;/p&gt;
+    &lt;p&gt;  
+      &lt;a href="{%UnsubscriptionLink%}"&gt;Click here to unsubscribe&lt;/a&gt;
+    &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</EmailTemplateText>
+      <EmailTemplateGUID>d7386fb3-f98e-47bf-8833-5574e7945eb9</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6227656+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>{%ReportSubscription.ReportSubscriptionSubject|(identity)GlobalAdministrator|(hash)a3ca9c599c09dbd0030603589fe0a546acf22ce34e0ba6479ad00b4dd2dee792%}
+
+{%SubscriptionBody%}
+
+Click here to unsubscribe:
+{%UnsubscriptionLink%}</EmailTemplatePlainText>
+      <EmailTemplateSubject></EmailTemplateSubject>
+      <EmailTemplateFrom></EmailTemplateFrom>
+      <EmailTemplateCc></EmailTemplateCc>
+      <EmailTemplateBcc></EmailTemplateBcc>
+      <EmailTemplateType>reporting</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>164</EmailTemplateID>
+      <EmailTemplateName>Registration.New</EmailTemplateName>
+      <EmailTemplateDisplayName>Membership - Notification - New registration</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+	&lt;head&gt;
+	&lt;/head&gt;
+	&lt;body style="font-size:12px; font-family: Arial"&gt;
+		&lt;p&gt;
+This is a notification that a new user has just registered:&lt;br /&gt;
+&lt;br /&gt;
+First name: {%firstname%} &lt;br /&gt;
+&lt;br /&gt;
+Last name: {%lastname%}&lt;br /&gt;
+&lt;br /&gt;
+E-mail: {%email%}&lt;br /&gt;
+&lt;br /&gt;
+User name: {%username%}&lt;br /&gt;
+&lt;br /&gt;
+This e-mail is only for your information. No action is required.
+&lt;br /&gt;
+&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>89e8fed9-3316-435e-8ea6-630e64de1a12</EmailTemplateGUID>
+      <EmailTemplateLastModified>2018-11-27T22:50:24.1784391+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>This is a notification that a new user has just registered:
+
+First name: {%firstname%} 
+
+Last name: {%lastname%}
+
+E-mail: {%email%}
+
+User name: {%username%}
+
+This e-mail is only for your information. No action is required. </EmailTemplatePlainText>
+      <EmailTemplateSubject>{$membership.newuserregisteredsubject$}</EmailTemplateSubject>
+      <EmailTemplateType>registration</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>738</EmailTemplateID>
+      <EmailTemplateName>Membership.ChangedPassword</EmailTemplateName>
+      <EmailTemplateDisplayName>Membership - Changed password</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+Your password has been changed.&lt;br /&gt;
+&lt;p&gt;Your user name and new password are:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;User name:&lt;/strong&gt; {%UserName%}&lt;br /&gt;
+&lt;strong&gt;Password:&lt;/strong&gt; {%Password%}&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;We recommend changing your password directly after you log in.&lt;/p&gt; 
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>97b2f851-0693-40e6-8be1-6edd27d138d4</EmailTemplateGUID>
+      <EmailTemplateLastModified>2018-11-27T22:50:24.1347674+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>Your password has been changed.
+
+Your user name and new password are:
+
+User name: {%UserName%}
+Password: {%Password%}
+
+We recommend changing your password directly after you log in.
+</EmailTemplatePlainText>
+      <EmailTemplateSubject>{$membership.passchangedsubject$}</EmailTemplateSubject>
+      <EmailTemplateType>password</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>870</EmailTemplateID>
+      <EmailTemplateName>translationservice.submittranslation</EmailTemplateName>
+      <EmailTemplateDisplayName>Translation services - Submit translation</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body style="font-size: 12px; font-family: arial"&gt;
+    &lt;p&gt;
+    Pages have been submitted for translation. The source text and instructions are enclosed in a ZIP file.
+    &lt;/p&gt;
+    &lt;p&gt;
+    This submission was created with priority {% GetTranslationPriority(Submission.SubmissionPriority) |(identity)GlobalAdministrator|(hash)f1163767a72b4def91c3086fc91dfb8ef4bdac9524742a244a88f09c87903e69%} and is due by {% Submission.SubmissionDeadline |(identity)GlobalAdministrator|(hash)c80cf6d43c0f016ab28f775a70f5a2e194ace8802b32c5d31465b6657942b811%}.
+    &lt;/p&gt;
+    &lt;p&gt;
+    To upload a ZIP archive with the completed translation, click this link: &lt;a href="{% SubmissionLink %}"&gt;{% SubmissionLink %}&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>de1a03d4-99b4-4ed5-9451-74cc1e75da4e</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6267541+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>Pages have been submitted for translation. The source text and instructions are enclosed in a ZIP file.
+
+This submission was created with priority {% GetTranslationPriority(Submission.SubmissionPriority) |(identity)GlobalAdministrator|(hash)f1163767a72b4def91c3086fc91dfb8ef4bdac9524742a244a88f09c87903e69%} and is due by {% Submission.SubmissionDeadline |(identity)GlobalAdministrator|(hash)c80cf6d43c0f016ab28f775a70f5a2e194ace8802b32c5d31465b6657942b811%}.
+
+To upload a ZIP archive with the completed translation, go to the following URL {% SubmissionLink %}.</EmailTemplatePlainText>
+      <EmailTemplateSubject>New translation submission</EmailTemplateSubject>
+      <EmailTemplateType>translationservices</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>158</EmailTemplateID>
+      <EmailTemplateName>Workflow.Archived</EmailTemplateName>
+      <EmailTemplateDisplayName>Workflow - Page archived</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body style="font-size: 12px; font-family: arial"&gt;
+    &lt;p&gt;
+    This is an automatic notification sent by Kentico CMS. The following page has been archived.&lt;/p&gt;
+    &lt;p&gt;
+    &lt;strong&gt;Page:&lt;/strong&gt; &lt;a href="{%DocumentEditUrl%}"&gt;{%documentname%}&lt;/a&gt; {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "(&lt;a href=\"" + DocumentPreviewUrl + "\"&gt;preview&lt;/a&gt;)"|(encode)false|(identity)GlobalAdministrator|(hash)3c6e1ab9bc2d48299b1a9575114884c6e4d1a25230c0fa954cfc92c1512ef47f%}
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;strong&gt;Archived by:&lt;/strong&gt; {%approvedby%}
+    &lt;br /&gt;
+    &lt;strong&gt;Archived when:&lt;/strong&gt; {%approvedwhen%}
+    &lt;br /&gt;
+    &lt;strong&gt;Comment:&lt;/strong&gt;
+    &lt;br /&gt;
+    {%comment%}
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>53d086cb-dc0c-4e5a-b48d-77a6b58fd549</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6309684+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>This is an automatic notification sent by Kentico CMS. The following page has been archived.
+
+Page: [url={%DocumentEditUrl%}]{%documentname%}[/url] {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "([url=" + DocumentPreviewUrl + "]preview[/url])"|(identity)GlobalAdministrator|(hash)78dd9bf9b0dc61e23208dfb0e6364a13a2c285a2cbd3ffb4ad2415e29f625894%}
+Archived by: {%approvedby%}
+Archived when: {%approvedwhen%}
+Comment: 
+{%comment%}</EmailTemplatePlainText>
+      <EmailTemplateSubject>Page '{%DocumentName%}' archived</EmailTemplateSubject>
+      <EmailTemplateType>workflow</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>160</EmailTemplateID>
+      <EmailTemplateName>Workflow.Approved</EmailTemplateName>
+      <EmailTemplateDisplayName>Workflow - Page approved</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body style="font-size: 12px; font-family: arial"&gt;
+    &lt;p&gt;
+    This is an automatic notification sent by Kentico CMS. The following page was approved.
+    &lt;/p&gt;
+    &lt;p&gt;
+    &lt;strong&gt;Page:&lt;/strong&gt; &lt;a href="{%DocumentEditUrl%}"&gt;{%documentname%}&lt;/a&gt; {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "(&lt;a href=\"" + DocumentPreviewUrl + "\"&gt;preview&lt;/a&gt;)"|(encode)false|(identity)GlobalAdministrator|(hash)3c6e1ab9bc2d48299b1a9575114884c6e4d1a25230c0fa954cfc92c1512ef47f%}
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;strong&gt;Approved by:&lt;/strong&gt; {%ApprovedBy%}
+    &lt;br /&gt;
+    &lt;strong&gt;Approved when:&lt;/strong&gt; {%ApprovedWhen%}
+    &lt;br /&gt;
+    &lt;strong&gt;Original step:&lt;/strong&gt; {%originalstepname%}
+    &lt;br /&gt;
+    &lt;strong&gt;Current step:&lt;/strong&gt; {%currentstepname%}
+    &lt;br /&gt;
+    &lt;strong&gt;Comment:&lt;/strong&gt;
+    &lt;br /&gt;
+    {%Comment%}
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>5d4c7b49-0a86-457e-b39c-79be2cc48173</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6299041+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>This is an automatic notification sent by Kentico CMS. The following page was approved. 
+
+Page: [url={%DocumentEditUrl%}]{%documentname%}[/url] {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "([url=" + DocumentPreviewUrl + "]preview[/url])"|(identity)GlobalAdministrator|(hash)78dd9bf9b0dc61e23208dfb0e6364a13a2c285a2cbd3ffb4ad2415e29f625894%}
+Approved by: {%approvedby%} 
+Approved when: {%approvedwhen%} 
+Original step: {%originalstepname%} 
+Current step: {%currentstepname%} 
+Comment: 
+{%comment%} 
+</EmailTemplatePlainText>
+      <EmailTemplateSubject>Page '{%DocumentName%}' approved</EmailTemplateSubject>
+      <EmailTemplateType>workflow</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>1167</EmailTemplateID>
+      <EmailTemplateName>Membership.PasswordResetConfirmation</EmailTemplateName>
+      <EmailTemplateDisplayName>Membership - Password reset confirmation</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body style="font-size:12px; font-family: Arial"&gt;
+    &lt;p&gt;
+      The password of your account '{%UserName%}' was recently changed.
+    &lt;/p&gt;
+    &lt;p&gt;
+      If you did not authorize this password change, please contact us immediately. Your account may be compromised.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>990a8202-fae1-435d-a41f-808256afa100</EmailTemplateGUID>
+      <EmailTemplateLastModified>2017-03-03T19:21:59.3491034+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>The password of your account '{%UserName%}' was recently changed. 
+
+If you did not authorize this password change, please contact us immediately. Your account may be compromised.</EmailTemplatePlainText>
+      <EmailTemplateSubject>{$LogonForm.ResetPasswordConfirmationSubject$}</EmailTemplateSubject>
+      <EmailTemplateType>membershippasswordresetconfirmation</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>1050</EmailTemplateID>
+      <EmailTemplateName>Ecommerce.AutomaticRegistration</EmailTemplateName>
+      <EmailTemplateDisplayName>E-commerce - Automatic registration</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;&lt;/head&gt;
+  &lt;body&gt;  
+    &lt;p&gt;
+      Dear {% UserFullName %},welcome to 
+      &lt;a href="{% CurrentSite.SitePresentationURL |(identity)GlobalAdministrator|(hash)26dcffee8213d7a8fd1d344824302f2a70e17ece9e0f8e1f144815a68646de98%}"&gt;{% CurrentSite.SiteDomainName |(identity)GlobalAdministrator|(hash)5aa92ce3e69571c1ff2f689b896145b15d0b4fe30c294ed84b7d9645b1c48380%}&lt;/a&gt;! 
+      Meanwhile, we have prepared an account for you. 
+      With your new account you can easily review your orders and manage your personal information.
+    &lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Login details:&lt;/strong&gt;&lt;/p&gt;
+    E-mail(username): {% UserName %}&lt;br/&gt;
+    Password: {% Password %}&lt;br /&gt;
+    &lt;br /&gt;
+    &lt;p&gt;We recommend changing your password directly after you log in.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>680db946-cefd-475f-b65f-84dc4d53051c</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6062972+07:00</EmailTemplateLastModified>
+      <EmailTemplateSubject>Welcome to {% CurrentSite.SiteDomainName |(identity)GlobalAdministrator|(hash)5aa92ce3e69571c1ff2f689b896145b15d0b4fe30c294ed84b7d9645b1c48380%}</EmailTemplateSubject>
+      <EmailTemplateType>ecommerce</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>873</EmailTemplateID>
+      <EmailTemplateName>Reporting_Unsubscription_template</EmailTemplateName>
+      <EmailTemplateDisplayName>Reporting - Unsubscription confirmation</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+	&lt;head&gt;
+	  &lt;style&gt;
+		BODY, TD
+		{
+		  font-size: 12px; 
+		  font-family: arial
+		}
+	  &lt;/style&gt;
+	&lt;/head&gt;	
+	&lt;body&gt;
+	&lt;p&gt;
+      &lt;h3&gt;{%ReportSubscription.ReportSubscriptionSubject|(identity)GlobalAdministrator|(hash)a3ca9c599c09dbd0030603589fe0a546acf22ce34e0ba6479ad00b4dd2dee792%}&lt;/h3&gt;
+      
+	  You have been successfully unsubscribed from {%ItemName%}		
+	report &lt;strong&gt;{%Report.ReportDisplayName|(identity)GlobalAdministrator|(hash)2f03f4fad540c190d009f634bed35095f14468c11c69baad49ec2d7bcf2ad986%}&lt;/strong&gt;.
+	&lt;p/&gt;	
+	&lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>5422657c-2602-4f80-a12f-858012baf4b9</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6247596+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>{%ReportSubscription.ReportSubscriptionSubject|(identity)GlobalAdministrator|(hash)a3ca9c599c09dbd0030603589fe0a546acf22ce34e0ba6479ad00b4dd2dee792%}
+
+You have been successfully unsubscribed from {%ItemName%} report {%Report.ReportDisplayName|(identity)GlobalAdministrator|(hash)2f03f4fad540c190d009f634bed35095f14468c11c69baad49ec2d7bcf2ad986%}.</EmailTemplatePlainText>
+      <EmailTemplateSubject>Report unsubscription</EmailTemplateSubject>
+      <EmailTemplateFrom></EmailTemplateFrom>
+      <EmailTemplateCc></EmailTemplateCc>
+      <EmailTemplateBcc></EmailTemplateBcc>
+      <EmailTemplateType>reporting</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>868</EmailTemplateID>
+      <EmailTemplateName>Workflow.Notification</EmailTemplateName>
+      <EmailTemplateDisplayName>Workflow - Notification</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body style="font-size: 12px; font-family: arial"&gt;
+    &lt;p&gt;
+    This is an automatic notification sent by Kentico CMS. The following page status has changed.
+    &lt;/p&gt;
+    &lt;p&gt;
+    &lt;strong&gt;Page:&lt;/strong&gt; &lt;a href="{%DocumentEditUrl%}"&gt;{%documentname%}&lt;/a&gt; {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "(&lt;a href=\"" + DocumentPreviewUrl + "\"&gt;preview&lt;/a&gt;)"|(encode)false|(identity)GlobalAdministrator|(hash)3c6e1ab9bc2d48299b1a9575114884c6e4d1a25230c0fa954cfc92c1512ef47f%}
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;strong&gt;Action:&lt;/strong&gt; {%DocumentActionName%}
+    &lt;br /&gt;
+    &lt;strong&gt;Modified by:&lt;/strong&gt; {%User.Email|(identity)GlobalAdministrator|(hash)23a921086dcec3af1c28d83ce16241d80e38d1dbdb1e77cc3f34899615434eca%}
+    &lt;br /&gt;
+    &lt;strong&gt;Modified when:&lt;/strong&gt; {%approvedwhen%}
+    &lt;br /&gt;
+    &lt;strong&gt;Original step:&lt;/strong&gt; {%originalstepname%}
+    &lt;br /&gt;
+    &lt;strong&gt;Current step:&lt;/strong&gt; {%currentstepname%}
+    &lt;br /&gt;
+    &lt;strong&gt;Comment:&lt;/strong&gt;
+    &lt;br /&gt;
+    {%comment%}
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>27f608f0-0a20-4a1b-9474-97bde3c7a725</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6286841+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>This is an automatic notification sent by Kentico CMS. The following page status has changed. 
+
+Page: [url={%DocumentEditUrl%}]{%documentname%}[/url] {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "([url=" + DocumentPreviewUrl + "]preview[/url])"|(identity)GlobalAdministrator|(hash)78dd9bf9b0dc61e23208dfb0e6364a13a2c285a2cbd3ffb4ad2415e29f625894%}
+Action: {%DocumentActionName%} 
+Modified by: {%User.Email|(identity)GlobalAdministrator|(hash)23a921086dcec3af1c28d83ce16241d80e38d1dbdb1e77cc3f34899615434eca%} 
+Modified when: {%approvedwhen%} 
+Original step: {%originalstepname%} 
+Current step: {%currentstepname%} 
+Comment: 
+{%comment%} </EmailTemplatePlainText>
+      <EmailTemplateSubject>Page '{%DocumentName%}' status changed</EmailTemplateSubject>
+      <EmailTemplateType>workflow</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>842</EmailTemplateID>
+      <EmailTemplateName>Membership.ChangePasswordRequest</EmailTemplateName>
+      <EmailTemplateDisplayName>Membership - Change password request</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body style="font-size:12px; font-family: Arial"&gt;
+    &lt;p&gt;
+      Hi {%User.UserName|(identity)GlobalAdministrator|(hash)dd3338668584d5120a5d73815a76e1d1dfcb5b25dc49938d6e7a2558483ce372%},
+    &lt;p&gt;
+       You have submitted a request to change your password. Please click &lt;a href="{%ResetPasswordUrl%}"&gt;this link&lt;/a&gt; to generate a new password.
+    &lt;/p&gt;
+    &lt;p&gt;
+       If you want to cancel your request or you did not submit the request please click &lt;a href="{%CancelUrl%}"&gt;this link&lt;/a&gt; to invalidate the resetting link.
+    &lt;/p&gt;
+    &lt;p&gt;
+      This action was requested from IP address: {%IP%}
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</EmailTemplateText>
+      <EmailTemplateGUID>c97cec10-ecac-4f15-ab20-99f5008d49cf</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6177797+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>Hi {%User.UserName|(identity)GlobalAdministrator|(hash)dd3338668584d5120a5d73815a76e1d1dfcb5b25dc49938d6e7a2558483ce372%},
+
+You have submitted a request to change your password. Please go to the following link {%ResetPasswordUrl%} to generate a new password.
+
+If you want to cancel your request or you did not submit the request please go to the following link {%CancelUrl%} to invalidate the resetting link.
+
+This action was requested from IP address: {%IP%}</EmailTemplatePlainText>
+      <EmailTemplateSubject>{$membership.passwreqsubject$}</EmailTemplateSubject>
+      <EmailTemplateType>membershipchangepassword</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>867</EmailTemplateID>
+      <EmailTemplateName>Membership.UserAccountLock</EmailTemplateName>
+      <EmailTemplateDisplayName>Membership - User account locked</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+	&lt;head&gt;
+	&lt;/head&gt;
+	&lt;body style="FONT-SIZE: 12px; FONT-FAMILY: arial"&gt;
+		&lt;p&gt;
+                 You have reached maximum invalid logon attempts and your user account was locked. Please follow this &lt;a href="{%UnlockAccountUrl%}"&gt;link&lt;/a&gt; to unlock your account. 
+                &lt;/p&gt;
+                &lt;p&gt;
+                If you don't remember your password you can alternatively reset you password by following this &lt;a href="{%ResetPasswordUrl%}"&gt;link&lt;/a&gt;. 		
+                &lt;/p&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</EmailTemplateText>
+      <EmailTemplateGUID>cea25592-8535-429d-9ba0-9da37907c2d7</EmailTemplateGUID>
+      <EmailTemplateLastModified>2017-03-03T19:21:59.406928+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>You have reached maximum invalid logon attempts and your user account was locked. Please follow this [url={%UnlockAccountUrl%}]link[/url] to unlock your account. 
+
+If you don't remember your password you can alternatively reset you password by following this [url={%ResetPasswordUrl%}]link[/url]. 		
+                </EmailTemplatePlainText>
+      <EmailTemplateSubject>{$membership.invalidattemptssubject$}</EmailTemplateSubject>
+      <EmailTemplateFrom></EmailTemplateFrom>
+      <EmailTemplateCc></EmailTemplateCc>
+      <EmailTemplateBcc></EmailTemplateBcc>
+      <EmailTemplateType>membershipunlockaccount</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>807</EmailTemplateID>
+      <EmailTemplateName>Membership.ExpirationNotification</EmailTemplateName>
+      <EmailTemplateDisplayName>Membership - Expiration notification</EmailTemplateDisplayName>
+      <EmailTemplateText>The following memberships will expire soon:
+&lt;br /&gt;
+
+{%MembershipsTable.ApplyTransformation("Ecommerce.Transformations.Order_MembershipsTable")|(encode)false |(identity)GlobalAdministrator|(hash)af497dca211ed4bd6ccaf2b23312969675698dc7d9767dc62845085d125bf8af%}
+
+&lt;br /&gt;
+
+To renew it, please follow these steps:
+
+&lt;ol&gt;
+&lt;li&gt;In My profile section on My memberships tab, click &lt;strong&gt;Buy membership&lt;/strong&gt;. You will be redirected to the Buy membership page.&lt;/li&gt;
+&lt;li&gt;Choose the required membership and add it to your shopping cart.&lt;/li&gt;
+&lt;li&gt;Finish your order.&lt;/li&gt;
+&lt;li&gt;Once you pay the order, your membership will be renewed.&lt;/li&gt;
+&lt;/ol&gt;
+
+This is an automatic reminder, please do not respond.&lt;br /&gt;
+Thank you.
+</EmailTemplateText>
+      <EmailTemplateGUID>96db7d3f-e7ca-41eb-926a-9fe92babe634</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6187794+07:00</EmailTemplateLastModified>
+      <EmailTemplateSubject>{$membership.membershipexpiresoonsubject$}</EmailTemplateSubject>
+      <EmailTemplateType>membershipexpiration</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>1089</EmailTemplateID>
+      <EmailTemplateName>Ecommerce.EproductExpirationNotification</EmailTemplateName>
+      <EmailTemplateDisplayName>E-commerce - E-product expiration notification</EmailTemplateDisplayName>
+      <EmailTemplateText>You have bought the following e-products, please download them until their download links expire. Once the download link expires, you won't be able to download the file.
+&lt;br /&gt;
+
+{%EproductsTable.ApplyTransformation("Ecommerce.Transformations.Order_EproductsTable")|(identity)GlobalAdministrator|(hash)28caa554eea8849ec446c8721d31ea972b98aabf22d968478a0dafad08f8e47e%}
+&lt;br /&gt;
+
+This is an automatic reminder, please do not respond.
+&lt;br /&gt;
+
+Thank you.</EmailTemplateText>
+      <EmailTemplateGUID>ddfff92c-168f-4379-94e8-ad5f815727ac</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6102848+07:00</EmailTemplateLastModified>
+      <EmailTemplateType>ecommerceeproductexpiration</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>167</EmailTemplateID>
+      <EmailTemplateName>Ecommerce.OrderNotificationToAdmin</EmailTemplateName>
+      <EmailTemplateDisplayName>E-commerce - Order notification to administrator</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt; 
+&lt;table cellspacing="0" cellpadding="5" border="1" width="600" style="border-color:black;"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td height="50" valign="bottom" colspan="2"&gt;
+            &lt;table width="100%"&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left; vertical-align: bottom;"&gt;&lt;span style="font-size: 18pt;"&gt;New order&lt;/span&gt;&lt;/td&gt;
+                        &lt;td style="text-align: center; vertical-align: middle;"&gt;&lt;span style="font-family: GaramondTimesserif; font-size: 24pt; font-style: italic;"&gt;Company logo&lt;/span&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+			&lt;td style="text-align: left; padding: 8px"&gt;
+			&lt;table style="width: 287px; height: 23px"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; color:black; font-weight:bold;"&gt;Invoice number&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 10px; padding: 8px"&gt;{% Order.OrderInvoiceNumber|(encode)true|(identity)GlobalAdministrator|(hash)198518396852f6028a2d9c3edbdf288a0dbb0ee63dc0c11914c8f37860d4e245%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td style="text-align: left; padding: 8px"&gt;
+			&lt;table width="100%"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; color:black; font-weight:bold;"&gt;Order date:&lt;/td&gt;
+						&lt;td style="text-align: right; padding: 8px"&gt;{% GetSiteDateTime(Order.OrderDate) |(identity)GlobalAdministrator|(hash)3eae9376ad75c87a4c819ed0eb63beb2f3db74abfd78516ef8bbb1cf46921680%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td style="text-align: left; vertical-align: top; padding: 8px" width="50%"&gt;&lt;span style="color:black; font-weight:bold"&gt;Supplier&lt;/span&gt;&lt;br /&gt;
+			&amp;nbsp;
+			&lt;table&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Company address&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td style="text-align: left; vertical-align: top; padding: 8px" width="50%"&gt;&lt;span style="color:black; font-weight:bold"&gt;Customer &lt;/span&gt;&lt;br /&gt;
+
+			&lt;p&gt;{%BillingAddress.ApplyTransformation("Ecommerce.Transformations.Order_Address") |(identity)GlobalAdministrator|(hash)2ad442589377e7e199cf12592d36dfec1d872771f4cd99c0e4c159d9cfcb2248%}&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2"&gt;
+			&lt;table width="100%"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="text-align: left; padding: 8px"&gt;&lt;span style="color:black; font-weight:bold"&gt;Payment option&lt;/span&gt;&lt;/td&gt;
+						&lt;td style="text-align: left; padding: 8px"&gt;{%PaymentOption.PaymentOptionDisplayName |(identity)GlobalAdministrator|(hash)142debacf04e5241e565cb7e0ed3f29a47f448326046cbe1a07371b4f71875ae%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2" style="text-align: left; padding: 8px"&gt;{%ContentTable.ApplyTransformation("Ecommerce.Transformations.Order_ContentTable", "Ecommerce.Transformations.Order_ContentTableHeader", "Ecommerce.Transformations.Order_ContentTableFooter") |(identity)GlobalAdministrator|(hash)be09e52e2c9ee46cd0b9df2a3c88928d9023a2256b2de80381fe571bfc2e4245%} 
+			&lt;hr size="1" /&gt;
+			&lt;table cellpadding="5" width="50%" style="float: right;"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Subtotal&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalItemsPrice.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)4a1f59038c33f32fa169af32e28ea0beb225306793a8a361cbf934ca5274e6fb%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+					  &lt;td colspan="2" style="padding: 0; text-align: right;"&gt;{% OrderDiscountSummary.Any() ? OrderDiscountSummary.ApplyTransformation("Ecommerce.Transformations.Order_OrderRelatedDiscountsContent", "Ecommerce.Transformations.Order_OrderRelatedDiscountsHeader", "Ecommerce.Transformations.Order_OrderRelatedDiscountsFooter") : "" |(identity)GlobalAdministrator|(hash)e97b31a7c88ecc729aeba4a8d6f36ab971c57c97820a878183a82964ddf92a92%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Shipping&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px"&gt;{% TotalShipping.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)1ce2fba37ef00910511278930998e2c3b2cff315705e1998d3aed7d972ee19b5%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td colspan="2" style="padding: 0; text-align: right;"&gt;{% OtherPaymentsSummary.Any() ? OtherPaymentsSummary.ApplyTransformation("Ecommerce.Transformations.Order_OrderRelatedDiscountsContent" "Ecommerce.Transformations.Order_OrderRelatedDiscountsHeader" "Ecommerce.Transformations.Order_OrderRelatedDiscountsFooter") : "" |(identity)GlobalAdministrator|(hash)96cb6182933304d964233f678a107da921c0974edb9532c3aa215b7f14a2eadd%}&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td&gt;&lt;span style="color:black; font-weight:bold"&gt;TOTAL (incl. tax):&lt;/span&gt;&lt;/td&gt;
+						&lt;td style="text-align: right; padding-right: 0px; color:black; font-weight:bold"&gt;{% GrandTotal.Format(Currency.CurrencyFormatString)|(encode)true |(identity)GlobalAdministrator|(hash)226c5d327cdfa9ba439637743cd527a36720d647136f289953001a89fe21ef60%}&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+            &lt;table width="100%"&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left;"&gt;&lt;span style="font-weight: bold;"&gt;Order note&lt;/span&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="text-align: left;"&gt;{% Order.OrderNote|(encode)true |(identity)GlobalAdministrator|(hash)dd7c1dad2c18aac9e511a25310de8ceac6a392dd2681dcb630439782bc59386e%}&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>f49163f2-32c3-4c7b-ab1b-c128d621c02f</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6112824+07:00</EmailTemplateLastModified>
+      <EmailTemplateType>ecommerce</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>156</EmailTemplateID>
+      <EmailTemplateName>Workflow.Rejected</EmailTemplateName>
+      <EmailTemplateDisplayName>Workflow - Page rejected</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body style="font-size: 12px; font-family: arial"&gt;
+    &lt;p&gt;
+    This is an automatic notification sent by Kentico CMS. The following page was rejected.
+    &lt;/p&gt;
+    &lt;p&gt;
+    &lt;strong&gt;Page:&lt;/strong&gt; &lt;a href="{%DocumentEditUrl%}"&gt;{%documentname%}&lt;/a&gt; {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "(&lt;a href=\"" + DocumentPreviewUrl + "\"&gt;preview&lt;/a&gt;)"|(encode)false|(identity)GlobalAdministrator|(hash)3c6e1ab9bc2d48299b1a9575114884c6e4d1a25230c0fa954cfc92c1512ef47f%}
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;strong&gt;Rejected by:&lt;/strong&gt; {%approvedby%}
+    &lt;br /&gt;
+    &lt;strong&gt;Rejected when:&lt;/strong&gt; {%approvedwhen%}
+    &lt;br /&gt;
+    &lt;strong&gt;Original step:&lt;/strong&gt; {%originalstepname%}
+    &lt;br /&gt;
+    &lt;strong&gt;Current step:&lt;/strong&gt; {%currentstepname%}
+    &lt;br /&gt;
+    &lt;strong&gt;Comment:&lt;/strong&gt;
+    &lt;br /&gt;
+    {%comment%}
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>5b98fd54-1db8-4f57-b802-c7639fe08184</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6339463+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>This is an automatic notification sent by Kentico CMS. The following page was rejected. 
+
+Page: [url={%DocumentEditUrl%}]{%documentname%}[/url] {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "([url=" + DocumentPreviewUrl + "]preview[/url])"|(identity)GlobalAdministrator|(hash)78dd9bf9b0dc61e23208dfb0e6364a13a2c285a2cbd3ffb4ad2415e29f625894%}
+Rejected by: {%approvedby%} 
+Rejected when: {%approvedwhen%} 
+Original step: {%originalstepname%} 
+Current step: {%currentstepname%} 
+Comment: 
+{%comment%} 
+</EmailTemplatePlainText>
+      <EmailTemplateSubject>Page '{%DocumentName%}' rejected</EmailTemplateSubject>
+      <EmailTemplateType>workflow</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>155</EmailTemplateID>
+      <EmailTemplateName>Workflow.ReadyForApproval</EmailTemplateName>
+      <EmailTemplateDisplayName>Workflow - Page ready for approval</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body style="font-size: 12px; font-family: arial"&gt;
+    &lt;p&gt;
+    This is an automatic notification sent by Kentico. The following page is waiting for your approval. Please sign in to the Kentico administration interface and approve it.
+    &lt;/p&gt;
+    &lt;p&gt;
+    &lt;strong&gt;Page:&lt;/strong&gt; &lt;a href="{%DocumentEditUrl%}"&gt;{%documentname%}&lt;/a&gt; {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "(&lt;a href=\"" + DocumentPreviewUrl + "\"&gt;preview&lt;/a&gt;)"|(encode)false|(identity)GlobalAdministrator|(hash)3c6e1ab9bc2d48299b1a9575114884c6e4d1a25230c0fa954cfc92c1512ef47f%}
+    &lt;br /&gt;
+    &lt;strong&gt;Last approved by:&lt;/strong&gt; {%approvedby%}
+    &lt;br /&gt;
+    &lt;strong&gt;Last approved when:&lt;/strong&gt; {%approvedwhen%}
+    &lt;br /&gt;
+    &lt;strong&gt;Original step:&lt;/strong&gt; {%originalstepname%}
+    &lt;br /&gt;
+    &lt;strong&gt;Current step:&lt;/strong&gt; {%currentstepname%}
+    &lt;br /&gt;
+    &lt;strong&gt;Comment:&lt;/strong&gt;
+    &lt;br /&gt;
+    {%comment%}
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>cfa7ee6c-4ee1-4594-9760-d07fe8545336</EmailTemplateGUID>
+      <EmailTemplateLastModified>2023-10-16T11:48:11.6329409+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>This is an automatic notification sent by Kentico. The following page is waiting for your approval. Please sign in to the Kentico administration interface and approve it.
+
+Page: [url={%DocumentEditUrl%}]{%documentname%}[/url] {% DocumentPreviewUrl.IsNullOrEmpty() ? "" : "([url=" + DocumentPreviewUrl + "]preview[/url])"|(identity)GlobalAdministrator|(hash)78dd9bf9b0dc61e23208dfb0e6364a13a2c285a2cbd3ffb4ad2415e29f625894%}
+Last approved by: {%approvedby%} 
+Last approved when: {%approvedwhen%} 
+Original step: {%originalstepname%} 
+Current step: {%currentstepname%} 
+Comment: 
+{%comment%} 
+</EmailTemplatePlainText>
+      <EmailTemplateSubject>Page '{%DocumentName%}' is waiting for approval</EmailTemplateSubject>
+      <EmailTemplateType>workflow</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>869</EmailTemplateID>
+      <EmailTemplateName>Membership.PasswordExpired</EmailTemplateName>
+      <EmailTemplateDisplayName>Membership - Password expired</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body style="font-size:12px; font-family: Arial"&gt;
+    &lt;p&gt;
+       Your account has been locked because your password has expired. Please click &lt;a href="{%ResetPasswordUrl+"&amp;exp=1"%}"&gt;this link&lt;/a&gt; to generate a new password and unlock your account.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</EmailTemplateText>
+      <EmailTemplateGUID>5142ffc7-9810-45ee-9c5b-e4dd78a401e4</EmailTemplateGUID>
+      <EmailTemplateLastModified>2017-03-03T19:21:59.3268848+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>Your account has been locked because your password has expired. Please click [url={%ResetPasswordUrl+"&amp;exp=1"%}][/url] to generate a new password and unlock your account.</EmailTemplatePlainText>
+      <EmailTemplateSubject>{$membership.accountlocksubject$}</EmailTemplateSubject>
+      <EmailTemplateFrom></EmailTemplateFrom>
+      <EmailTemplateCc></EmailTemplateCc>
+      <EmailTemplateBcc></EmailTemplateBcc>
+      <EmailTemplateType>membershipchangepassword</EmailTemplateType>
+    </cms_emailtemplate>
+    <cms_emailtemplate>
+      <EmailTemplateID>163</EmailTemplateID>
+      <EmailTemplateName>Registration.Approve</EmailTemplateName>
+      <EmailTemplateDisplayName>Membership - Notification - Waiting for approval</EmailTemplateDisplayName>
+      <EmailTemplateText>&lt;html&gt;
+	&lt;head&gt;
+	&lt;/head&gt;
+	&lt;body style="font-size:12px; font-family: Arial"&gt;
+		&lt;p&gt;
+This is a notification that a new user has just registered and waiting for your approval:
+&lt;br /&gt;
+&lt;br /&gt;
+First name: {%firstname%} &lt;br /&gt;
+&lt;br /&gt;
+Last name: {%lastname%}&lt;br /&gt;
+&lt;br /&gt;
+E-mail: {%email%}&lt;br /&gt;
+&lt;br /&gt;
+User name: {%username%}&lt;br /&gt;
+&lt;br /&gt;
+Please log in to the system's administration interface and open the Users application. Switch to the Waiting for approval tab and approve or reject the user.&lt;br /&gt;
+&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</EmailTemplateText>
+      <EmailTemplateGUID>8ee2a9d2-0ddd-4ae9-9066-f9edc6261938</EmailTemplateGUID>
+      <EmailTemplateLastModified>2018-11-27T22:50:24.1647635+07:00</EmailTemplateLastModified>
+      <EmailTemplatePlainText>This is a notification that a new user has just registered and waiting for your approval: 
+
+First name: {%firstname%} 
+
+Last name: {%lastname%}
+
+E-mail: {%email%}
+
+User name: {%username%}
+
+Please log in to the system's administration interface and open the Users application. Switch to the Waiting for approval tab and approve or reject the user.</EmailTemplatePlainText>
+      <EmailTemplateSubject>{$membership.newuserapprovalsubject$}</EmailTemplateSubject>
+      <EmailTemplateType>registration</EmailTemplateType>
+    </cms_emailtemplate>
+  </NewDataSet>
+</cms_emailtemplate>

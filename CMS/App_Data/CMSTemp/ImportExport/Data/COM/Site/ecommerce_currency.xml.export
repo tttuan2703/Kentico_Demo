@@ -1,0 +1,17 @@
+﻿<ecommerce_currency version="13.0">
+  <NewDataSet>
+    <com_currency>
+      <CurrencyID>4</CurrencyID>
+      <CurrencyName>Dollar</CurrencyName>
+      <CurrencyDisplayName>Dollar</CurrencyDisplayName>
+      <CurrencyCode>USD</CurrencyCode>
+      <CurrencyRoundTo>2</CurrencyRoundTo>
+      <CurrencyEnabled>true</CurrencyEnabled>
+      <CurrencyFormatString>${0:F2}</CurrencyFormatString>
+      <CurrencyIsMain>true</CurrencyIsMain>
+      <CurrencyGUID>f071d48c-9e7e-4ca3-9014-3d266962957f</CurrencyGUID>
+      <CurrencyLastModified>2020-11-25T00:55:48.2064356+07:00</CurrencyLastModified>
+      <CurrencySiteID>1</CurrencySiteID>
+    </com_currency>
+  </NewDataSet>
+</ecommerce_currency>

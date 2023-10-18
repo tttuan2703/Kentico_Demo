@@ -1,0 +1,317 @@
+﻿<newsletter_newsletter version="13.0">
+  <NewDataSet>
+    <newsletter_newsletter>
+      <NewsletterID>1</NewsletterID>
+      <NewsletterDisplayName>Colombia coffee sample promotion</NewsletterDisplayName>
+      <NewsletterName>ColombiaCoffeeSamplePromotion</NewsletterName>
+      <NewsletterUnsubscriptionTemplateID>4</NewsletterUnsubscriptionTemplateID>
+      <NewsletterSenderName>Dancing Goat Core</NewsletterSenderName>
+      <NewsletterSenderEmail>dancinggoat@localhost.local</NewsletterSenderEmail>
+      <NewsletterSiteID>1</NewsletterSiteID>
+      <NewsletterGUID>9498483d-c5d5-4a1f-b31a-4ac55ef5f123</NewsletterGUID>
+      <NewsletterLastModified>2020-11-25T00:55:51.5425265+07:00</NewsletterLastModified>
+      <NewsletterEnableOptIn>false</NewsletterEnableOptIn>
+      <NewsletterSendOptInConfirmation>false</NewsletterSendOptInConfirmation>
+      <NewsletterTrackOpenEmails>true</NewsletterTrackOpenEmails>
+      <NewsletterTrackClickedLinks>true</NewsletterTrackClickedLinks>
+      <NewsletterLogActivity>true</NewsletterLogActivity>
+      <NewsletterSource>T</NewsletterSource>
+      <NewsletterType>1</NewsletterType>
+    </newsletter_newsletter>
+    <newsletter_newsletter>
+      <NewsletterID>2</NewsletterID>
+      <NewsletterDisplayName>Coffee 101</NewsletterDisplayName>
+      <NewsletterName>Coffee101</NewsletterName>
+      <NewsletterSubscriptionTemplateID>3</NewsletterSubscriptionTemplateID>
+      <NewsletterUnsubscriptionTemplateID>4</NewsletterUnsubscriptionTemplateID>
+      <NewsletterSenderName>Dancing Goat Core</NewsletterSenderName>
+      <NewsletterSenderEmail>dancinggoat@localhost.local</NewsletterSenderEmail>
+      <NewsletterSiteID>1</NewsletterSiteID>
+      <NewsletterGUID>ebfc1b86-9655-479e-9655-6ab9a631a38a</NewsletterGUID>
+      <NewsletterUnsubscribeUrl></NewsletterUnsubscribeUrl>
+      <NewsletterBaseUrl></NewsletterBaseUrl>
+      <NewsletterLastModified>2020-11-25T00:55:51.5242023+07:00</NewsletterLastModified>
+      <NewsletterEnableOptIn>true</NewsletterEnableOptIn>
+      <NewsletterOptInTemplateID>2</NewsletterOptInTemplateID>
+      <NewsletterSendOptInConfirmation>false</NewsletterSendOptInConfirmation>
+      <NewsletterOptInApprovalURL></NewsletterOptInApprovalURL>
+      <NewsletterTrackOpenEmails>true</NewsletterTrackOpenEmails>
+      <NewsletterTrackClickedLinks>true</NewsletterTrackClickedLinks>
+      <NewsletterDraftEmails></NewsletterDraftEmails>
+      <NewsletterLogActivity>true</NewsletterLogActivity>
+      <NewsletterSource>T</NewsletterSource>
+      <NewsletterType>0</NewsletterType>
+    </newsletter_newsletter>
+    <newsletter_newsletter>
+      <NewsletterID>3</NewsletterID>
+      <NewsletterDisplayName>Newsletter</NewsletterDisplayName>
+      <NewsletterName>Newsletter</NewsletterName>
+      <NewsletterSubscriptionTemplateID>3</NewsletterSubscriptionTemplateID>
+      <NewsletterUnsubscriptionTemplateID>4</NewsletterUnsubscriptionTemplateID>
+      <NewsletterSenderName>Zoey from Dancing Goat</NewsletterSenderName>
+      <NewsletterSenderEmail>zoey@dancinggoat.local</NewsletterSenderEmail>
+      <NewsletterSiteID>1</NewsletterSiteID>
+      <NewsletterGUID>bdb7f7ac-cd44-440c-8814-99054c1f4026</NewsletterGUID>
+      <NewsletterUnsubscribeUrl></NewsletterUnsubscribeUrl>
+      <NewsletterBaseUrl></NewsletterBaseUrl>
+      <NewsletterLastModified>2020-11-25T00:55:51.5674389+07:00</NewsletterLastModified>
+      <NewsletterEnableOptIn>true</NewsletterEnableOptIn>
+      <NewsletterOptInTemplateID>2</NewsletterOptInTemplateID>
+      <NewsletterSendOptInConfirmation>false</NewsletterSendOptInConfirmation>
+      <NewsletterOptInApprovalURL></NewsletterOptInApprovalURL>
+      <NewsletterTrackOpenEmails>true</NewsletterTrackOpenEmails>
+      <NewsletterTrackClickedLinks>true</NewsletterTrackClickedLinks>
+      <NewsletterDraftEmails></NewsletterDraftEmails>
+      <NewsletterLogActivity>true</NewsletterLogActivity>
+      <NewsletterSource>T</NewsletterSource>
+      <NewsletterType>0</NewsletterType>
+    </newsletter_newsletter>
+    <newsletter_newsletter>
+      <NewsletterID>4</NewsletterID>
+      <NewsletterDisplayName>Colombia coffee promotion</NewsletterDisplayName>
+      <NewsletterName>ColombiaCoffeePromotion</NewsletterName>
+      <NewsletterUnsubscriptionTemplateID>4</NewsletterUnsubscriptionTemplateID>
+      <NewsletterSenderName>Dancing Goat Core</NewsletterSenderName>
+      <NewsletterSenderEmail>dancinggoat@localhost.local</NewsletterSenderEmail>
+      <NewsletterSiteID>1</NewsletterSiteID>
+      <NewsletterGUID>6ac90b9e-af2d-4792-a384-af79b6133de8</NewsletterGUID>
+      <NewsletterLastModified>2020-11-25T00:55:51.533524+07:00</NewsletterLastModified>
+      <NewsletterEnableOptIn>false</NewsletterEnableOptIn>
+      <NewsletterSendOptInConfirmation>false</NewsletterSendOptInConfirmation>
+      <NewsletterTrackOpenEmails>true</NewsletterTrackOpenEmails>
+      <NewsletterTrackClickedLinks>true</NewsletterTrackClickedLinks>
+      <NewsletterLogActivity>true</NewsletterLogActivity>
+      <NewsletterSource>T</NewsletterSource>
+      <NewsletterType>1</NewsletterType>
+    </newsletter_newsletter>
+    <newsletter_newsletter>
+      <NewsletterID>5</NewsletterID>
+      <NewsletterDisplayName>Marketing automation engagement</NewsletterDisplayName>
+      <NewsletterName>MarketingAutomationEngagement</NewsletterName>
+      <NewsletterUnsubscriptionTemplateID>4</NewsletterUnsubscriptionTemplateID>
+      <NewsletterSenderName>Dancing Goat</NewsletterSenderName>
+      <NewsletterSenderEmail>dancinggoat@localhost.local</NewsletterSenderEmail>
+      <NewsletterSiteID>1</NewsletterSiteID>
+      <NewsletterGUID>e07d93a2-7a5c-4dfc-b35d-e5c719aa7859</NewsletterGUID>
+      <NewsletterLastModified>2020-11-25T00:55:51.559524+07:00</NewsletterLastModified>
+      <NewsletterEnableOptIn>false</NewsletterEnableOptIn>
+      <NewsletterSendOptInConfirmation>false</NewsletterSendOptInConfirmation>
+      <NewsletterTrackOpenEmails>true</NewsletterTrackOpenEmails>
+      <NewsletterTrackClickedLinks>true</NewsletterTrackClickedLinks>
+      <NewsletterLogActivity>true</NewsletterLogActivity>
+      <NewsletterSource>T</NewsletterSource>
+      <NewsletterType>1</NewsletterType>
+    </newsletter_newsletter>
+    <newsletter_newsletterissue>
+      <IssueID>4</IssueID>
+      <IssueSubject>Try our new Brazilian coffee!</IssueSubject>
+      <IssueText></IssueText>
+      <IssueUnsubscribed>0</IssueUnsubscribed>
+      <IssueNewsletterID>3</IssueNewsletterID>
+      <IssueTemplateID>1</IssueTemplateID>
+      <IssueSentEmails>0</IssueSentEmails>
+      <IssueGUID>1b4be61e-9338-44a8-a855-021519eb03c4</IssueGUID>
+      <IssueLastModified>2020-11-25T00:55:51.564623+07:00</IssueLastModified>
+      <IssueSiteID>1</IssueSiteID>
+      <IssueSenderName>Zoey from Dancing Goat</IssueSenderName>
+      <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+      <IssueUTMSource>dancinggoatcorenewsletter_new_brazil_coffee_in_stock</IssueUTMSource>
+      <IssueUseUTM>true</IssueUseUTM>
+      <IssueUTMCampaign>newsletter</IssueUTMCampaign>
+      <IssueDisplayName>New Brazil coffee in stock</IssueDisplayName>
+      <IssueWidgets>&lt;Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Zones&gt;&lt;Zone&gt;&lt;Identifier&gt;zone1&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;8f63fed4-c009-453d-a65f-41fb2efecda7&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Keeping you up to date with the latest and greatest from the wonderful world of coffee.&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;12bcde82-c005-4772-a757-16e5c1e1d6c1&lt;/Identifier&gt;&lt;TypeIdentifier&gt;e2605693-0586-4627-8ffb-88ba572928f5&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;ProductGUID&lt;/Name&gt;&lt;Value&gt;a3c11d36-bba9-4c39-b370-4f42d40331b9&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ButtonText&lt;/Name&gt;&lt;Value&gt;Learn More&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;UTMContent&lt;/Name&gt;&lt;Value&gt;coffeeproductlink&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;AlternativeProductImage&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;AlternativeProductName&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;AlternativeProductDescription&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;Zone&gt;&lt;Identifier&gt;zone2&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;da44e5cb-1ff0-4ad2-8b7d-01b0e43b99c6&lt;/Identifier&gt;&lt;TypeIdentifier&gt;858092f1-17a8-41fa-883c-19d27ac43936&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;This week’s round up&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;0c9e6f1f-908a-468c-8743-a7ca538e81a4&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Here are some interesting articles that might have passed you by.&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;f7f0b789-56ea-4759-840d-daf3e80586b2&lt;/Identifier&gt;&lt;TypeIdentifier&gt;71a6323b-2ca9-4acc-a6f9-4876e2763ceb&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;LinkText&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;UTMContent&lt;/Name&gt;&lt;Value&gt;latestarticleslink&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;Zone&gt;&lt;Identifier&gt;zone3&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;877582fb-11b6-4e3e-8545-5917875607ff&lt;/Identifier&gt;&lt;TypeIdentifier&gt;858092f1-17a8-41fa-883c-19d27ac43936&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Find Your Local Café&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;ec7216c2-b785-4201-aafe-42e6dab573b1&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Be sure to drop in and savor some excellent coffee.&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;8ec4cec6-ec01-4671-b10e-fefd7a56e9e9&lt;/Identifier&gt;&lt;TypeIdentifier&gt;ab776b60-b2ba-452f-95f3-c2d055484b84&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Become a partner and have your café featured&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Link&lt;/Name&gt;&lt;Value&gt;~/contacts/&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Color&lt;/Name&gt;&lt;Value&gt;#B49669&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;UTMContent&lt;/Name&gt;&lt;Value&gt;cafepartnerlink&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Personas&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;42af7516-8389-4207-8c06-71fdc7166316&lt;/Identifier&gt;&lt;TypeIdentifier&gt;dbbd0e5c-1f89-463f-8c3c-c23677794cd2&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;CafePath&lt;/Name&gt;&lt;Value&gt;/Cafes/Los-Angeles&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ButtonText&lt;/Name&gt;&lt;Value&gt;Take me there!&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;UTMContent&lt;/Name&gt;&lt;Value&gt;cafelinklosangeles&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;/Zones&gt;&lt;/Configuration&gt;</IssueWidgets>
+      <IssuePreheader>{% Recipient.FirstName == "" ? "Hello" : "Hi " + Recipient.FirstName |(identity)GlobalAdministrator|(hash)05ea13bf3904a24bd3603f75a74ed187504cd207030ad64b6653c9a695f7eb74%}! Come and taste our new coffee with a creamy mouth sensation, and a cherry and chocolaty flavor.</IssuePreheader>
+      <IssueForAutomation>false</IssueForAutomation>
+    </newsletter_newsletterissue>
+    <newsletter_newsletterissue>
+      <IssueID>1</IssueID>
+      <IssueSubject>Get a free Colombia coffee sample today</IssueSubject>
+      <IssueText></IssueText>
+      <IssueUnsubscribed>0</IssueUnsubscribed>
+      <IssueNewsletterID>1</IssueNewsletterID>
+      <IssueTemplateID>5</IssueTemplateID>
+      <IssueSentEmails>0</IssueSentEmails>
+      <IssueGUID>98723e24-0520-4604-8dc9-10419f083679</IssueGUID>
+      <IssueLastModified>2020-11-25T00:55:51.5395298+07:00</IssueLastModified>
+      <IssueSiteID>1</IssueSiteID>
+      <IssueSenderName>Dancing Goat Core</IssueSenderName>
+      <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+      <IssueUTMSource>colombiacoffeesamplepromotion_get_a_free_colombia_coffee_sample_today</IssueUTMSource>
+      <IssueUseUTM>false</IssueUseUTM>
+      <IssueUTMCampaign>colombiacoffeesamplepromotion</IssueUTMCampaign>
+      <IssueDisplayName>Get a free Colombia coffee sample today</IssueDisplayName>
+      <IssueWidgets>&lt;Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Zones&gt;&lt;Zone&gt;&lt;Identifier&gt;zone1&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;86fed6d7-f9ad-4de0-9274-419a79a95d22&lt;/Identifier&gt;&lt;TypeIdentifier&gt;858092f1-17a8-41fa-883c-19d27ac43936&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Try Colombian coffee today&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;3b234bda-b9b9-4efd-83af-16923a1ecca3&lt;/Identifier&gt;&lt;TypeIdentifier&gt;eca73089-2d52-4f1c-b99b-a0395b7772b3&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;ImageUrl&lt;/Name&gt;&lt;Value&gt;~/getmedia/25808ee1-16c5-4397-b5a5-f1af8ee21e18/colombia-coffee-promotion.jpg?width=500&amp;amp;height=266&amp;amp;ext=.jpg&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;AlternateText&lt;/Name&gt;&lt;Value&gt;Colombian plantation&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;Zone&gt;&lt;Identifier&gt;zone2&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;86fba8bf-1a54-4b30-bb12-0cffd6aa7418&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Did you know that Colombia is one of the world&amp;amp;rsquo;s coffee producing power houses, satisfying some 10% of the global coffee demand? Do you want to learn more and even get a chance to try what this coffee is about?&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;ccc2207b-df20-46a1-8b1a-1797fd68df77&lt;/Identifier&gt;&lt;TypeIdentifier&gt;ab776b60-b2ba-452f-95f3-c2d055484b84&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Take me there&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Link&lt;/Name&gt;&lt;Value&gt;~/coffee-samples/&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Color&lt;/Name&gt;&lt;Value&gt;#B49669&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;UTMContent&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Personas&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;/Zones&gt;&lt;/Configuration&gt;</IssueWidgets>
+      <IssueForAutomation>false</IssueForAutomation>
+    </newsletter_newsletterissue>
+    <newsletter_newsletterissue>
+      <IssueID>6</IssueID>
+      <IssueSubject>Long time no see</IssueSubject>
+      <IssueText></IssueText>
+      <IssueUnsubscribed>0</IssueUnsubscribed>
+      <IssueNewsletterID>5</IssueNewsletterID>
+      <IssueTemplateID>5</IssueTemplateID>
+      <IssueSentEmails>0</IssueSentEmails>
+      <IssueGUID>c62da98f-bde0-44fc-87c9-34e6425748be</IssueGUID>
+      <IssueLastModified>2020-11-25T00:55:51.5565554+07:00</IssueLastModified>
+      <IssueSiteID>1</IssueSiteID>
+      <IssueSenderName>Dancing Goat</IssueSenderName>
+      <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+      <IssueUseUTM>false</IssueUseUTM>
+      <IssueDisplayName>Long time no see</IssueDisplayName>
+      <IssueWidgets>&lt;Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Zones&gt;&lt;Zone&gt;&lt;Identifier&gt;zone1&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;902a48f7-bd17-4d36-ab9b-5b6a9c207eba&lt;/Identifier&gt;&lt;TypeIdentifier&gt;858092f1-17a8-41fa-883c-19d27ac43936&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Hello {% Recipient.FirstName |(identity)GlobalAdministrator|(hash)987273f10759311ef2b9fe4ec9ca6970ccb761f4a743e872a2a35413f3b38b91%},&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;a1f3d50e-9cda-4adf-9a4a-f5844641c3c2&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;We&amp;amp;#39;ve noticed that you haven&amp;amp;#39;t visited our site in quite some time. We miss you!&amp;lt;br /&amp;gt;
+&amp;amp;nbsp;&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;c64e4b56-834f-4c27-ab74-e8fab19caa0c&lt;/Identifier&gt;&lt;TypeIdentifier&gt;ab776b60-b2ba-452f-95f3-c2d055484b84&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Take me to the Dancing Goat site&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Link&lt;/Name&gt;&lt;Value&gt;~/&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Color&lt;/Name&gt;&lt;Value&gt;#B49669&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;UTMContent&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Personas&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;Zone&gt;&lt;Identifier&gt;zone2&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;4604863f-98bb-4470-ace5-8a30eeead6f4&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;If there&amp;amp;#39;s a particular reason for your absence that we can fix, please let us now. We&amp;amp;#39;re open to all kinds of feedback and willing to improve our content and services.&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;8d00de0b-f3d2-47b5-8131-18d3b2eb423e&lt;/Identifier&gt;&lt;TypeIdentifier&gt;ab776b60-b2ba-452f-95f3-c2d055484b84&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Contact us&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Link&lt;/Name&gt;&lt;Value&gt;~/contacts/&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Color&lt;/Name&gt;&lt;Value&gt;#272219&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;UTMContent&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Personas&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;/Zones&gt;&lt;/Configuration&gt;</IssueWidgets>
+      <IssueForAutomation>true</IssueForAutomation>
+    </newsletter_newsletterissue>
+    <newsletter_newsletterissue>
+      <IssueID>7</IssueID>
+      <IssueSubject>Happy Birthday</IssueSubject>
+      <IssueText></IssueText>
+      <IssueUnsubscribed>0</IssueUnsubscribed>
+      <IssueNewsletterID>5</IssueNewsletterID>
+      <IssueTemplateID>5</IssueTemplateID>
+      <IssueSentEmails>0</IssueSentEmails>
+      <IssueGUID>b86efe94-c975-4e77-8c44-569545587860</IssueGUID>
+      <IssueLastModified>2020-11-25T00:55:51.54753+07:00</IssueLastModified>
+      <IssueSiteID>1</IssueSiteID>
+      <IssueSenderName>Dancing Goat</IssueSenderName>
+      <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+      <IssueUTMSource>marketingautomationengagement_happy_birthday</IssueUTMSource>
+      <IssueUseUTM>false</IssueUseUTM>
+      <IssueUTMCampaign>marketingautomationengagement</IssueUTMCampaign>
+      <IssueDisplayName>Happy Birthday with coupon</IssueDisplayName>
+      <IssueWidgets>&lt;Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Zones&gt;&lt;Zone&gt;&lt;Identifier&gt;zone1&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;1054388c-7128-4fe6-88ad-da031516cc2c&lt;/Identifier&gt;&lt;TypeIdentifier&gt;858092f1-17a8-41fa-883c-19d27ac43936&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Happy birthday {% Recipient.FirstName |(identity)GlobalAdministrator|(hash)987273f10759311ef2b9fe4ec9ca6970ccb761f4a743e872a2a35413f3b38b91%}!&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;3a9f06cc-4c4a-4cc0-a840-85ed537ae0ad&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;&amp;lt;p&amp;gt;We hope you&amp;amp;#39;re having a wonderful time on this special day. To thank you for your interest in our website and coffee, we&amp;amp;#39;d like to offer you a gift.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Use the following coupon code in our store and get a 5% birthday discount:&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+&amp;lt;strong&amp;gt;BDAY_73UHV&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;Zone&gt;&lt;Identifier&gt;zone2&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;c174a561-0d66-4c6f-9f74-68f585110d0b&lt;/Identifier&gt;&lt;TypeIdentifier&gt;ab776b60-b2ba-452f-95f3-c2d055484b84&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Take me to the store&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Link&lt;/Name&gt;&lt;Value&gt;~/store/&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Color&lt;/Name&gt;&lt;Value&gt;#B49669&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;UTMContent&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Personas&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;/Zones&gt;&lt;/Configuration&gt;</IssueWidgets>
+      <IssueForAutomation>true</IssueForAutomation>
+    </newsletter_newsletterissue>
+    <newsletter_newsletterissue>
+      <IssueID>2</IssueID>
+      <IssueSubject>Coffee 101 - Lesson 2</IssueSubject>
+      <IssueText></IssueText>
+      <IssueUnsubscribed>0</IssueUnsubscribed>
+      <IssueNewsletterID>2</IssueNewsletterID>
+      <IssueTemplateID>5</IssueTemplateID>
+      <IssueSentEmails>0</IssueSentEmails>
+      <IssueGUID>0e7022ff-bcc2-44fe-b5dd-58ef07e42ac6</IssueGUID>
+      <IssueLastModified>2020-11-25T00:55:51.5232033+07:00</IssueLastModified>
+      <IssueSiteID>1</IssueSiteID>
+      <IssueSenderName>Dancing Goat Core</IssueSenderName>
+      <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+      <IssueUTMSource>coffee101_coffee_101_-_lesson_2</IssueUTMSource>
+      <IssueUseUTM>false</IssueUseUTM>
+      <IssueUTMCampaign>coffee101</IssueUTMCampaign>
+      <IssueDisplayName>Coffee 101 - Lesson 2</IssueDisplayName>
+      <IssueWidgets>&lt;Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Zones&gt;&lt;Zone&gt;&lt;Identifier&gt;zone1&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;a55702a9-3198-4ed6-bc96-bc57d618a097&lt;/Identifier&gt;&lt;TypeIdentifier&gt;858092f1-17a8-41fa-883c-19d27ac43936&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;How does coffee processing affect the taste?&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;9849fd3b-00fe-4e52-864d-da00641ed650&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Lesson 2&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;107467b1-0590-43c4-9c3b-04e5f45bce55&lt;/Identifier&gt;&lt;TypeIdentifier&gt;eca73089-2d52-4f1c-b99b-a0395b7772b3&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;ImageUrl&lt;/Name&gt;&lt;Value&gt;~/getmedia/2aeaedab-8745-433b-9fd9-82ecdf5c58f1/coffee-101-lesson-2.jpg?width=500&amp;amp;height=332&amp;amp;ext=.jpg&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;AlternateText&lt;/Name&gt;&lt;Value&gt;Coffee beans&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;Zone&gt;&lt;Identifier&gt;zone2&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;aeaa8552-1b5e-42a2-b5bc-f79200e5eb72&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Before a ripe coffee plant transforms into a delicious cup lying on your table, it undergoes quite a journey. A journey full of possible pitfalls, which can, usually negatively, influence the coffee&amp;amp;rsquo;s final taste. What goes wrong at the very beginning cannot be made up for at the very end.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+The character and taste of a coffee are largely influenced by its origin, climate, the quality and type of soil and the botanical varieties of the coffee plant.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+The last two links of the chain&amp;amp;mdash;the roastery and the barista&amp;amp;mdash;cannot, in any way, improve the taste of the coffee. They are left with the difficult task of making the most its potential.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+The farmers themselves, however, have at their disposal tools for enhancing the &amp;amp;lsquo;ingrown&amp;amp;rsquo; taste of the coffee. These are mainly the methods of removing the multilayered skin of the coffee beans.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+Two, sometimes three basic methods are usually referred to. Wet- Processed (Fully-Washed), Dry-Processed (Natural) and Pulped-Natural (Semi-Washed).&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+Wet processing rids the cherry of its layers and pulp by water fermentation. The exocarp is removed from the cherries directly after the harvest using circular and drum mechanical peelers. Afterwards, they spend 6&amp;amp;ndash;72 hours in water-filled fermentation tanks.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+In the tank, microorganisms take care of the pulp (mesocarp). The length of the process is determined by the stickiness of the beans. Leaving beans in the fermentation tank for too long produces the so-called &amp;amp;lsquo;naughty&amp;amp;rsquo; beans. These are often beans that have stuck in the tank and their rancid and putrid state endangers the whole batch.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+The constantly rising levels of acetic acid are also able to impact the taste of the coffee with fermented and even vinegarish tones once it&amp;amp;rsquo;s been roasted. The main negative aspect of wet processing is the amount of water that has to be used. This is up to 40m3 (40000 liters) of water, that have to be continuously dumped and new, clean water has to be put pumped into the tank. The dumping of contaminated water often depreciates the water supplies laying underneath the coffee farm.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+The dry method, considered the most traditional and the least costly, makes use of sun-drying. Cherries are often sundried on concrete courtyards, Ethiopian hilltops, and sometimes even on the very shrubs.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+Cherries need to be sundried directly after the harvest to avoid unwanted fermentation. The laid out beans need to be layered evenly and not 6 inches (15cm) in height. Farmers turn the seeds over both manually or with the use of tractors.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+During the dry fermentation, the sugars travel, via osmosis, from the pulp into the beans. This makes for more full-bodied coffee and adds sweeter tones to the taste, as compared to wet processed coffee. This often comes at the cost of a more polluted cup.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+Once the coffee beans reach some 11 % humidity, the peel layers and pulp can be removed using mechanical peelers. Reaching the desired humidity takes anywhere between 10 and 30 days. This is an important factor, especially in unstable climates, where automatic driers often replace the traditional sun drying process.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+Now&amp;amp;rsquo;s the time for &amp;amp;lsquo;reposo&amp;amp;rsquo;, a resting time, in which the beans lay in a parchment for 30&amp;amp;ndash;60 days.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+The third method, popular primarily in Brazil, is the so-called Pulped- Natural or Semi-Washed way of processing beans. Only the top layer of the cherry peel is removed in a water bath. The rest of the process, including the sugar fermentation and the separation of the pulp from the bean, are taken care of by sun drying. This method, just like the dry method, is highly dependent on the weather, which has to be consistent for the farmers to be able to dry the beans thoroughly.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+This process yields full-bodied beans with low-acidity. Less aliphatic acids are produced, which has a negative impact on the aroma of the coffee.&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;5c445335-9755-4706-a682-070e2e674dba&lt;/Identifier&gt;&lt;TypeIdentifier&gt;ab776b60-b2ba-452f-95f3-c2d055484b84&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Try washed Nicaragua&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Link&lt;/Name&gt;&lt;Value&gt;~/store/coffees/nicaragua-dipilto-(decaf)/&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Color&lt;/Name&gt;&lt;Value&gt;#B49669&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;UTMContent&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Personas&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;/Zones&gt;&lt;/Configuration&gt;</IssueWidgets>
+      <IssueForAutomation>true</IssueForAutomation>
+    </newsletter_newsletterissue>
+    <newsletter_newsletterissue>
+      <IssueID>3</IssueID>
+      <IssueSubject>Coffee 101 - Lesson 1</IssueSubject>
+      <IssueText></IssueText>
+      <IssueUnsubscribed>0</IssueUnsubscribed>
+      <IssueNewsletterID>2</IssueNewsletterID>
+      <IssueTemplateID>5</IssueTemplateID>
+      <IssueSentEmails>0</IssueSentEmails>
+      <IssueGUID>3437d71d-30a2-4e49-ace1-71c0661a4506</IssueGUID>
+      <IssueLastModified>2020-11-25T00:55:51.5073834+07:00</IssueLastModified>
+      <IssueSiteID>1</IssueSiteID>
+      <IssueSenderName>Dancing Goat Core</IssueSenderName>
+      <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+      <IssueUTMSource>coffee101_coffee_101_-_lesson_1</IssueUTMSource>
+      <IssueUseUTM>false</IssueUseUTM>
+      <IssueUTMCampaign>coffee101</IssueUTMCampaign>
+      <IssueDisplayName>Coffee 101 - Lesson 1</IssueDisplayName>
+      <IssueWidgets>&lt;Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Zones&gt;&lt;Zone&gt;&lt;Identifier&gt;zone1&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;4de56ba9-634b-496b-8c73-c4f08881878d&lt;/Identifier&gt;&lt;TypeIdentifier&gt;858092f1-17a8-41fa-883c-19d27ac43936&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Where coffee comes from and where it grows?&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;91cf5faa-40da-449d-89c7-9fb8255aabbf&lt;/Identifier&gt;&lt;TypeIdentifier&gt;eca73089-2d52-4f1c-b99b-a0395b7772b3&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;ImageUrl&lt;/Name&gt;&lt;Value&gt;~/getmedia/2eab4a23-3a10-44f6-a1c7-9291b4d58a78/coffee-101-lesson-1.jpg?width=604&amp;amp;height=401&amp;amp;ext=.jpg&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;AlternateText&lt;/Name&gt;&lt;Value&gt;Coffee beans&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;fe052aac-c5de-4f7e-88ff-212c1937a361&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Lesson 1&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;Zone&gt;&lt;Identifier&gt;zone2&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;cdd55286-edfb-4579-95bf-c0ceb5480947&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;The history of coffee is patchy and full of myth and hearsay.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+One of the most popular story goes that Kaldi, an Ethiopian goat herder, saw his goats eating coffee &amp;amp;lsquo;berries&amp;amp;rsquo; and as a result becoming elated. So, Kaldi then tried them himself and thus the potential of coffee was discovered. And also a name of our roastery - Dancing Goats.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+But, It is far more likely that uses for coffee were developed over time and were discovered by people tasting various parts of the &amp;amp;lsquo;cherry&amp;amp;rsquo;, nevertheless, the old fables do add a bit of romance and are very cute.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+Coffee requires a warm climate and lots of moisture, so it isproduced within a belt extending around the world between the Tropic of Cancer and the Tropic of Capricorn.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+Coffee grows on trees that flower and produce fleshy red fruit (orange or yellow is also possible) called a drupe though it is popularly referred to as the &amp;amp;lsquo;berry&amp;amp;rsquo; or &amp;amp;lsquo;cherry&amp;amp;rsquo;. What we refer to as coffee beans are actually seeds, which are produced in the centre of the drupe, often in pairs. After harvesting, the flesh of the drupe is washed or dried and the &amp;amp;lsquo;beans&amp;amp;rsquo; extracted.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+Coffee beans vary in their shape, size, color as well as flavor depending on the region and conditions in which they were grown. The difference of aromas and flavors between various regional varietals is as vast as the regions they grow in. Just like the teas and wines of the world, and even more so. It is always worth trying new varietals that may stimulate your taste buds in a different way.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+The two major species of coffee are Coffea Arabica and Coffea Canephora (also called Robusta Coffee).&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+Arabica is believed to be the first species of coffee to have been cultivated.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+It requires more care during cultivation and is considered to produce better coffee than Robusta. Arabica plants grow at high altitudes of around 1000 to 2000 metres, approximately 3200 to 6500 ft, above sea level in regions across South and Central America, as well as Africa. Arabica is costlier to grow, produces lower yields than Robusta despite higher labor intensiveness. Despite all that, it is considered superior to Robusta. The high demand and lower availabilitydrives the price high. Arabica is the species most associated with speciality (sometimes referred to as gourmet) coffees.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+The only place where Arabica coffee grows indigenously is Ethiopia. It is the birth place of coffee and also the only place in which it truly grows wild. All countries that produce Arabica coffees have transplanted plant stock directly from Ethiopia or from other countries that have previously done&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;420be545-aa29-4697-ad95-10cae90f3ac4&lt;/Identifier&gt;&lt;TypeIdentifier&gt;ab776b60-b2ba-452f-95f3-c2d055484b84&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Try Ethiopian Coffee&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Link&lt;/Name&gt;&lt;Value&gt;~/store/coffees/ethiopia-yirgacheffe-(decaf)/&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Color&lt;/Name&gt;&lt;Value&gt;#B49669&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;UTMContent&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Personas&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;/Zones&gt;&lt;/Configuration&gt;</IssueWidgets>
+      <IssueForAutomation>true</IssueForAutomation>
+    </newsletter_newsletterissue>
+    <newsletter_newsletterissue>
+      <IssueID>5</IssueID>
+      <IssueSubject>Get a free Colombia coffee sample today</IssueSubject>
+      <IssueText></IssueText>
+      <IssueUnsubscribed>0</IssueUnsubscribed>
+      <IssueNewsletterID>4</IssueNewsletterID>
+      <IssueTemplateID>5</IssueTemplateID>
+      <IssueSentEmails>0</IssueSentEmails>
+      <IssueGUID>2d53d74e-bf41-4747-a080-d3bdd1d83539</IssueGUID>
+      <IssueLastModified>2020-11-25T00:55:51.5305274+07:00</IssueLastModified>
+      <IssueSiteID>1</IssueSiteID>
+      <IssueSenderName>Dancing Goat Core</IssueSenderName>
+      <IssueSenderEmail>dancinggoat@localhost.local</IssueSenderEmail>
+      <IssueUTMSource>colombiacoffeepromotion_get_a_free_colombia_coffee_sample_today</IssueUTMSource>
+      <IssueUseUTM>false</IssueUseUTM>
+      <IssueUTMCampaign>colombiacoffeepromotion</IssueUTMCampaign>
+      <IssueDisplayName>Get a free Colombia coffee sample today</IssueDisplayName>
+      <IssueWidgets>&lt;Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Zones&gt;&lt;Zone&gt;&lt;Identifier&gt;zone1&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;471ee054-0e3e-4cac-8e99-0319f2217ad0&lt;/Identifier&gt;&lt;TypeIdentifier&gt;858092f1-17a8-41fa-883c-19d27ac43936&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Try Colombian coffee today&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;188427bc-4cb3-4f1f-ac4e-31d8fdbce7e2&lt;/Identifier&gt;&lt;TypeIdentifier&gt;eca73089-2d52-4f1c-b99b-a0395b7772b3&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;ImageUrl&lt;/Name&gt;&lt;Value&gt;~/getmedia/25808ee1-16c5-4397-b5a5-f1af8ee21e18/colombia-coffee-promotion.jpg?width=500&amp;amp;height=266&amp;amp;ext=.jpg&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;AlternateText&lt;/Name&gt;&lt;Value&gt;Colombian plantation&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;Zone&gt;&lt;Identifier&gt;zone2&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;56b23105-ebea-4c3b-a035-6a379eaecbdd&lt;/Identifier&gt;&lt;TypeIdentifier&gt;296f7aa0-2b96-40b2-a2d4-4458fa87beaf&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Did you know that Colombia is one of the world&amp;amp;rsquo;s coffee producing power houses, satisfying some 10% of the global coffee demand? Do you want to learn more and even get a chance to try what this coffee is about?&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;Widget&gt;&lt;Identifier&gt;0f774899-0513-4119-8e43-228a7a05d80c&lt;/Identifier&gt;&lt;TypeIdentifier&gt;ab776b60-b2ba-452f-95f3-c2d055484b84&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;Take me there&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Link&lt;/Name&gt;&lt;Value&gt;~/coffee-samples/&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Color&lt;/Name&gt;&lt;Value&gt;#B49669&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;UTMContent&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Personas&lt;/Name&gt;&lt;Value /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;/Zones&gt;&lt;/Configuration&gt;</IssueWidgets>
+      <IssueForAutomation>false</IssueForAutomation>
+    </newsletter_newsletterissue>
+    <newsletter_emailtemplatenewsletter>
+      <TemplateID>5</TemplateID>
+      <NewsletterID>1</NewsletterID>
+    </newsletter_emailtemplatenewsletter>
+    <newsletter_emailtemplatenewsletter>
+      <TemplateID>5</TemplateID>
+      <NewsletterID>2</NewsletterID>
+    </newsletter_emailtemplatenewsletter>
+    <newsletter_emailtemplatenewsletter>
+      <TemplateID>1</TemplateID>
+      <NewsletterID>3</NewsletterID>
+    </newsletter_emailtemplatenewsletter>
+    <newsletter_emailtemplatenewsletter>
+      <TemplateID>5</TemplateID>
+      <NewsletterID>4</NewsletterID>
+    </newsletter_emailtemplatenewsletter>
+    <newsletter_emailtemplatenewsletter>
+      <TemplateID>5</TemplateID>
+      <NewsletterID>5</NewsletterID>
+    </newsletter_emailtemplatenewsletter>
+  </NewDataSet>
+</newsletter_newsletter>

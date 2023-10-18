@@ -1,0 +1,15 @@
+﻿<cms_workflowscope version="13.0">
+  <NewDataSet>
+    <cms_workflowscope>
+      <ScopeID>1</ScopeID>
+      <ScopeStartingPath>/Articles/Articles-under-workflow</ScopeStartingPath>
+      <ScopeWorkflowID>213</ScopeWorkflowID>
+      <ScopeClassID>5534</ScopeClassID>
+      <ScopeSiteID>1</ScopeSiteID>
+      <ScopeGUID>3b73b7f4-5f65-4bdb-b4b2-51459502d62d</ScopeGUID>
+      <ScopeLastModified>2020-11-25T00:55:43.2478578+07:00</ScopeLastModified>
+      <ScopeExcludeChildren>false</ScopeExcludeChildren>
+      <ScopeExcluded>false</ScopeExcluded>
+    </cms_workflowscope>
+  </NewDataSet>
+</cms_workflowscope>

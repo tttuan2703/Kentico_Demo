@@ -1,0 +1,38 @@
+﻿<media_library version="13.0">
+  <NewDataSet>
+    <media_library>
+      <LibraryID>1</LibraryID>
+      <LibraryName>Graphics</LibraryName>
+      <LibraryDisplayName>Graphics</LibraryDisplayName>
+      <LibraryDescription>General graphic assets used on the site (e.g. logos and icons)
+</LibraryDescription>
+      <LibraryFolder>Graphics</LibraryFolder>
+      <LibraryAccess>4444444</LibraryAccess>
+      <LibrarySiteID>1</LibrarySiteID>
+      <LibraryGUID>f3cf24e3-8764-42e1-bf85-0d82b1995250</LibraryGUID>
+      <LibraryLastModified>2020-11-25T00:55:50.6735429+07:00</LibraryLastModified>
+    </media_library>
+    <media_library>
+      <LibraryID>2</LibraryID>
+      <LibraryName>CoffeeGallery</LibraryName>
+      <LibraryDisplayName>Coffee gallery</LibraryDisplayName>
+      <LibraryDescription>Assets used in media gallery</LibraryDescription>
+      <LibraryFolder>CoffeeGallery</LibraryFolder>
+      <LibraryAccess>4444444</LibraryAccess>
+      <LibrarySiteID>1</LibrarySiteID>
+      <LibraryGUID>80c4f14d-9abf-445d-a507-0f46fdc96493</LibraryGUID>
+      <LibraryLastModified>2020-11-25T00:55:50.6445356+07:00</LibraryLastModified>
+    </media_library>
+    <media_library>
+      <LibraryID>3</LibraryID>
+      <LibraryName>EmailCampaigns</LibraryName>
+      <LibraryDisplayName>Email campaigns</LibraryDisplayName>
+      <LibraryDescription>Assets used in email campaigns</LibraryDescription>
+      <LibraryFolder>EmailCampaigns</LibraryFolder>
+      <LibraryAccess>4444444</LibraryAccess>
+      <LibrarySiteID>1</LibrarySiteID>
+      <LibraryGUID>2b079dc1-c199-42af-9374-4a12572d6c59</LibraryGUID>
+      <LibraryLastModified>2020-11-25T00:55:50.6615356+07:00</LibraryLastModified>
+    </media_library>
+  </NewDataSet>
+</media_library>

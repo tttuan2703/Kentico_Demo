@@ -1,0 +1,22 @@
+﻿<ecommerce_publicstatus version="13.0">
+  <NewDataSet>
+    <com_publicstatus>
+      <PublicStatusID>1</PublicStatusID>
+      <PublicStatusName>DancingGoatCore.Bestseller</PublicStatusName>
+      <PublicStatusDisplayName>Bestseller</PublicStatusDisplayName>
+      <PublicStatusEnabled>true</PublicStatusEnabled>
+      <PublicStatusGUID>3fafd72b-6b04-4dec-9039-159a327d769d</PublicStatusGUID>
+      <PublicStatusLastModified>2020-11-25T00:55:28.1675259+07:00</PublicStatusLastModified>
+      <PublicStatusSiteID>1</PublicStatusSiteID>
+    </com_publicstatus>
+    <com_publicstatus>
+      <PublicStatusID>2</PublicStatusID>
+      <PublicStatusName>DancingGoatCore.OnSale</PublicStatusName>
+      <PublicStatusDisplayName>On sale</PublicStatusDisplayName>
+      <PublicStatusEnabled>true</PublicStatusEnabled>
+      <PublicStatusGUID>b753c8de-8d8b-4da0-bdce-c32a57baadbc</PublicStatusGUID>
+      <PublicStatusLastModified>2020-11-25T00:55:28.1775264+07:00</PublicStatusLastModified>
+      <PublicStatusSiteID>1</PublicStatusSiteID>
+    </com_publicstatus>
+  </NewDataSet>
+</ecommerce_publicstatus>

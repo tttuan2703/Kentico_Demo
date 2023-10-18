@@ -1,0 +1,30 @@
+﻿<cms_culture version="13.0">
+  <NewDataSet>
+    <cms_culture>
+      <CultureID>50</CultureID>
+      <CultureName>English - United States</CultureName>
+      <CultureCode>en-US</CultureCode>
+      <CultureShortName>English</CultureShortName>
+      <CultureGUID>4c98fdfa-841b-431e-9bc8-9fc80800ee45</CultureGUID>
+      <CultureLastModified>2018-11-27T22:49:34.7209723+07:00</CultureLastModified>
+      <CultureIsUICulture>true</CultureIsUICulture>
+    </cms_culture>
+    <cms_culture>
+      <CultureID>120</CultureID>
+      <CultureName>Spanish - Spain</CultureName>
+      <CultureCode>es-ES</CultureCode>
+      <CultureShortName>Spanish</CultureShortName>
+      <CultureGUID>61218e2e-2dc3-4a1c-9ac3-e40fb672e2f2</CultureGUID>
+      <CultureLastModified>2017-03-03T19:19:28.8568487+07:00</CultureLastModified>
+      <CultureIsUICulture>false</CultureIsUICulture>
+    </cms_culture>
+    <cms_siteculture>
+      <SiteID>1</SiteID>
+      <CultureID>50</CultureID>
+    </cms_siteculture>
+    <cms_siteculture>
+      <SiteID>1</SiteID>
+      <CultureID>120</CultureID>
+    </cms_siteculture>
+  </NewDataSet>
+</cms_culture>

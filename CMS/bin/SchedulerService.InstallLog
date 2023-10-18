@@ -1,0 +1,15 @@
+﻿Installing assembly 'C:\inetpub\wwwroot\Kentico13\CMS\bin\SchedulerService.exe'.
+Affected parameters are:
+   assemblypath = C:\inetpub\wwwroot\Kentico13\CMS\bin\SchedulerService.exe
+   logtoconsole = true
+   logfile = C:\inetpub\wwwroot\Kentico13\CMS\bin\SchedulerService.InstallLog
+   webpath = C:\inetpub\wwwroot\Kentico13\CMS
+Installing service KenticoCMSScheduler(Default Web Site_Kentico13)...
+Service KenticoCMSScheduler(Default Web Site_Kentico13) has been successfully installed.
+Creating EventLog source KenticoCMSScheduler(Default Web Site_Kentico13) in log Application...
+Committing assembly 'C:\inetpub\wwwroot\Kentico13\CMS\bin\SchedulerService.exe'.
+Affected parameters are:
+   assemblypath = C:\inetpub\wwwroot\Kentico13\CMS\bin\SchedulerService.exe
+   logtoconsole = true
+   logfile = C:\inetpub\wwwroot\Kentico13\CMS\bin\SchedulerService.InstallLog
+   webpath = C:\inetpub\wwwroot\Kentico13\CMS

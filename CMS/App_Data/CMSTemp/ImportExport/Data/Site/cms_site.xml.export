@@ -1,0 +1,14 @@
+﻿<cms_site version="13.0">
+  <NewDataSet>
+    <cms_site>
+      <SiteID>1</SiteID>
+      <SiteName>DancingGoatCore</SiteName>
+      <SiteDisplayName>DancingGoatCore</SiteDisplayName>
+      <SiteStatus>RUNNING</SiteStatus>
+      <SiteDomainName>localhost</SiteDomainName>
+      <SiteGUID>68ebde65-42fd-431c-8cd9-787f4df3511d</SiteGUID>
+      <SiteLastModified>2023-10-16T13:17:09.8122544+07:00</SiteLastModified>
+      <SitePresentationURL>http://localhost:55527</SitePresentationURL>
+    </cms_site>
+  </NewDataSet>
+</cms_site>
