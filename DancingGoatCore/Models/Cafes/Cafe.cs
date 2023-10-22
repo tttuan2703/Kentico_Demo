@@ -11,19 +11,17 @@ namespace CMS.DocumentEngine.Types.DancingGoatCore
         {
             get
             {
-                return Fields.Name;
+                return null;
             }
         }
-
 
         public string Phone
         {
             get
             {
-                return Fields.Phone;
+                return null;
             }
         }
-
 
         public string Email
         {
@@ -33,39 +31,35 @@ namespace CMS.DocumentEngine.Types.DancingGoatCore
             }
         }
 
-
         public string ZIP
         {
             get
             {
-                return Fields.ZipCode;
+                return null;
             }
         }
-
 
         public string Street
         {
             get
             {
-                return Fields.Street;
+                return null;
             }
         }
-
 
         public string City
         {
             get
             {
-                return Fields.City;
+                return null;
             }
         }
-
 
         public string Country
         {
             get
             {
-                return Fields.Country;
+                return null;
             }
         }
     }

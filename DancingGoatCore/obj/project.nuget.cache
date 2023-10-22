@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "75RRtTXKhahDKqXTSNnTbR7cfjPBy8KSTq9L7NAEhnqXMhHo2KnRT7KHgMGJRTJPTia3yuTUBy5iI10vySjmAg==",
+  "dgSpecHash": "ZOq/2cKsmzDyRuLEEw9NQhQW5brbGwGJsxdlkDGudEbSlMjal9HefYNwjkAm1cPw4li/69uKEASmOO2Mkgew6A==",
   "success": true,
-  "projectFilePath": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\DancingGoatCore.csproj",
+  "projectFilePath": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\DancingGoatCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tuan.tai\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\tuan.tai\\.nuget\\packages\\anglesharp.css\\0.14.2\\anglesharp.css.0.14.2.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\tuan.tai\\.nuget\\packages\\awssdk.s3\\3.5.1.4\\awssdk.s3.3.5.1.4.nupkg.sha512",
     "C:\\Users\\tuan.tai\\.nuget\\packages\\azure.ai.textanalytics\\5.2.0\\azure.ai.textanalytics.5.2.0.nupkg.sha512",
     "C:\\Users\\tuan.tai\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
+    "C:\\Users\\tuan.tai\\.nuget\\packages\\buildbundlerminifier2022\\2.9.9\\buildbundlerminifier2022.2.9.9.nupkg.sha512",
     "C:\\Users\\tuan.tai\\.nuget\\packages\\documentformat.openxml\\2.19.0\\documentformat.openxml.2.19.0.nupkg.sha512",
     "C:\\Users\\tuan.tai\\.nuget\\packages\\htmlsanitizer\\5.0.376\\htmlsanitizer.5.0.376.nupkg.sha512",
     "C:\\Users\\tuan.tai\\.nuget\\packages\\jquery\\1.8.0\\jquery.1.8.0.nupkg.sha512",

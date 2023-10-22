@@ -21,8 +21,8 @@ namespace DancingGoat.Models
         {
             return new CafeViewModel
             {
-                PhotoPath = cafe.Fields.Photo == null ? null : attachmentUrlRetriever.Retrieve(cafe.Fields.Photo).RelativePath,
-                Note = cafe.Fields.AdditionalNotes,
+                PhotoPath = cafe.Fields.ProductPhoto == null ? null : attachmentUrlRetriever.Retrieve(cafe.Fields.ProductPhoto).RelativePath,
+                //Note = cafe.Fields.ProductDescription,
                 Contact = ContactViewModel.GetViewModel(cafe, countryRepository, localizer)
             };
         }

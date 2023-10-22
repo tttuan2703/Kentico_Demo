@@ -9,7 +9,7 @@
 
 @if (Context.Kentico().PageBuilder().EditMode)
 {
-    <partial name="~/Components/InlineEditors/SpinnerEditor/_SpinnerEditor.cshtml" 
+    <partial name="~/Components/InlineEditors/SpinnerEditor/_SpinnerEditor.cshtml"
              model="new SpinnerEditorViewModel
                     {
                         PropertyName = nameof(ArticlesWidgetProperties.Count),
@@ -18,17 +18,21 @@
 }
 
 <div class="articles-section">
+    <div class="hr"></div>
     <div class="row">
         <div class="title-wrapper">
-            <h1 class="title-tab">@HtmlLocalizer["Latest article"]</h1>
+            <h1 class="title-tab">@HtmlLocalizer["Industries we support"]</h1>
         </div>
-        @{ var first = true; }
         @foreach (var article in Model.Articles)
         {
-            if (first)
+            if(i == 5)
             {
-                first = false;
-                <div class="article-tile article-tile-large">
+                // Break loop
+                break;
+            }
+            <div class="article-tile article-tile-large">
+                @if (i % 2 == 0)
+                {
                     <div class="article-tile-inner">
                         <div class="col-md-12 col-lg-6 col-xl-5">
                             @if (article.TeaserUrl != null)
@@ -44,60 +48,58 @@
                             </div>
                             <div class="article-tile-content">
                                 <h2>
-                                    <a href="@article.Url">@article.Title</a>
+                                    @article.Title
                                 </h2>
                                 <p class="article-tile-text lead-paragraph">
                                     @article.Summary
                                 </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            }
-            else
-            {
-                var lastInRow = "";
-                if (i % 4 == 0)
-                {
-                    lastInRow = "last";
-                }
-
-                <div class="col-md-3 article-tile article-tile-small @lastInRow">
-                    <div class="article-tile-inner">
-                        @if (article.TeaserUrl != null)
-                        {
-                            <a href="@article.Url">
-                                <img src="@article.TeaserUrl.WithSizeConstraint(SizeConstraint.Width(400)).RelativePath" alt="@article.Title" title="@article.Title" class="article-tile-image" />
+                            <br>
+                            <a class="btn btn-more" href="@article.Url">
+                                Check it
                             </a>
-                        }
-                        <div class="article-tile-info">
-                            <div class="article-tile-date">
-                                @article.PublicationDate.ToString("m")
-                            </div>
-                            <div class="article-tile-content">
-                                <h2 class="h4">
-                                    <a href="@article.Url">@article.Title </a>
-                                </h2>
-                                <p class="article-tile-text">
-                                    @article.Summary
-                                </p>
-                            </div>
                         </div>
                     </div>
-                </div>
-                if (i % 4 == 0)
-                {
-                    <div class="clear"></div>
                 }
-                i++;
-            }
+                else
+                {
+                    <div class="col-md-12 col-lg-6 col-xl-7 article-tile-info">
+                        <div class="article-tile-date">
+                            @article.PublicationDate.ToString("m")
+                        </div>
+                        <div class="article-tile-content">
+                            <h2>
+                                @article.Title
+                            </h2>
+                            <p class="article-tile-text lead-paragraph">
+                                @article.Summary
+                            </p>
+                        </div>
+                        <br>
+                        <a class="btn btn-more" href="@article.Url">
+                            Check it
+                        </a>
+                    </div>
+                    <div class="article-tile-inner">
+                        <div class="col-md-12 col-lg-6 col-xl-5">
+                            @if (article.TeaserUrl != null)
+                            {
+                                <a href="@article.Url">
+                                    <img src="@article.TeaserUrl.RelativePath" alt="@article.Title" title="@article.Title" class="article-tile-image" />
+                                </a>
+                            }
+                        </div>
+                    </div>
+                }
+                <div class="hr"></div>
+            </div>
+            i++;
         }
     </div>
-
     <div class="row">
         <div class="clear center-text">
             <a href="@Url.Kentico().PageUrl(ContentItemIdentifiers.ARTICLES)" class="btn btn-more">
-                @HtmlLocalizer["More articles"]
+                @HtmlLocalizer["More news"]
             </a>
         </div>
     </div>

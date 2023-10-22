@@ -46,6 +46,7 @@ namespace DancingGoat
             services.AddSingleton<ReferenceRepository>();
             services.AddSingleton<HomeRepository>();
             services.AddSingleton<OrderRepository>();
+            services.AddSingleton<VideoBannerRepository>();
             services.AddSingleton<SiteDescriptionRepository>();
         }
 

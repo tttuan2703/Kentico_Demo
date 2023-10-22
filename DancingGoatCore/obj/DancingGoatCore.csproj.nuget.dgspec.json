@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\DancingGoatCore.csproj": {}
+    "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\DancingGoatCore.csproj": {}
   },
   "projects": {
-    "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\DancingGoatCore.csproj": {
+    "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\DancingGoatCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\DancingGoatCore.csproj",
+        "projectUniqueName": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\DancingGoatCore.csproj",
         "projectName": "DancingGoatCore",
-        "projectPath": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\DancingGoatCore.csproj",
+        "projectPath": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\DancingGoatCore.csproj",
         "packagesPath": "C:\\Users\\tuan.tai\\.nuget\\packages\\",
-        "outputPath": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\obj\\",
+        "outputPath": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BuildBundlerMinifier2022": {
+              "target": "Package",
+              "version": "[2.9.9, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[3.1.8, )"

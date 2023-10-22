@@ -7,42 +7,75 @@
 }
 <div class="articles-page">
     <div class="articles-section">
+        <div class="title-wrapper">
+            <h1 class="title-tab">@HtmlLocalizer["Industries we support"]</h1>
+        </div>
         <div class="row">
             @foreach (var article in @Model)
             {
-                var lastInRow = "";
-                if (i % 4 == 0)
-                {
-                    lastInRow = "last";
-                }
-
-                <div class="col-xs-12 col-md-3 article-tile article-tile-small @lastInRow">
-                    <div class="article-tile-inner">
-                        @if (article.TeaserUrl != null)
-                        {
-                            <a href="@article.Url">
-                                <img src="@article.TeaserUrl.WithSizeConstraint(SizeConstraint.Height(200)).RelativePath" alt="@article.Title" title="@article.Title" class="article-tile-image" />
-                            </a>
-                        }
-                        <div class="article-tile-info">
+                <div class="article-tile article-tile-large">
+                    @if (i % 2 == 0)
+                    {
+                        <div class="article-tile-inner">
+                            <div class="col-md-12 col-lg-6 col-xl-5">
+                                @if (article.TeaserUrl != null)
+                                {
+                                    <a href="@article.Url">
+                                        <img src="@article.TeaserUrl.RelativePath" alt="@article.Title" title="@article.Title" class="article-tile-image" />
+                                    </a>
+                                }
+                            </div>
+                            <div class="col-md-12 col-lg-6 col-xl-7 article-tile-info">
+                                <div class="article-tile-date">
+                                    @article.PublicationDate.ToString("m")
+                                </div>
+                                <div class="article-tile-content">
+                                    <h2>
+                                        @article.Title
+                                    </h2>
+                                    <p class="article-tile-text lead-paragraph">
+                                        @article.Summary
+                                    </p>
+                                </div>
+                                <br>
+                                <a class="btn btn-more" href="@article.Url">
+                                    Check it
+                                </a>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-md-12 col-lg-6 col-xl-7 article-tile-info">
                             <div class="article-tile-date">
                                 @article.PublicationDate.ToString("m")
                             </div>
                             <div class="article-tile-content">
-                                <h2 class="h4">
-                                    <a href="@article.Url">@article.Title </a>
+                                <h2>
+                                    @article.Title
                                 </h2>
-                                <p class="article-tile-text">
+                                <p class="article-tile-text lead-paragraph">
                                     @article.Summary
                                 </p>
                             </div>
+                            <br>
+                            <a class="btn btn-more" href="@article.Url">
+                                Check it
+                            </a>
                         </div>
-                    </div>
+                        <div class="article-tile-inner">
+                            <div class="col-md-12 col-lg-6 col-xl-5">
+                                @if (article.TeaserUrl != null)
+                                {
+                                    <a href="@article.Url">
+                                        <img src="@article.TeaserUrl.RelativePath" alt="@article.Title" title="@article.Title" class="article-tile-image" />
+                                    </a>
+                                }
+                            </div>
+                        </div>
+                    }
+                    <div class="hr"></div>
                 </div>
-                if (i % 4 == 0)
-                {
-                    <div class="clear"></div>
-                }
                 i++;
             }
         </div>

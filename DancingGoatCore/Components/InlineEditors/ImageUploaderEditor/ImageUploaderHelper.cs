@@ -25,7 +25,8 @@ namespace DancingGoat.InlineEditors
             ".tiff",
             ".tif",
             ".svg",
-            ".webp"
+            ".webp",
+            ".mp4"
         }, StringComparer.OrdinalIgnoreCase);
 
 

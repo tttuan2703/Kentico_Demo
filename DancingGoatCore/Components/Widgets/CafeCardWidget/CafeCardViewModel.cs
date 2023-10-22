@@ -33,8 +33,8 @@ namespace DancingGoat.Widgets
                 ? new CafeCardViewModel()
                 : new CafeCardViewModel
                 {
-                    Name = cafe.Fields.Name,
-                    PhotoPath = cafe.Fields.Photo == null ? null : attachmentUrlRetriever.Retrieve(cafe.Fields.Photo).RelativePath
+                    //Name = cafe.Fields.ProductName,
+                    PhotoPath = cafe.Fields.ProductPhoto == null ? null : attachmentUrlRetriever.Retrieve(cafe.Fields.ProductPhoto).RelativePath
                 };
         }
     }

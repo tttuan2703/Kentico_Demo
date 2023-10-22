@@ -1,80 +1,80 @@
 ﻿(function () {
-  window.kentico.pageBuilder.registerInlineEditor("image-uploader-editor", {
-    init: function (options) {
-      var editor = options.editor;
-      var zone = editor.querySelector(".uploader");
-      var clickable = editor.querySelector(".dz-clickable");
-      var isMediaFile = editor.getAttribute("data-file-type") === "media";
+    window.kentico.pageBuilder.registerInlineEditor("image-uploader-editor", {
+        init: function (options) {
+            var editor = options.editor;
+            var zone = editor.querySelector(".uploader");
+            var clickable = editor.querySelector(".dz-clickable");
+            var isMediaFile = editor.getAttribute("data-file-type") === "media";
 
-      if (isMediaFile) {
-        var dialogLink = editor.querySelector(".dialog-link");
-        dialogLink.addEventListener("click", function () {
-          var dialogOptions = {
-            libraryName: "Graphics",
-            maxFilesLimit: 1,
-            allowedExtensions: ".gif;.png;.jpg;.jpeg;.svg;.webp",
-            selectedValues: options.propertyValue,
-            applyCallback: function (files) {
-              if (files !== null && files.length > 0) {
-                var newFile = files[0];
-                  if (options.propertyValue && options.propertyValue.length && newFile.fileGuid === options.propertyValue[0].fileGuid) {
-                  return {
-                    closeDialog: true
-                  };
-                }
-                
-                var event = new CustomEvent("updateProperty",
-                  {
-                    detail: {
-                      value: [{ fileGuid: newFile.fileGuid }],
-                      name: options.propertyName
-                    }
-                  });
+            if (isMediaFile) {
+                var dialogLink = editor.querySelector(".dialog-link");
+                dialogLink.addEventListener("click", function () {
+                    var dialogOptions = {
+                        libraryName: "Videos",
+                        maxFilesLimit: 1,
+                        allowedExtensions: ".gif;.png;.jpg;.jpeg;.svg;.webp;.mp4",
+                        selectedValues: options.propertyValue,
+                        applyCallback: function (files) {
+                            if (files !== null && files.length > 0) {
+                                var newFile = files[0];
+                                if (options.propertyValue && options.propertyValue.length && newFile.fileGuid === options.propertyValue[0].fileGuid) {
+                                    return {
+                                        closeDialog: true
+                                    };
+                                }
 
-                editor.dispatchEvent(event);
-              }
+                                var event = new CustomEvent("updateProperty",
+                                    {
+                                        detail: {
+                                            value: [{ fileGuid: newFile.fileGuid }],
+                                            name: options.propertyName
+                                        }
+                                    });
 
-              return {
-                closeDialog: true
-              };
+                                editor.dispatchEvent(event);
+                            }
+
+                            return {
+                                closeDialog: true
+                            };
+                        }
+                    };
+                    window.kentico.modalDialog.mediaFilesSelector.open(dialogOptions);
+                });
             }
-          };
-          window.kentico.modalDialog.mediaFilesSelector.open(dialogOptions);
-        });
-      }
 
-      var dropZone = new Dropzone(zone,
-        {
-          acceptedFiles: ".gif,.png,.jpg,.jpeg,.svg,.webp",
-          maxFiles: 1,
-          url: editor.getAttribute("data-url"),
-          createImageThumbnails: false,
-          clickable: clickable,
-          dictInvalidFileType: options.localizationService.getString(
-            "You can't upload files of this type.")
-        });
+            var dropZone = new Dropzone(zone,
+                {
+                    acceptedFiles: ".gif,.png,.jpg,.jpeg,.svg,.webp,.mp4",
+                    maxFiles: 1,
+                    url: editor.getAttribute("data-url"),
+                    createImageThumbnails: false,
+                    clickable: clickable,
+                    dictInvalidFileType: options.localizationService.getString(
+                        "You can't upload files of this type.")
+                });
 
-      dropZone.on("success",
-        function (e) {
-          var content = JSON.parse(e.xhr.response);
+            dropZone.on("success",
+                function (e) {
+                    var content = JSON.parse(e.xhr.response);
 
-          var event = new CustomEvent("updateProperty",
-            {
-              detail: {
-                value: isMediaFile ? [{ fileGuid: content.guid }] : content.guid,
-                name: options.propertyName
-              }
-            });
+                    var event = new CustomEvent("updateProperty",
+                        {
+                            detail: {
+                                value: isMediaFile ? [{ fileGuid: content.guid }] : content.guid,
+                                name: options.propertyName
+                            }
+                        });
 
-          editor.dispatchEvent(event);
-        });
-    },
+                    editor.dispatchEvent(event);
+                });
+        },
 
-    destroy: function (options) {
-      var dropZone = options.editor.querySelector(".uploader").dropzone;
-      if (dropZone) {
-        dropZone.destroy();
-      }
-    }
-  });
+        destroy: function (options) {
+            var dropZone = options.editor.querySelector(".uploader").dropzone;
+            if (dropZone) {
+                dropZone.destroy();
+            }
+        }
+    });
 })();

@@ -24,7 +24,7 @@ namespace DancingGoat.Widgets
         [EditingComponent(MediaFilesSelector.IDENTIFIER, Label = "Background image", Order = 1)]
         [EditingComponentProperty(nameof(MediaFilesSelectorProperties.LibraryName), MEDIA_LIBRARY_NAME)]
         [EditingComponentProperty(nameof(MediaFilesSelectorProperties.MaxFilesLimit), 1)]
-        [EditingComponentProperty(nameof(MediaFilesSelectorProperties.AllowedExtensions), ".gif;.png;.jpg;.jpeg;.svg;.webp")]
+        [EditingComponentProperty(nameof(MediaFilesSelectorProperties.AllowedExtensions), ".gif;.png;.jpg;.jpeg;.svg;.webp;.mp4")]
         [Required]
         public IEnumerable<MediaFilesSelectorItem> Image { get; set; } = new List<MediaFilesSelectorItem>();
 

@@ -22,7 +22,7 @@
             <partial name="~/PageTemplates/ArticleWithSidebar/_RelatedArticles.cshtml" model="templateModel.RelatedArticles" />
         </div>
     }
-    <article class="article-detail col-lg-@articleWidth col-md-12 article-detail-related-box">
+    <article class="article-detail col-lg-12 col-md-12 article-detail-related-box">
         <h2>@templateModel.Title</h2>
         <div class="article-detail-datetime">
             @templateModel.PublicationDate.ToString("D")
@@ -41,11 +41,5 @@
             </div>
         </div>
     </article>
-    @if (templateModel.RelatedArticles.Any() && sidebarLocation.Equals(ArticleSidebarLocationEnum.Right))
-    {
-        <div class="article-related-articles-sidebar col-lg-@sidebardBootstrapWidth col-md-6 col-sm-12" data-sidebar-location="@sidebarLocation">
-            <partial name="~/PageTemplates/ArticleWithSidebar/_RelatedArticles.cshtml" model="templateModel.RelatedArticles" />
-        </div>
-    }
     <div class="clear"></div>
 </div>

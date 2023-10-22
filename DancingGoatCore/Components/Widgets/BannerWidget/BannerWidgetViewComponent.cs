@@ -12,14 +12,14 @@ using Kentico.PageBuilder.Web.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
 
-[assembly: RegisterWidget(BannerWidgetViewComponent.IDENTIFIER, typeof(BannerWidgetViewComponent), "Banner", typeof(BannerWidgetProperties), Description = "Displays the text and image.", IconClass = "icon-ribbon")]
+[assembly: RegisterWidget(VideoBannerWidgetViewComponent.IDENTIFIER, typeof(VideoBannerWidgetViewComponent), "Banner", typeof(BannerWidgetProperties), Description = "Displays the text and image.", IconClass = "icon-ribbon")]
 
 namespace DancingGoat.Widgets
 {
     /// <summary>
     /// Banner widget service.
     /// </summary>
-    public class BannerWidgetViewComponent : ViewComponent
+    public class VideoBannerWidgetViewComponent : ViewComponent
     {
         /// <summary>
         /// Widget identifier.
@@ -32,11 +32,11 @@ namespace DancingGoat.Widgets
 
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="BannerWidgetViewComponent"/> class.
+        /// Initializes a new instance of the <see cref="VideoBannerWidgetViewComponent"/> class.
         /// </summary>
         /// <param name="mediaFileProvider">The media file provider.</param>
         /// <param name="fileUrlRetriever">The media file URL retriever.</param>
-        public BannerWidgetViewComponent(IMediaFileInfoProvider mediaFileProvider, IMediaFileUrlRetriever fileUrlRetriever)
+        public VideoBannerWidgetViewComponent(IMediaFileInfoProvider mediaFileProvider, IMediaFileUrlRetriever fileUrlRetriever)
         {
             this.mediaFileProvider = mediaFileProvider;
             this.fileUrlRetriever = fileUrlRetriever;

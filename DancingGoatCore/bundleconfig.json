@@ -1,0 +1,20 @@
+[
+  {
+    "outputFileName": "Gruntfile.min.js",
+    "inputFiles": [
+      "Gruntfile.js"
+    ]
+  },
+  {
+    "outputFileName": "gulpfile.min.js",
+    "inputFiles": [
+      "gulpfile.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/Content/Bundles/Admin/pageComponents.min.js",
+    "inputFiles": [
+      "wwwroot/Content/Bundles/Admin/pageComponents.js"
+    ]
+  }
+]

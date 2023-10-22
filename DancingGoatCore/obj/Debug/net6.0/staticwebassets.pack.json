@@ -1,367 +1,371 @@
 {
   "Files": [
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Admin\\pageComponents.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Admin\\pageComponents.css",
       "PackagePath": "staticwebassets\\Content\\Bundles\\Admin\\pageComponents.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Admin\\pageComponents.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Admin\\pageComponents.js",
       "PackagePath": "staticwebassets\\Content\\Bundles\\Admin\\pageComponents.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Admin\\pageComponents.min.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Admin\\pageComponents.min.css",
       "PackagePath": "staticwebassets\\Content\\Bundles\\Admin\\pageComponents.min.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Admin\\pageComponents.min.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Admin\\pageComponents.min.js",
       "PackagePath": "staticwebassets\\Content\\Bundles\\Admin\\pageComponents.min.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Public\\pageComponents.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Public\\pageComponents.css",
       "PackagePath": "staticwebassets\\Content\\Bundles\\Public\\pageComponents.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Public\\pageComponents.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Public\\pageComponents.js",
       "PackagePath": "staticwebassets\\Content\\Bundles\\Public\\pageComponents.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Public\\pageComponents.min.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Public\\pageComponents.min.css",
       "PackagePath": "staticwebassets\\Content\\Bundles\\Public\\pageComponents.min.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Public\\pageComponents.min.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Public\\pageComponents.min.js",
       "PackagePath": "staticwebassets\\Content\\Bundles\\Public\\pageComponents.min.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\Core-icons.eot",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\Core-icons.eot",
       "PackagePath": "staticwebassets\\Content\\Fonts\\Core-icons.eot"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\Core-icons.svg",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\Core-icons.svg",
       "PackagePath": "staticwebassets\\Content\\Fonts\\Core-icons.svg"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\Core-icons.ttf",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\Core-icons.ttf",
       "PackagePath": "staticwebassets\\Content\\Fonts\\Core-icons.ttf"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\Core-icons.woff",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\Core-icons.woff",
       "PackagePath": "staticwebassets\\Content\\Fonts\\Core-icons.woff"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Bold.woff",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Bold.woff",
       "PackagePath": "staticwebassets\\Content\\Fonts\\GT-Walsheim-Bold.woff"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Bold.woff2",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Bold.woff2",
       "PackagePath": "staticwebassets\\Content\\Fonts\\GT-Walsheim-Bold.woff2"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Light.woff",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Light.woff",
       "PackagePath": "staticwebassets\\Content\\Fonts\\GT-Walsheim-Light.woff"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Light.woff2",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Light.woff2",
       "PackagePath": "staticwebassets\\Content\\Fonts\\GT-Walsheim-Light.woff2"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Medium.woff",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Medium.woff",
       "PackagePath": "staticwebassets\\Content\\Fonts\\GT-Walsheim-Medium.woff"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Medium.woff2",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Medium.woff2",
       "PackagePath": "staticwebassets\\Content\\Fonts\\GT-Walsheim-Medium.woff2"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Regular.woff",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Regular.woff",
       "PackagePath": "staticwebassets\\Content\\Fonts\\GT-Walsheim-Regular.woff"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Regular.woff2",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Regular.woff2",
       "PackagePath": "staticwebassets\\Content\\Fonts\\GT-Walsheim-Regular.woff2"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Thin.woff",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Thin.woff",
       "PackagePath": "staticwebassets\\Content\\Fonts\\GT-Walsheim-Thin.woff"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Thin.woff2",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\GT-Walsheim-Thin.woff2",
       "PackagePath": "staticwebassets\\Content\\Fonts\\GT-Walsheim-Thin.woff2"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\NotoSans-Bold.woff2",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\NotoSans-Bold.woff2",
       "PackagePath": "staticwebassets\\Content\\Fonts\\NotoSans-Bold.woff2"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\NotoSans-Light.woff2",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\NotoSans-Light.woff2",
       "PackagePath": "staticwebassets\\Content\\Fonts\\NotoSans-Light.woff2"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\NotoSans-Medium.woff2",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\NotoSans-Medium.woff2",
       "PackagePath": "staticwebassets\\Content\\Fonts\\NotoSans-Medium.woff2"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\NotoSans-Regular.ttf",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\NotoSans-Regular.ttf",
       "PackagePath": "staticwebassets\\Content\\Fonts\\NotoSans-Regular.ttf"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\PTSerif-Bold.woff",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\PTSerif-Bold.woff",
       "PackagePath": "staticwebassets\\Content\\Fonts\\PTSerif-Bold.woff"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\SourceSansPro-Bold.woff",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\SourceSansPro-Bold.woff",
       "PackagePath": "staticwebassets\\Content\\Fonts\\SourceSansPro-Bold.woff"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\SourceSansPro-Light.woff",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\SourceSansPro-Light.woff",
       "PackagePath": "staticwebassets\\Content\\Fonts\\SourceSansPro-Light.woff"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Fonts\\SourceSansPro-Regular.woff",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Fonts\\SourceSansPro-Regular.woff",
       "PackagePath": "staticwebassets\\Content\\Fonts\\SourceSansPro-Regular.woff"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\404.jpg",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\404.jpg",
       "PackagePath": "staticwebassets\\Content\\Images\\404.jpg"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\bg.jpg",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\bg.jpg",
       "PackagePath": "staticwebassets\\Content\\Images\\bg.jpg"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\cup.png",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\cup.png",
       "PackagePath": "staticwebassets\\Content\\Images\\cup.png"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\default-avatar.png",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\default-avatar.png",
       "PackagePath": "staticwebassets\\Content\\Images\\default-avatar.png"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\default-image-cafe.jpg",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\default-image-cafe.jpg",
       "PackagePath": "staticwebassets\\Content\\Images\\default-image-cafe.jpg"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\empty_cup.jpg",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\empty_cup.jpg",
       "PackagePath": "staticwebassets\\Content\\Images\\empty_cup.jpg"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\favicon.svg",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\favicon.svg",
       "PackagePath": "staticwebassets\\Content\\Images\\favicon.svg"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\icon-magnifier.png",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\icon-magnifier.png",
       "PackagePath": "staticwebassets\\Content\\Images\\icon-magnifier.png"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\komatsu-logo.svg",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\komatsu-logo.svg",
       "PackagePath": "staticwebassets\\Content\\Images\\komatsu-logo.svg"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\logo.svg",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\logo.svg",
       "PackagePath": "staticwebassets\\Content\\Images\\logo.svg"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\magnifier-dark.svg",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\magnifier-dark.svg",
       "PackagePath": "staticwebassets\\Content\\Images\\magnifier-dark.svg"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\magnifier.svg",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\magnifier.svg",
       "PackagePath": "staticwebassets\\Content\\Images\\magnifier.svg"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\our-story.jpg",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\our-story.jpg",
       "PackagePath": "staticwebassets\\Content\\Images\\our-story.jpg"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\plant-1.png",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\plant-1.png",
       "PackagePath": "staticwebassets\\Content\\Images\\plant-1.png"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\plant-2.png",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\plant-2.png",
       "PackagePath": "staticwebassets\\Content\\Images\\plant-2.png"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\plant-3.png",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\plant-3.png",
       "PackagePath": "staticwebassets\\Content\\Images\\plant-3.png"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Images\\plant-4.png",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\plant-4.png",
       "PackagePath": "staticwebassets\\Content\\Images\\plant-4.png"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Personalization\\ConditionTypes\\IsInPersona.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Personalization\\ConditionTypes\\IsInPersona.css",
       "PackagePath": "staticwebassets\\Content\\Personalization\\ConditionTypes\\IsInPersona.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Buttons.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Buttons.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Buttons.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Checkout.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Checkout.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Checkout.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Controls.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Controls.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Controls.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Fonts.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Fonts.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Fonts.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Form.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Form.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Form.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Gallery.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Gallery.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Gallery.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Grid.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Grid.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Grid.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\KomatsuStyle.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\KomatsuStyle.css",
       "PackagePath": "staticwebassets\\Content\\Styles\\KomatsuStyle.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Landing-page.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\KomatsuStyle.less",
+      "PackagePath": "staticwebassets\\Content\\Styles\\KomatsuStyle.less"
+    },
+    {
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Landing-page.css",
       "PackagePath": "staticwebassets\\Content\\Styles\\Landing-page.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Landing-page.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Landing-page.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Landing-page.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Menu.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Menu.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Menu.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Mixins.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Mixins.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Mixins.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Privacy.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Privacy.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Privacy.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Products.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Products.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Products.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Reset.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Reset.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Reset.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Sections.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Sections.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Sections.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Site.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Site.css",
       "PackagePath": "staticwebassets\\Content\\Styles\\Site.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\Site.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\Site.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\Site.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\TrackingConsent.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\TrackingConsent.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\TrackingConsent.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\YourAccount.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\YourAccount.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\YourAccount.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\icons-core.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\icons-core.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\icons-core.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Content\\Styles\\variables.less",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Styles\\variables.less",
       "PackagePath": "staticwebassets\\Content\\Styles\\variables.less"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ColorPickerEditor\\ColorPickerEditor.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ColorPickerEditor\\ColorPickerEditor.css",
       "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\ColorPickerEditor\\ColorPickerEditor.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ColorPickerEditor\\color-picker-editor.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ColorPickerEditor\\color-picker-editor.js",
       "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\ColorPickerEditor\\color-picker-editor.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\dropzone\\dropzone.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\dropzone\\dropzone.css",
       "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\dropzone\\dropzone.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\dropzone\\dropzone.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\dropzone\\dropzone.js",
       "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\dropzone\\dropzone.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\image-uploader-editor.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\image-uploader-editor.js",
       "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\image-uploader-editor.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\SpinnerEditor\\SpinnerEditor.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\SpinnerEditor\\SpinnerEditor.css",
       "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\SpinnerEditor\\SpinnerEditor.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\SpinnerEditor\\spinner-editor.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\SpinnerEditor\\spinner-editor.js",
       "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\SpinnerEditor\\spinner-editor.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\TextEditor\\TextEditor.css",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\TextEditor\\TextEditor.css",
       "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\TextEditor\\TextEditor.css"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\TextEditor\\text-editor.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\TextEditor\\text-editor.js",
       "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\TextEditor\\text-editor.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\PageBuilder\\Public\\NewsletterSubscriptionWidget\\replace-form.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\PageBuilder\\Public\\NewsletterSubscriptionWidget\\replace-form.js",
       "PackagePath": "staticwebassets\\PageBuilder\\Public\\NewsletterSubscriptionWidget\\replace-form.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Scripts\\addressSelector.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Scripts\\addressSelector.js",
       "PackagePath": "staticwebassets\\Scripts\\addressSelector.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Scripts\\countryStateSelector.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Scripts\\countryStateSelector.js",
       "PackagePath": "staticwebassets\\Scripts\\countryStateSelector.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Scripts\\formAutoPost.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Scripts\\formAutoPost.js",
       "PackagePath": "staticwebassets\\Scripts\\formAutoPost.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Scripts\\jquery-3.5.1.min.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Scripts\\jquery-3.5.1.min.js",
       "PackagePath": "staticwebassets\\Scripts\\jquery-3.5.1.min.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Scripts\\jquery.unobtrusive-ajax.min.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Scripts\\jquery.unobtrusive-ajax.min.js",
       "PackagePath": "staticwebassets\\Scripts\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Scripts\\jquery.validate.min.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Scripts\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\Scripts\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Scripts\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Scripts\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Scripts\\map.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Scripts\\map.js",
       "PackagePath": "staticwebassets\\Scripts\\map.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Scripts\\mobileMenu.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Scripts\\mobileMenu.js",
       "PackagePath": "staticwebassets\\Scripts\\mobileMenu.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Scripts\\responsiveMenuDropdown.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Scripts\\responsiveMenuDropdown.js",
       "PackagePath": "staticwebassets\\Scripts\\responsiveMenuDropdown.js"
     },
     {
-      "Id": "C:\\inetpub\\wwwroot\\Kentico13\\DancingGoatCore\\wwwroot\\Scripts\\variantSelector.js",
+      "Id": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Scripts\\variantSelector.js",
       "PackagePath": "staticwebassets\\Scripts\\variantSelector.js"
     },
     {

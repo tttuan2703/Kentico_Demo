@@ -24,9 +24,12 @@
 @{
     async Task RenderBanner()
     {
-        <section class="banner-section" @Html.Raw(styleAttribute)>
-            <h2 class="banner-heading">@HtmlLocalizer["Roasting <br /> Premium Coffee"]</h2>
-            <div class="banner-text">
+        <div class="video-banner-section">
+            <vc:video-banner />
+        </div>
+        <section class="banner-section" @*@Html.Raw(styleAttribute)*@>
+            <h3>@HtmlLocalizer["Harness the power of data to optimize your job site"]</h3>
+            <p class="banner-text">
                 @if (editMode)
                 {
                     <partial name="~/Components/InlineEditors/TextEditor/_TextEditor.cshtml"
@@ -40,7 +43,8 @@
                 {
                     @Model.Text
                 }
-            </div>
+            </p>
+            <a class="learn-more" href="/Kentico12_4/">Learn More</a>
         </section>
     }
 }

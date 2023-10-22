@@ -21,5 +21,6 @@
     <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\tuan.tai\.nuget\packages\jquery\1.8.0</PkgjQuery>
     <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\tuan.tai\.nuget\packages\awssdk.core\3.5.1.13</PkgAWSSDK_Core>
     <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\tuan.tai\.nuget\packages\awssdk.s3\3.5.1.4</PkgAWSSDK_S3>
+    <PkgBuildBundlerMinifier2022 Condition=" '$(PkgBuildBundlerMinifier2022)' == '' ">C:\Users\tuan.tai\.nuget\packages\buildbundlerminifier2022\2.9.9</PkgBuildBundlerMinifier2022>
   </PropertyGroup>
 </Project>

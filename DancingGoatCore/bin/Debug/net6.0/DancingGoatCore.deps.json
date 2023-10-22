@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "DancingGoatCore/1.0.0": {
         "dependencies": {
+          "BuildBundlerMinifier2022": "2.9.9",
           "Microsoft.Extensions.Logging.Debug": "3.1.8",
           "Microsoft.jQuery.Unobtrusive.Ajax": "3.2.5",
           "Kentico.Xperience.AspNetCore.WebApp": "13.0.115"
@@ -92,6 +93,7 @@
           }
         }
       },
+      "BuildBundlerMinifier2022/2.9.9": {},
       "DocumentFormat.OpenXml/2.19.0": {
         "dependencies": {
           "System.IO.Packaging": "4.7.0"
@@ -2312,6 +2314,13 @@
       "sha512": "sha512-X8Dd4sAggS84KScWIjEbFAdt2U1KDolQopTPoHVubG2y3CM54f9l6asVrP5Uy384NWXjsspPYaJgz5xHc+KvTA==",
       "path": "azure.core/1.25.0",
       "hashPath": "azure.core.1.25.0.nupkg.sha512"
+    },
+    "BuildBundlerMinifier2022/2.9.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Og58BG7SrUwHxu4S4uiKcrQ4XwlPqw88cmoWzX1cwZlKk9BCMiLNGXFBfn0H5FcaQV5sRAOEpP0Hq4gBouko0A==",
+      "path": "buildbundlerminifier2022/2.9.9",
+      "hashPath": "buildbundlerminifier2022.2.9.9.nupkg.sha512"
     },
     "DocumentFormat.OpenXml/2.19.0": {
       "type": "package",

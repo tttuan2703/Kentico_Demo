@@ -11,7 +11,7 @@ namespace CMS.DocumentEngine.Types.DancingGoatCore
         private readonly IPageRetriever pageRetriever;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="SiteDescriptionRepository"/> class that returns contact information.
+        /// Initializes a new instance of the <see cref="VideoBannerRepository"/> class that returns contact information.
         /// </summary>
         /// <param name="pageRetriever">Retriever for pages based on given parameters.</param>
         public SiteDescriptionRepository(IPageRetriever pageRetriever)
@@ -28,7 +28,7 @@ namespace CMS.DocumentEngine.Types.DancingGoatCore
                 query => query
                     .TopN(1),
                 cache => cache
-                    .Key($"{nameof(SiteDescriptionRepository)}|{nameof(GetSiteDescriptionContact)}"))
+                    .Key($"{nameof(VideoBannerRepository)}|{nameof(GetSiteDescriptionContact)}"))
                 .FirstOrDefault();
         }
     }

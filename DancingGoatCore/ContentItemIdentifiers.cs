@@ -20,5 +20,8 @@
         public const string ACCESSORIES = "/Store/Accessories";
         public const string FOOTER_NAVIGATION = "/Footer/Navigation";
         public const string LANDINGPAGE_COFFEESAMPLES = "/Landing-pages/Coffee-samples";
+
+        public const string MININGDOZERS = "/Store/MiningDozers";
+
     }
 }
