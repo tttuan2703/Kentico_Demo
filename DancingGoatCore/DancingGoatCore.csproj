@@ -16,12 +16,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Remove="Models\Dozers\**" />
-    <Content Remove="Models\Dozers\**" />
-    <EmbeddedResource Remove="Models\Dozers\**" />
-    <None Remove="Models\Dozers\**" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Remove="bundleconfig.json" />
   </ItemGroup>
   <ItemGroup>

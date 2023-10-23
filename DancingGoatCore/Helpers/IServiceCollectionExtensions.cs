@@ -1,6 +1,9 @@
 ﻿using CMS.DocumentEngine.Types.DancingGoatCore;
 using DancingGoat.Infrastructure;
 using DancingGoat.Models;
+using DancingGoat.Models.Crushings;
+using DancingGoat.Models.Dozers;
+using DancingGoat.Models.Excavators;
 using DancingGoat.PageTemplates;
 using DancingGoat.Services;
 
@@ -33,6 +36,9 @@ namespace DancingGoat
             services.AddSingleton<SocialLinkRepository>();
             services.AddSingleton<BrewerRepository>();
             services.AddSingleton<CoffeeRepository>();
+            services.AddSingleton<DozerRepository>();
+            services.AddSingleton<CrushingRepository>();
+            services.AddSingleton<ExcavatorRepository>();
             services.AddSingleton<ManufacturerRepository>();
             services.AddSingleton<PublicStatusRepository>();
             services.AddSingleton<ProductRepository>();

@@ -22,6 +22,9 @@ using Microsoft.Extensions.Localization;
 [assembly: RegisterPageRoute(Tableware.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.Detail))]
 [assembly: RegisterPageRoute(ManualGrinder.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.Detail))]
 [assembly: RegisterPageRoute(ElectricGrinder.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.Detail))]
+[assembly: RegisterPageRoute(Dozer.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.DozerDetail))]
+[assembly: RegisterPageRoute(Excavator.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.ExcavatorDetail))]
+[assembly: RegisterPageRoute(Crushing.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.CrushingDetail))]
 
 namespace DancingGoat.Controllers
 {
@@ -51,6 +54,82 @@ namespace DancingGoat.Controllers
         public ActionResult Detail()
         {
             var product = dataRetriever.Retrieve<SKUTreeNode>().Page;
+            var sku = product.SKU;
+
+            // If a product is not found or not allowed for sale, redirect to 404
+            if (!sku?.SKUEnabled ?? true)
+            {
+                return NotFound();
+            }
+
+            // all variants are disabled, redirect to 404
+            var variants = variantRepository.GetByProductId(product.NodeSKUID);
+            var variantCount = variants.Count();
+
+            if (variantCount > 0 && variantCount == variants.Count(i => !i.Variant.SKUEnabled))
+            {
+                return NotFound();
+            }
+
+            var viewModel = PrepareProductDetailViewModel(product);
+
+            return View(viewModel);
+        }
+
+
+        public ActionResult DozerDetail()
+        {
+            var product = dataRetriever.Retrieve<Dozer>().Page;
+            var sku = product.SKU;
+
+            // If a product is not found or not allowed for sale, redirect to 404
+            if (!sku?.SKUEnabled ?? true)
+            {
+                return NotFound();
+            }
+
+            // all variants are disabled, redirect to 404
+            var variants = variantRepository.GetByProductId(product.NodeSKUID);
+            var variantCount = variants.Count();
+
+            if (variantCount > 0 && variantCount == variants.Count(i => !i.Variant.SKUEnabled))
+            {
+                return NotFound();
+            }
+
+            var viewModel = PrepareProductDetailViewModel(product);
+
+            return View(viewModel);
+        }
+
+        public ActionResult ExcavatorDetail()
+        {
+            var product = dataRetriever.Retrieve<Excavator>().Page;
+            var sku = product.SKU;
+
+            // If a product is not found or not allowed for sale, redirect to 404
+            if (!sku?.SKUEnabled ?? true)
+            {
+                return NotFound();
+            }
+
+            // all variants are disabled, redirect to 404
+            var variants = variantRepository.GetByProductId(product.NodeSKUID);
+            var variantCount = variants.Count();
+
+            if (variantCount > 0 && variantCount == variants.Count(i => !i.Variant.SKUEnabled))
+            {
+                return NotFound();
+            }
+
+            var viewModel = PrepareProductDetailViewModel(product);
+
+            return View(viewModel);
+        }
+
+        public ActionResult CrushingDetail()
+        {
+            var product = dataRetriever.Retrieve<Crushing>().Page;
             var sku = product.SKU;
 
             // If a product is not found or not allowed for sale, redirect to 404
@@ -150,6 +229,66 @@ namespace DancingGoat.Controllers
             var viewModel = (cheapestVariant != null)
                 ? new ProductViewModel(product, price, typedProduct, cheapestVariant, variantCategories)
                 : new ProductViewModel(product, price, typedProduct);
+            return viewModel;
+        }
+
+        private ProductViewModel PrepareProductDetailViewModel(Dozer dozer)
+        {
+            var sku = dozer.SKU;
+
+            var cheapestVariant = GetCheapestVariant(dozer);
+            var variantCategories = PrepareProductOptionCategoryViewModels(sku, cheapestVariant);
+
+            // Calculate the price of the product or selected variant
+            var cheapestProduct = cheapestVariant != null ? cheapestVariant.Variant : sku;
+            var price = calculationService.CalculatePrice(cheapestProduct);
+
+            // Create a strongly typed view model with product type specific information
+            var typedProduct = typedProductViewModelFactory.GetViewModel(dozer);
+
+            var viewModel = (cheapestVariant != null)
+                ? new ProductViewModel(dozer, price, typedProduct, cheapestVariant, variantCategories)
+                : new ProductViewModel(dozer, price, typedProduct);
+            return viewModel;
+        }
+
+        private ProductViewModel PrepareProductDetailViewModel(Excavator excavator)
+        {
+            var sku = excavator.SKU;
+
+            var cheapestVariant = GetCheapestVariant(excavator);
+            var variantCategories = PrepareProductOptionCategoryViewModels(sku, cheapestVariant);
+
+            // Calculate the price of the product or selected variant
+            var cheapestProduct = cheapestVariant != null ? cheapestVariant.Variant : sku;
+            var price = calculationService.CalculatePrice(cheapestProduct);
+
+            // Create a strongly typed view model with product type specific information
+            var typedProduct = typedProductViewModelFactory.GetViewModel(excavator);
+
+            var viewModel = (cheapestVariant != null)
+                ? new ProductViewModel(excavator, price, typedProduct, cheapestVariant, variantCategories)
+                : new ProductViewModel(excavator, price, typedProduct);
+            return viewModel;
+        }
+
+        private ProductViewModel PrepareProductDetailViewModel(Crushing crushing)
+        {
+            var sku = crushing.SKU;
+
+            var cheapestVariant = GetCheapestVariant(crushing);
+            var variantCategories = PrepareProductOptionCategoryViewModels(sku, cheapestVariant);
+
+            // Calculate the price of the product or selected variant
+            var cheapestProduct = cheapestVariant != null ? cheapestVariant.Variant : sku;
+            var price = calculationService.CalculatePrice(cheapestProduct);
+
+            // Create a strongly typed view model with product type specific information
+            var typedProduct = typedProductViewModelFactory.GetViewModel(crushing);
+
+            var viewModel = (cheapestVariant != null)
+                ? new ProductViewModel(crushing, price, typedProduct, cheapestVariant, variantCategories)
+                : new ProductViewModel(crushing, price, typedProduct);
             return viewModel;
         }
 

@@ -7,5 +7,9 @@ namespace DancingGoat.Models
         public IRepositoryFilter Filter { get; set; }
 
         public IEnumerable<ProductListItemViewModel> Items { get; set; }
+
+        public int PageSelected { get; set; }
+
+        public int Paginations { get; set; }
     }
 }

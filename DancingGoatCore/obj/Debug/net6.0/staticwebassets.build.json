@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LtCisIg9IoVVeEV1SGsfCgA0piud5iPhlDdgNoqrXE4=",
+  "Hash": "x4QzOGWxkyYV9EVqIh6DAPQSTk0VVOjugbx8VlD26E8=",
   "Source": "DancingGoatCore",
   "BasePath": "_content/DancingGoatCore",
   "Mode": "Default",
@@ -1326,6 +1326,23 @@
       "OriginalItemSpec": "wwwroot\\Content\\Images\\our-story.jpg"
     },
     {
+      "Identity": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\PC2000_IMG_0193 (1).jpeg",
+      "SourceId": "DancingGoatCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\",
+      "BasePath": "_content/DancingGoatCore",
+      "RelativePath": "Content/Images/PC2000_IMG_0193 (1).jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\Images\\PC2000_IMG_0193 (1).jpeg"
+    },
+    {
       "Identity": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\plant-1.png",
       "SourceId": "DancingGoatCore",
       "SourceType": "Discovered",
@@ -1392,6 +1409,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Content\\Images\\plant-4.png"
+    },
+    {
+      "Identity": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Images\\Truck_HD1500_literature link_3K1A3095[34].jpeg",
+      "SourceId": "DancingGoatCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\",
+      "BasePath": "_content/DancingGoatCore",
+      "RelativePath": "Content/Images/Truck_HD1500_literature link_3K1A3095[34].jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\Images\\Truck_HD1500_literature link_3K1A3095[34].jpeg"
     },
     {
       "Identity": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Personalization\\ConditionTypes\\IsInPersona.css",

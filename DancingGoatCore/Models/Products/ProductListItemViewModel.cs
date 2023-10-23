@@ -35,7 +35,19 @@ namespace DancingGoat.Models
         public string ShortDescription { get; set; }
 
 
-        public ProductListItemViewModel(SKUTreeNode productPage, ProductCatalogPrices priceDetail, string publicStatusName, IPageUrlRetriever pageUrlRetriever)
+        public string Horsepower { get; set; }
+
+
+        public string OperatingWeight { get; set; }
+
+
+        public string BladeCapacity { get; set; }
+
+
+        public ProductListItemViewModel(SKUTreeNode productPage, ProductCatalogPrices priceDetail,
+            string publicStatusName, IPageUrlRetriever pageUrlRetriever,
+            string horsepower = null, string operatingWeight = null,
+            string bladeCapacity = null)
         {
             // Set page information
             Name = productPage.DocumentName;
@@ -49,6 +61,9 @@ namespace DancingGoat.Models
             // Set additional info
             PriceDetail = priceDetail;
             ShortDescription = productPage.DocumentSKUShortDescription;
+            Horsepower = horsepower;
+            OperatingWeight = operatingWeight;
+            BladeCapacity = bladeCapacity;
         }
     }
 }

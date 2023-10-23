@@ -3,11 +3,14 @@
 @{
     var price = Model.PriceDetail;
     var currency = price.Currency;
+
+    var horsepower = Model.Horsepower;
+    var operatingWeight = Model.OperatingWeight;
+    var bladeCapacity = Model.BladeCapacity;
 }
 
 <article class="product-tile">
     <a href="@Model.Url">
-        <h1 class="product-heading">@Model.Name</h1>
         @if (!string.IsNullOrEmpty(Model.PublicStatusName))
         {
             <span class="product-tile-status">
@@ -25,6 +28,7 @@
             }
         </figure>
         <div class="product-tile-info">
+            <span class="h4">@Model.Name</span><br />
             <span class="product-tile-price">
                 @string.Format(currency.CurrencyFormatString, price.Price)
             </span>
@@ -34,6 +38,26 @@
                     @string.Format(currency.CurrencyFormatString, price.ListPrice)
                 </span>
             }
+            <ul class="product-info-group">
+                @if (!string.IsNullOrEmpty(horsepower))
+                {
+                    <li>
+                        <span>Horsepower: <mp> @horsepower</span>
+                    </li>
+                }
+                @if (!string.IsNullOrEmpty(operatingWeight))
+                {
+                    <li>
+                        <span>Operating Weight: <mp> @operatingWeight</span>
+                    </li>
+                }
+                @if (!string.IsNullOrEmpty(bladeCapacity    ))
+                {
+                    <li>
+                        <span>Blade Capacity: <mp> @bladeCapacity</span>
+                    </li>
+                }
+            </ul>
         </div>
     </a>
 </article>

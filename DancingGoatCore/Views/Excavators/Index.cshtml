@@ -1,0 +1,50 @@
+﻿@using DancingGoat.Models
+@model ProductListViewModel
+
+@{
+    Layout = "~/Views/Shared/_StoreLayout.cshtml";
+    ViewData["PageClass"] = "inverted";
+    var urlPagingLoad = @Url.Kentico().PageUrl(ContentItemIdentifiers.EXCAVATORS);
+}
+
+<div class="product-page row">
+    <div class="flex">
+       @* <aside class="col-md-4 col-lg-3 product-filter">
+            <form asp-controller="Dozers" asp-action="Filter">
+                <partial name="DozerFilter" model="Model.Filter" />
+            </form>
+        </aside>*@
+
+        <div id="product-list" class="col-md-12 col-lg-12 product-list komatsu-product-list">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <h2>Excavators</h2>
+                    <p>How do you get more efficiency from an excavator? With fast cycle times, effortless multifunction motions, precise bucket movements, exceptional lifting capabilities and quality you can count on. Available options with innovative integrated advanced automation technology – Intelligent Machine Control.</p>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <img class="img-category" src="~/Content/Images/PC2000_IMG_0193 (1).jpeg" />
+                </div>
+            </div>
+            <partial name="ExcavatorList" model="Model.Items" />
+        </div>
+    </div>
+    <div class="paginations">
+        @for (var i = 1; i <= Model.Paginations; i++)
+        {
+            var selectedStr = "";
+            if (i == Model.PageSelected)
+            {
+                selectedStr = "selected";
+            }
+            <a href="@urlPagingLoad?page=@i" class="btn btn-paginations" @selectedStr>@i</a>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Scripts/formAutoPost.js"></script>
+
+    <script>
+        $(".js-postback input:checkbox").formAutoPost({ targetContainerSelector: "#product-list" });
+    </script>
+}

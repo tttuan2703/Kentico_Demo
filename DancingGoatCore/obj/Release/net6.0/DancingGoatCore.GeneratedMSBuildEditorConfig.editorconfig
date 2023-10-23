@@ -324,6 +324,38 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXF9Db3Vwb25Db2RlRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Dozers/DozerFilter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG96ZXJzXERvemVyRmlsdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Dozers/DozerList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG96ZXJzXERvemVyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Dozers/EditorTemplates/DozerProductFilter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG96ZXJzXEVkaXRvclRlbXBsYXRlc1xEb3plclByb2R1Y3RGaWx0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Dozers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG96ZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Excavators/EditorTemplates/ExcavatorProductFilter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjYXZhdG9yc1xFZGl0b3JUZW1wbGF0ZXNcRXhjYXZhdG9yUHJvZHVjdEZpbHRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Excavators/ExcavatorFilter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjYXZhdG9yc1xFeGNhdmF0b3JGaWx0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Excavators/ExcavatorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjYXZhdG9yc1xFeGNhdmF0b3JMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Excavators/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjYXZhdG9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Generator/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhdG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -364,22 +396,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/MiningDozers/EditorTemplates/ConstructionProductFilter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWluaW5nRG96ZXJzXEVkaXRvclRlbXBsYXRlc1xDb25zdHJ1Y3Rpb25Qcm9kdWN0RmlsdGVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/MiningDozers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWluaW5nRG96ZXJzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/MiningDozers/MiningDozerFilter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWluaW5nRG96ZXJzXE1pbmluZ0RvemVyRmlsdGVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/MiningDozers/MiningDozerList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWluaW5nRG96ZXJzXE1pbmluZ0RvemVyTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Orders/DisplayTemplates/OrderAddressViewModel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERpc3BsYXlUZW1wbGF0ZXNcT3JkZXJBZGRyZXNzVmlld01vZGVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -418,6 +434,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Product/EditorTemplates/ProductOptionCategoryViewModel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0b3JUZW1wbGF0ZXNcUHJvZHVjdE9wdGlvbkNhdGVnb3J5Vmlld01vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Product/KomatsuDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxLb21hdHN1RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Product/_PriceDetails.cshtml]

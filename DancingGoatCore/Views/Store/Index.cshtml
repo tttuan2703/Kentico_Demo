@@ -6,8 +6,49 @@
     Layout = "~/Views/Shared/_StoreLayout.cshtml";
     ViewData["PageClass"] = "inverted";
 }
-<h2>@HtmlLocalizer["Bestsellers"]</h2>
-<div class="product-page row">
+<h2>All Products</h2>
+<div class="hr"></div>
+<div class="grp-products">
+    <h3>@HtmlLocalizer["Dozers"]</h3>
+    <div class="product-page row">
+        <div class="product-list">
+            <partial name="_StoreProductList" model="Model.DozerProducts" />
+        </div>
+    </div>
+    <div class="row load-more-group">
+        <a class="load-more-link" href="@Url.Kentico().PageUrl(ContentItemIdentifiers.DOZERS)">Load more -></a>
+    </div>
+</div>
+<div class="hr"></div>
+
+<div class="grp-products">
+    <h3>@HtmlLocalizer["ExcavatorProducts"]</h3>
+    <div class="product-page row">
+        <div class="product-list">
+            <partial name="_StoreProductList" model="Model.ExcavatorProducts" />
+        </div>
+    </div>
+    <div class="row load-more-group">
+        <a href="@Url.Kentico().PageUrl(ContentItemIdentifiers.EXCAVATORS)">Load more -></a>
+    </div>
+</div>
+<div class="hr"></div>
+
+<div class="grp-products">
+    <h3>@HtmlLocalizer["Crushings"]</h3>
+    <div class="product-page row">
+        <div class="product-list">
+            <partial name="_StoreProductList" model="Model.CrushingProducts" />
+        </div>
+    </div>
+    <div class="row load-more-group">
+        <a href="@Url.Kentico().PageUrl(ContentItemIdentifiers.CRUSHINGS)">Load more -></a>
+    </div>
+</div>
+
+
+@*<h2>@HtmlLocalizer["Bestsellers"]</h2>
+    <div class="product-page row">
     <div class="product-list">
         <partial name="_StoreProductList" model="Model.FeaturedProducts" />
     </div>
@@ -23,4 +64,4 @@
 <h2>@HtmlLocalizer["Manufacturers"]</h2>
 <div class="product-page row">
     <partial name="_ManufacturerList" model="Model.Manufacturers" />
-</div>
+</div>*@

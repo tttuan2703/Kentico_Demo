@@ -21,7 +21,9 @@
         public const string FOOTER_NAVIGATION = "/Footer/Navigation";
         public const string LANDINGPAGE_COFFEESAMPLES = "/Landing-pages/Coffee-samples";
 
-        public const string MININGDOZERS = "/Store/MiningDozers";
+        public const string DOZERS = "/Store/Dozers";
+        public const string EXCAVATORS = "/Store/Excavators";
+        public const string CRUSHINGS = "/Store/Crushings";
 
     }
 }
