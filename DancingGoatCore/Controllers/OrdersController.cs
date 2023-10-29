@@ -60,34 +60,19 @@ namespace DancingGoat.Controllers
                 return RedirectToAction("Index");
             }
 
+            // Validate other repository
             var order = orderRepository.GetById(orderID.Value);
-
             if ((order == null) || (order.OrderCustomerID != CurrentCustomer?.CustomerID))
             {
                 return RedirectToAction("Error", "HttpErrors", new { code = (int)HttpStatusCode.NotFound });
             }
 
+            // prepare order detail
             var currency = currencyInfoProvider.Get(order.OrderCurrencyID);
+            var result = new OrderDetailViewModel(currency.CurrencyFormatString
+                , order, orderStatusInfoProvider, currencyInfoProvider, countryInfoProvider, stateInfoProvider);
 
-            return View(new OrderDetailViewModel(currency.CurrencyFormatString)
-            {
-                InvoiceNumber = order.OrderInvoiceNumber,
-                TotalPrice = order.OrderTotalPrice,
-                StatusName = orderStatusInfoProvider.Get(order.OrderStatusID)?.StatusDisplayName,
-                OrderAddress = new OrderAddressViewModel(order.OrderBillingAddress, countryInfoProvider, stateInfoProvider),
-                OrderItems = OrderItemInfoProvider.GetOrderItems(order.OrderID).Select(orderItem =>
-                {
-                    return new OrderItemViewModel
-                    {
-                        SKUID = orderItem.OrderItemSKUID,
-                        SKUName = orderItem.OrderItemSKUName,
-                        SKUImagePath = string.IsNullOrEmpty(orderItem.OrderItemSKU.SKUImagePath) ? null : new FileUrl(orderItem.OrderItemSKU.SKUImagePath, true).WithSizeConstraint(SizeConstraint.MaxWidthOrHeight(70)).RelativePath,
-                        TotalPriceInMainCurrency = orderItem.OrderItemTotalPriceInMainCurrency,
-                        UnitCount = orderItem.OrderItemUnitCount,
-                        UnitPrice = orderItem.OrderItemUnitPrice
-                    };
-                })
-            });
+            return View(result);
         }
     }
 }

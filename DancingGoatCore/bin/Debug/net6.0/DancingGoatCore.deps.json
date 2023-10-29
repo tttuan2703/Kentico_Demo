@@ -10,8 +10,8 @@
         "dependencies": {
           "BuildBundlerMinifier2022": "2.9.9",
           "Microsoft.Extensions.Logging.Debug": "3.1.8",
-          "Microsoft.jQuery.Unobtrusive.Ajax": "3.2.5",
-          "Kentico.Xperience.AspNetCore.WebApp": "13.0.115"
+          "Microsoft.jQuery.Unobtrusive.Ajax": "3.3.0",
+          "Kentico.Xperience.AspNetCore.WebApp": "13.0.128"
         },
         "runtime": {
           "DancingGoatCore.dll": {}
@@ -118,48 +118,48 @@
         }
       },
       "jQuery/1.8.0": {},
-      "Kentico.Xperience.AspNetCore.WebApp/13.0.115": {
+      "Kentico.Xperience.AspNetCore.WebApp/13.0.128": {
         "dependencies": {
           "HtmlSanitizer": "5.0.376",
-          "Kentico.Xperience.Libraries": "13.0.115",
+          "Kentico.Xperience.Libraries": "13.0.128",
           "Microsoft.Extensions.FileProviders.Embedded": "3.1.8",
           "Microsoft.Extensions.Localization": "3.1.8",
           "Microsoft.Extensions.Logging": "3.1.8",
-          "SkiaSharp": "2.88.3",
-          "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.3"
+          "SkiaSharp": "2.88.6",
+          "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.6"
         },
         "runtime": {
           "lib/net6.0/Kentico.Content.Web.Mvc.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/Kentico.Content.Web.Rcl.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/Kentico.Membership.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/Kentico.OnlineMarketing.Web.Mvc.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/Kentico.Web.Mvc.Proxies.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/Kentico.Web.Mvc.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/Kentico.Xperience.ImageProcessing.KX13.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           }
         }
       },
-      "Kentico.Xperience.Libraries/13.0.115": {
+      "Kentico.Xperience.Libraries/13.0.128": {
         "dependencies": {
           "AWSSDK.Core": "3.5.1.13",
           "AWSSDK.S3": "3.5.1.4",
@@ -213,207 +213,207 @@
         "runtime": {
           "lib/net6.0/CMS.Activities.Loggers.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Activities.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.AmazonStorage.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.AspNetCore.Platform.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Automation.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.AzureStorage.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Base.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.ComputerVision.Azure.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.ContactManagement.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.ContinuousIntegration.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Core.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.CustomTables.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.DataEngine.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.DataProtection.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.DocumentEngine.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Ecommerce.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.EmailEngine.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.EventLog.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.FormEngine.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Globalization.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Helpers.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.IO.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.ImportExport.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.LicenseProvider.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.MacroEngine.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.MediaLibrary.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Membership.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Modules.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Newsletters.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.OnlineForms.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.OnlineMarketing.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Personas.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Relationships.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Reporting.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.ResponsiveImages.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Routing.Web.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.SalesForce.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Scheduler.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Search.Azure.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Search.Lucene3.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Search.TextExtractors.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Search.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.SiteProvider.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Synchronization.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.SynchronizationEngine.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.Taxonomy.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.TextAnalytics.Azure.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.TranslationServices.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.WebAnalytics.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.WebFarmSync.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/CMS.WorkflowEngine.dll": {
             "assemblyVersion": "13.0.13.0",
-            "fileVersion": "13.0.115.21129"
+            "fileVersion": "13.0.128.3934"
           },
           "lib/net6.0/Lucene.Net.WordNet.SynExpand.dll": {
             "assemblyVersion": "2.0.0.1",
@@ -752,7 +752,7 @@
           }
         }
       },
-      "Microsoft.jQuery.Unobtrusive.Ajax/3.2.5": {
+      "Microsoft.jQuery.Unobtrusive.Ajax/3.3.0": {
         "dependencies": {
           "jQuery": "1.8.0"
         }
@@ -1228,21 +1228,21 @@
           }
         }
       },
-      "SkiaSharp/2.88.3": {
+      "SkiaSharp/2.88.6": {
         "dependencies": {
-          "SkiaSharp.NativeAssets.Win32": "2.88.3",
-          "SkiaSharp.NativeAssets.macOS": "2.88.3"
+          "SkiaSharp.NativeAssets.Win32": "2.88.6",
+          "SkiaSharp.NativeAssets.macOS": "2.88.6"
         },
         "runtime": {
           "lib/net6.0/SkiaSharp.dll": {
             "assemblyVersion": "2.88.0.0",
-            "fileVersion": "2.88.3.0"
+            "fileVersion": "2.88.6.0"
           }
         }
       },
-      "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.3": {
+      "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.6": {
         "dependencies": {
-          "SkiaSharp": "2.88.3"
+          "SkiaSharp": "2.88.6"
         },
         "runtimeTargets": {
           "runtimes/linux-arm/native/libSkiaSharp.so": {
@@ -1267,7 +1267,7 @@
           }
         }
       },
-      "SkiaSharp.NativeAssets.macOS/2.88.3": {
+      "SkiaSharp.NativeAssets.macOS/2.88.6": {
         "runtimeTargets": {
           "runtimes/osx/native/libSkiaSharp.dylib": {
             "rid": "osx",
@@ -1276,7 +1276,7 @@
           }
         }
       },
-      "SkiaSharp.NativeAssets.Win32/2.88.3": {
+      "SkiaSharp.NativeAssets.Win32/2.88.6": {
         "runtimeTargets": {
           "runtimes/win-arm64/native/libSkiaSharp.dll": {
             "rid": "win-arm64",
@@ -2343,19 +2343,19 @@
       "path": "jquery/1.8.0",
       "hashPath": "jquery.1.8.0.nupkg.sha512"
     },
-    "Kentico.Xperience.AspNetCore.WebApp/13.0.115": {
+    "Kentico.Xperience.AspNetCore.WebApp/13.0.128": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-w58D4YZFfMcDoCYyRdw14eTkhgH7a0FaM2c7cmLLlzAGdi1MNClH4tH0ZnfUOk0tbZQxiIs4yC2zoZIBl7p/eA==",
-      "path": "kentico.xperience.aspnetcore.webapp/13.0.115",
-      "hashPath": "kentico.xperience.aspnetcore.webapp.13.0.115.nupkg.sha512"
+      "sha512": "sha512-931whBrVJ0dJQRymfPU4EovlhDonmhuDaxdIQp0exkEERRSc3PghfrRmMZe3+F4WZ3ql1B/94GRb2hgPJL108w==",
+      "path": "kentico.xperience.aspnetcore.webapp/13.0.128",
+      "hashPath": "kentico.xperience.aspnetcore.webapp.13.0.128.nupkg.sha512"
     },
-    "Kentico.Xperience.Libraries/13.0.115": {
+    "Kentico.Xperience.Libraries/13.0.128": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vGcNqxa2MHX6V6NTkj3kNYARbB7s7dE8aaL26uByo8NbVsLAqfmmElq3drX5CYUjwxa6X0QxMnBmWjg38s+0+g==",
-      "path": "kentico.xperience.libraries/13.0.115",
-      "hashPath": "kentico.xperience.libraries.13.0.115.nupkg.sha512"
+      "sha512": "sha512-qoIr8qEbja0/W+z4TbQ9yM/HEfLpZ24wulN5luPdbeYs/ORw0QLYwx5PC49EORqRzBzXzkQgXhnpFHXmwb93vw==",
+      "path": "kentico.xperience.libraries/13.0.128",
+      "hashPath": "kentico.xperience.libraries.13.0.128.nupkg.sha512"
     },
     "MailKit/3.3.0": {
       "type": "package",
@@ -2630,12 +2630,12 @@
       "path": "microsoft.identitymodel.tokens/6.7.1",
       "hashPath": "microsoft.identitymodel.tokens.6.7.1.nupkg.sha512"
     },
-    "Microsoft.jQuery.Unobtrusive.Ajax/3.2.5": {
+    "Microsoft.jQuery.Unobtrusive.Ajax/3.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NBjWsx9UwnDbyFzZHQSi79VAWLzFwB3kdmd2OMg7xvSemQoM1KK5Pu2AisyGucC22igqjlPQZiv2c82Agzlsuw==",
-      "path": "microsoft.jquery.unobtrusive.ajax/3.2.5",
-      "hashPath": "microsoft.jquery.unobtrusive.ajax.3.2.5.nupkg.sha512"
+      "sha512": "sha512-tRfDka86XMRCFi/Ab7/9ptDsaezGA6ObRHBq6lYd0GBVtk6vySCk61REvmYTQuWcb7v0evBAD6zyAPbMbgeLzg==",
+      "path": "microsoft.jquery.unobtrusive.ajax/3.3.0",
+      "hashPath": "microsoft.jquery.unobtrusive.ajax.3.3.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
@@ -2917,33 +2917,33 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
     },
-    "SkiaSharp/2.88.3": {
+    "SkiaSharp/2.88.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GG8X3EdfwyBfwjl639UIiOVOKEdeoqDgYrz0P1MUCnefXt9cofN+AK8YB/v1+5cLMr03ieWCQdDmPqnFIzSxZw==",
-      "path": "skiasharp/2.88.3",
-      "hashPath": "skiasharp.2.88.3.nupkg.sha512"
+      "sha512": "sha512-wdfeBAQrEQCbJIRgAiargzP1Uy+0grZiG4CSgBnhAgcJTsPzlifIaO73JRdwIlT3TyBoeU9jEqzwFUhl4hTYnQ==",
+      "path": "skiasharp/2.88.6",
+      "hashPath": "skiasharp.2.88.6.nupkg.sha512"
     },
-    "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.3": {
+    "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jBDBOw1Xwqi+1fRRDLNhBwiREvYMDM1N+A2FvjJ7F1Bg37PFrQIKOfYpf7RKD6vvMzS2oTvSQMC7RN1rfKbMrg==",
-      "path": "skiasharp.nativeassets.linux.nodependencies/2.88.3",
-      "hashPath": "skiasharp.nativeassets.linux.nodependencies.2.88.3.nupkg.sha512"
+      "sha512": "sha512-ecgMclPor+X1wi2dZSVDo1sV2Dm8gwEKNRtS+qiE9qfnQzGHbYWlbTBWalnZBaIl3BLC21b1QO8gMgabhSAh+g==",
+      "path": "skiasharp.nativeassets.linux.nodependencies/2.88.6",
+      "hashPath": "skiasharp.nativeassets.linux.nodependencies.2.88.6.nupkg.sha512"
     },
-    "SkiaSharp.NativeAssets.macOS/2.88.3": {
+    "SkiaSharp.NativeAssets.macOS/2.88.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CEbWAXMGFkPV3S1snBKK7jEG3+xud/9kmSAhu0BEUKKtlMdxx+Qal0U9bntQREM9QpqP5xLWZooodi8IlV8MEg==",
-      "path": "skiasharp.nativeassets.macos/2.88.3",
-      "hashPath": "skiasharp.nativeassets.macos.2.88.3.nupkg.sha512"
+      "sha512": "sha512-Sko9LFxRXSjb3OGh5/RxrVRXxYo48tr5NKuuSy6jB85GrYt8WRqVY1iLOLwtjPiVAt4cp+pyD4i30azanS64dw==",
+      "path": "skiasharp.nativeassets.macos/2.88.6",
+      "hashPath": "skiasharp.nativeassets.macos.2.88.6.nupkg.sha512"
     },
-    "SkiaSharp.NativeAssets.Win32/2.88.3": {
+    "SkiaSharp.NativeAssets.Win32/2.88.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MU4ASL8VAbTv5vSw1PoiWjjjpjtGhWtFYuJnrN4sNHFCePb2ohQij9JhSdqLLxk7RpRtWPdV93fbA53Pt+J0yw==",
-      "path": "skiasharp.nativeassets.win32/2.88.3",
-      "hashPath": "skiasharp.nativeassets.win32.2.88.3.nupkg.sha512"
+      "sha512": "sha512-7TzFO0u/g2MpQsTty4fyCDdMcfcWI+aLswwfnYXr3gtNS6VLKdMXPMeKpJa3pJSLnUBN6wD0JjuCe8OoLBQ6cQ==",
+      "path": "skiasharp.nativeassets.win32/2.88.6",
+      "hashPath": "skiasharp.nativeassets.win32.2.88.6.nupkg.sha512"
     },
     "System.Buffers/4.3.0": {
       "type": "package",

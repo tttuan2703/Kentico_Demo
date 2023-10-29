@@ -1,0 +1,57 @@
+﻿@model DancingGoat.Models.CustomerViewModel
+@{
+    var phoneNumber = string.IsNullOrEmpty(Model.PhoneNumber) ? "+84 182937" : Model.PhoneNumber;
+}
+
+<div class="row">
+    <div class="col-md-4 col-lg-4">
+        <span class="sp-title">FullName:</span>
+    </div>
+    <div class="col-md-8 col-lg-8">
+        <span>@Model.FirstName @Model.LastName</span>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4 col-lg-4">
+        <span class="sp-title">Your Email:</span>
+    </div>
+    <div class="col-md-8 col-lg-8">
+        <span>@Model.Email</span>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4 col-lg-4">
+        <span class="sp-title">Your Phone:</span>
+    </div>
+    <div class="col-md-8 col-lg-8">
+        <span>@phoneNumber</span>
+    </div>
+</div>
+@if (Model.IsCompanyAccount)
+{
+    <br />
+    <div class="row">
+        <div class="col-md-4 col-lg-4">
+            <span class="sp-title">Company Name:</span>
+        </div>
+        <div class="col-md-8 col-lg-8">
+            <span>@Model.Company</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-lg-4">
+            <span class="sp-title">Organization ID:</span>
+        </div>
+        <div class="col-md-8 col-lg-8">
+            <span>@Model.OrganizationID</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-lg-4">
+            <span class="sp-title">Tax Registration ID:</span>
+        </div>
+        <div class="col-md-8 col-lg-8">
+            <span>@Model.TaxRegistrationID</span>
+        </div>
+    </div>
+}

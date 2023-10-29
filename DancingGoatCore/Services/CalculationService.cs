@@ -9,7 +9,7 @@ namespace DancingGoat.Services
     /// </summary>
     public class CalculationService : ICalculationService
     {
-        private readonly IShoppingService mShoppingService;
+        private readonly CMS.Ecommerce.IShoppingService mShoppingService;
         private readonly ICatalogPriceCalculatorFactory mCatalogPriceCalculatorFactory;
 
         /// <summary>
@@ -17,7 +17,7 @@ namespace DancingGoat.Services
         /// </summary>
         /// <param name="shoppingService">Shopping service.</param>
         /// <param name="catalogPriceCalculatorFactory">Catalog price calculator factory.</param>
-        public CalculationService(IShoppingService shoppingService, ICatalogPriceCalculatorFactory catalogPriceCalculatorFactory)
+        public CalculationService(CMS.Ecommerce.IShoppingService shoppingService, ICatalogPriceCalculatorFactory catalogPriceCalculatorFactory)
         {
             mShoppingService = shoppingService;
             mCatalogPriceCalculatorFactory = catalogPriceCalculatorFactory;

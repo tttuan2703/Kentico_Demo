@@ -16,7 +16,7 @@ namespace DancingGoat.Services
     /// </summary>
     public class CheckoutService : ICheckoutService
     {
-        private readonly IShoppingService mShoppingService;
+        private readonly CMS.Ecommerce.IShoppingService mShoppingService;
         private readonly PaymentMethodRepository mPaymentMethodRepository;
         private readonly ShippingOptionRepository mShippingOptionRepository;
         private readonly CountryRepository mCountryRepository;
@@ -30,7 +30,7 @@ namespace DancingGoat.Services
         /// <param name="paymentMethodRepository">Payment method repository</param>
         /// <param name="shippingOptionRepository">Shipping option repository</param>
         /// <param name="countryRepository">Country repository</param>
-        public CheckoutService(IShoppingService shoppingService, CustomerAddressRepository addressRepository, PaymentMethodRepository paymentMethodRepository, ShippingOptionRepository shippingOptionRepository, CountryRepository countryRepository)
+        public CheckoutService(CMS.Ecommerce.IShoppingService shoppingService, CustomerAddressRepository addressRepository, PaymentMethodRepository paymentMethodRepository, ShippingOptionRepository shippingOptionRepository, CountryRepository countryRepository)
         {
             mShoppingService = shoppingService;
             mPaymentMethodRepository = paymentMethodRepository;

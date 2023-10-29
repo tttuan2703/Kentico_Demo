@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using CMS.Base;
+using CMS.DocumentEngine.Types.DancingGoatCore;
 using CMS.Membership;
 using CMS.Search;
 using CMS.WebAnalytics;
@@ -14,6 +15,7 @@ using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
+using static DancingGoat.Helpers.HttpRequestExtensions;
 
 namespace DancingGoat.Controllers
 {
@@ -42,7 +44,7 @@ namespace DancingGoat.Controllers
         // GET: Search
         public ActionResult Index(string searchText, int page = DEFAULT_PAGE_NUMBER)
         {
-            if (String.IsNullOrWhiteSpace(searchText))
+            if (string.IsNullOrWhiteSpace(searchText))
             {
                 var empty = new SearchResultsModel
                 {
@@ -67,7 +69,11 @@ namespace DancingGoat.Controllers
             analyticsLogger.LogInternalSearchKeywords(new AnalyticsData(siteId, searchText, culture: culture, uri: uri, hostAddress: hostAddress));
 
             var searchResultItemModels = searchResults.Items
-                .Select(searchItemViewModelFactory.GetTypedSearchResultItemModel);
+                .Select(searchItemViewModelFactory.GetTypedSearchResultItemModel)
+                .FilterKomatsuProduct();
+
+            //searchResults = searchResults.Items.Where(t => t.Data.Children.FirstOrDefault(m=>m.);
+            //searchResultItemModels.Where(t=>t.)
 
             var model = new SearchResultsModel
             {

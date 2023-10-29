@@ -1,5 +1,9 @@
-﻿using System;
+﻿using CMS.Ecommerce;
+using CMS.Globalization;
+using Kentico.Content.Web.Mvc;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace DancingGoat.Models
 {
@@ -19,7 +23,11 @@ namespace DancingGoat.Models
         public IEnumerable<OrderItemViewModel> OrderItems { get; set; }
 
 
-        public OrderDetailViewModel(string currencyFormatString)
+        public OrderDetailViewModel(string currencyFormatString, OrderInfo order,
+            IOrderStatusInfoProvider orderStatusInfoProvider,
+            ICurrencyInfoProvider currencyInfoProvider,
+            ICountryInfoProvider countryInfoProvider,
+            IStateInfoProvider stateInfoProvider)
         {
             if (string.IsNullOrEmpty(currencyFormatString))
             {
@@ -27,6 +35,25 @@ namespace DancingGoat.Models
             }
 
             this.currencyFormatString = currencyFormatString;
+
+            var currency = currencyInfoProvider.Get(order.OrderCurrencyID);
+
+            InvoiceNumber = order.OrderInvoiceNumber;
+            TotalPrice = order.OrderTotalPrice;
+            StatusName = orderStatusInfoProvider.Get(order.OrderStatusID)?.StatusDisplayName;
+            OrderAddress = new OrderAddressViewModel(order.OrderBillingAddress, countryInfoProvider, stateInfoProvider);
+            OrderItems = OrderItemInfoProvider.GetOrderItems(order.OrderID).Select(orderItem =>
+            {
+                return new OrderItemViewModel
+                {
+                    SKUID = orderItem.OrderItemSKUID,
+                    SKUName = orderItem.OrderItemSKUName,
+                    SKUImagePath = string.IsNullOrEmpty(orderItem.OrderItemSKU.SKUImagePath) ? null : new FileUrl(orderItem.OrderItemSKU.SKUImagePath, true).WithSizeConstraint(SizeConstraint.MaxWidthOrHeight(70)).RelativePath,
+                    TotalPriceInMainCurrency = orderItem.OrderItemTotalPriceInMainCurrency,
+                    UnitCount = orderItem.OrderItemUnitCount,
+                    UnitPrice = orderItem.OrderItemUnitPrice
+                };
+            });
         }
 
         public string FormatPrice(decimal price)

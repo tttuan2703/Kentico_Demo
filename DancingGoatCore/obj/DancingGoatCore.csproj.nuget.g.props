@@ -15,7 +15,7 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.fileproviders.embedded\3.1.8\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.fileproviders.embedded\3.1.8\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.props')" />
-    <Import Project="$(NuGetPackageRoot)kentico.xperience.aspnetcore.webapp\13.0.115\buildTransitive\Kentico.Xperience.AspNetCore.WebApp.props" Condition="Exists('$(NuGetPackageRoot)kentico.xperience.aspnetcore.webapp\13.0.115\buildTransitive\Kentico.Xperience.AspNetCore.WebApp.props')" />
+    <Import Project="$(NuGetPackageRoot)kentico.xperience.aspnetcore.webapp\13.0.128\buildTransitive\Kentico.Xperience.AspNetCore.WebApp.props" Condition="Exists('$(NuGetPackageRoot)kentico.xperience.aspnetcore.webapp\13.0.128\buildTransitive\Kentico.Xperience.AspNetCore.WebApp.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\tuan.tai\.nuget\packages\jquery\1.8.0</PkgjQuery>

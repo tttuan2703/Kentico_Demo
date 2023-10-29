@@ -10,5 +10,9 @@ namespace DancingGoat.Models
         [EmailAddress(ErrorMessage = "Please enter a valid email address")]
         [MaxLength(100, ErrorMessage = "Maximum allowed length of the input text is {1}")]
         public string Email { get; set; }
+
+
+        // Flag check true retrieve password
+        public bool IsSuccessfulRetrievePassword { get; set; }
     }
 }

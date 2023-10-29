@@ -1,0 +1,78 @@
+﻿@using System.Web
+@using DancingGoat.Constants;
+
+@model DancingGoat.Models.CartViewModel
+
+@{
+    ViewBag.Title = HtmlLocalizer["Shopping cart"].Value;
+    ViewData["PageClass"] = "inverted";
+}
+
+<div class="checkout-container">
+    <div class="cart">
+        <div class="continue-shopping-link">
+            <a href="@Url.Kentico().PageUrl(ContentItemIdentifiers.STORE)">&larr; @HtmlLocalizer["continue shopping"]</a>
+        </div>
+
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div asp-validation-summary="All" class="invalid-cart-content"></div>
+        }
+
+        <h2>@HtmlLocalizer["Your Cart"]</h2>
+        <div class="col-md-9 cart-content">
+            <div class="row">
+                <div class="col-md-4 col-lg-4">
+                    <p class="center-text h5">Product Name</p>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                    <p class="center-text h5">Total Price</p>
+                </div>
+                <div class="col-md-2 col-lg-2">
+                </div>
+                <div class="col-md-2 col-lg-2">
+                    <form asp-action="ShoppingCart" asp-controller="Shopping" method="post">
+                        <input type="submit" name="cartAction" value="@CartActionConstant.DELETE_ALL" class="btn-link" />
+                    </form>
+                </div>
+            </div>
+
+            <hr class="first-separator" />
+            @if (Model.IsEmpty)
+            {
+                <span>@HtmlLocalizer["Shopping cart is empty"]</span>
+                <hr class="last-separator" />
+            }
+            else
+            {
+                <partial name="_ShoppingCartContentEdit" />
+            }
+
+            @*@if (Model.RemainingAmountForFreeShipping > 0)
+            {
+            <section class="free-shipping-promotion">
+            <div>
+            <span>
+            @HtmlLocalizer["Spend {0} more and get free delivery today!", Model.FormatPrice(Model.RemainingAmountForFreeShipping)]
+            </span>
+            </div>
+            </section>
+            }*@
+        </div>
+        <div class="col-md-3">
+            <div class="cart-right-panel floating-box">
+                <div id="couponCode"></div>
+                <hr>
+
+                <form asp-action="ShoppingCartCheckout" asp-controller="Shopping" method="post">
+                    <p>@HtmlLocalizer["Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,"]</p>
+
+                    <partial name="_ShoppingCartTotals" />
+
+
+                    <input type="submit" value="@HtmlLocalizer["Pay Check"]" class="btn-primary checkout-button btn btn-default" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -142,16 +142,16 @@
       "jQuery/1.8.0": {
         "type": "package"
       },
-      "Kentico.Xperience.AspNetCore.WebApp/13.0.115": {
+      "Kentico.Xperience.AspNetCore.WebApp/13.0.128": {
         "type": "package",
         "dependencies": {
           "HtmlSanitizer": "5.0.376",
-          "Kentico.Xperience.Libraries": "[13.0.115]",
+          "Kentico.Xperience.Libraries": "[13.0.128]",
           "Microsoft.Extensions.FileProviders.Embedded": "3.1.8",
           "Microsoft.Extensions.Localization": "3.1.8",
           "Microsoft.Extensions.Logging": "3.1.8",
-          "SkiaSharp": "2.88.3",
-          "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.3"
+          "SkiaSharp": "2.88.6",
+          "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.6"
         },
         "compile": {
           "lib/net6.0/Kentico.Content.Web.Mvc.dll": {
@@ -206,7 +206,7 @@
           "buildMultiTargeting/Kentico.Xperience.AspNetCore.WebApp.props": {}
         }
       },
-      "Kentico.Xperience.Libraries/13.0.115": {
+      "Kentico.Xperience.Libraries/13.0.128": {
         "type": "package",
         "dependencies": {
           "AWSSDK.Core": "3.5.1.13",
@@ -1222,7 +1222,7 @@
           }
         }
       },
-      "Microsoft.jQuery.Unobtrusive.Ajax/3.2.5": {
+      "Microsoft.jQuery.Unobtrusive.Ajax/3.3.0": {
         "type": "package",
         "dependencies": {
           "jQuery": "1.8.0"
@@ -1921,11 +1921,11 @@
           }
         }
       },
-      "SkiaSharp/2.88.3": {
+      "SkiaSharp/2.88.6": {
         "type": "package",
         "dependencies": {
-          "SkiaSharp.NativeAssets.Win32": "2.88.3",
-          "SkiaSharp.NativeAssets.macOS": "2.88.3"
+          "SkiaSharp.NativeAssets.Win32": "2.88.6",
+          "SkiaSharp.NativeAssets.macOS": "2.88.6"
         },
         "compile": {
           "lib/net6.0/SkiaSharp.dll": {
@@ -1938,16 +1938,16 @@
           }
         }
       },
-      "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.3": {
+      "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.6": {
         "type": "package",
         "dependencies": {
-          "SkiaSharp": "2.88.3"
+          "SkiaSharp": "2.88.6"
         },
         "compile": {
-          "lib/net5.0/_._": {}
+          "lib/net6.0/_._": {}
         },
         "runtime": {
-          "lib/net5.0/_._": {}
+          "lib/net6.0/_._": {}
         },
         "runtimeTargets": {
           "runtimes/linux-arm/native/libSkiaSharp.so": {
@@ -1968,13 +1968,13 @@
           }
         }
       },
-      "SkiaSharp.NativeAssets.macOS/2.88.3": {
+      "SkiaSharp.NativeAssets.macOS/2.88.6": {
         "type": "package",
         "compile": {
-          "lib/net5.0/_._": {}
+          "lib/net6.0/_._": {}
         },
         "runtime": {
-          "lib/net5.0/_._": {}
+          "lib/net6.0/_._": {}
         },
         "runtimeTargets": {
           "runtimes/osx/native/libSkiaSharp.dylib": {
@@ -1983,13 +1983,13 @@
           }
         }
       },
-      "SkiaSharp.NativeAssets.Win32/2.88.3": {
+      "SkiaSharp.NativeAssets.Win32/2.88.6": {
         "type": "package",
         "compile": {
-          "lib/net5.0/_._": {}
+          "lib/net6.0/_._": {}
         },
         "runtime": {
-          "lib/net5.0/_._": {}
+          "lib/net6.0/_._": {}
         },
         "runtimeTargets": {
           "runtimes/win-arm64/native/libSkiaSharp.dll": {
@@ -4005,10 +4005,10 @@
         "jquery.nuspec"
       ]
     },
-    "Kentico.Xperience.AspNetCore.WebApp/13.0.115": {
-      "sha512": "w58D4YZFfMcDoCYyRdw14eTkhgH7a0FaM2c7cmLLlzAGdi1MNClH4tH0ZnfUOk0tbZQxiIs4yC2zoZIBl7p/eA==",
+    "Kentico.Xperience.AspNetCore.WebApp/13.0.128": {
+      "sha512": "931whBrVJ0dJQRymfPU4EovlhDonmhuDaxdIQp0exkEERRSc3PghfrRmMZe3+F4WZ3ql1B/94GRb2hgPJL108w==",
       "type": "package",
-      "path": "kentico.xperience.aspnetcore.webapp/13.0.115",
+      "path": "kentico.xperience.aspnetcore.webapp/13.0.128",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4021,7 +4021,7 @@
         "buildMultiTargeting/Kentico.Xperience.AspNetCore.WebApp.props",
         "buildTransitive/Kentico.Content.Web.Rcl.props",
         "buildTransitive/Kentico.Xperience.AspNetCore.WebApp.props",
-        "kentico.xperience.aspnetcore.webapp.13.0.115.nupkg.sha512",
+        "kentico.xperience.aspnetcore.webapp.13.0.128.nupkg.sha512",
         "kentico.xperience.aspnetcore.webapp.nuspec",
         "lib/net6.0/Kentico.Content.Web.Mvc.dll",
         "lib/net6.0/Kentico.Content.Web.Mvc.xml",
@@ -4037,21 +4037,6 @@
         "lib/net6.0/Kentico.Web.Mvc.xml",
         "lib/net6.0/Kentico.Xperience.ImageProcessing.KX13.dll",
         "lib/net6.0/Kentico.Xperience.ImageProcessing.KX13.xml",
-        "lib/netcoreapp3.1/Kentico.Content.Web.Mvc.dll",
-        "lib/netcoreapp3.1/Kentico.Content.Web.Mvc.xml",
-        "lib/netcoreapp3.1/Kentico.Content.Web.Rcl.Views.dll",
-        "lib/netcoreapp3.1/Kentico.Content.Web.Rcl.dll",
-        "lib/netcoreapp3.1/Kentico.Content.Web.Rcl.xml",
-        "lib/netcoreapp3.1/Kentico.Membership.dll",
-        "lib/netcoreapp3.1/Kentico.Membership.xml",
-        "lib/netcoreapp3.1/Kentico.OnlineMarketing.Web.Mvc.dll",
-        "lib/netcoreapp3.1/Kentico.OnlineMarketing.Web.Mvc.xml",
-        "lib/netcoreapp3.1/Kentico.Web.Mvc.Proxies.dll",
-        "lib/netcoreapp3.1/Kentico.Web.Mvc.Proxies.xml",
-        "lib/netcoreapp3.1/Kentico.Web.Mvc.dll",
-        "lib/netcoreapp3.1/Kentico.Web.Mvc.xml",
-        "lib/netcoreapp3.1/Kentico.Xperience.ImageProcessing.KX13.dll",
-        "lib/netcoreapp3.1/Kentico.Xperience.ImageProcessing.KX13.xml",
         "staticwebassets/Content/Bundles/Admin/systemFormComponents.css",
         "staticwebassets/Content/Bundles/Admin/systemFormComponents.min.css",
         "staticwebassets/Content/Bundles/Admin/systemPageComponents.css",
@@ -4088,16 +4073,16 @@
         "staticwebassets/Scripts/jquery.unobtrusive-ajax.js"
       ]
     },
-    "Kentico.Xperience.Libraries/13.0.115": {
-      "sha512": "vGcNqxa2MHX6V6NTkj3kNYARbB7s7dE8aaL26uByo8NbVsLAqfmmElq3drX5CYUjwxa6X0QxMnBmWjg38s+0+g==",
+    "Kentico.Xperience.Libraries/13.0.128": {
+      "sha512": "qoIr8qEbja0/W+z4TbQ9yM/HEfLpZ24wulN5luPdbeYs/ORw0QLYwx5PC49EORqRzBzXzkQgXhnpFHXmwb93vw==",
       "type": "package",
-      "path": "kentico.xperience.libraries/13.0.115",
+      "path": "kentico.xperience.libraries/13.0.128",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LicenseAgreement.txt",
-        "kentico.xperience.libraries.13.0.115.nupkg.sha512",
+        "kentico.xperience.libraries.13.0.128.nupkg.sha512",
         "kentico.xperience.libraries.nuspec",
         "lib/net48/CMS.Activities.Loggers.dll",
         "lib/net48/CMS.Activities.Loggers.xml",
@@ -4315,111 +4300,6 @@
         "lib/net6.0/Lucene.Net.WordNet.SynExpand.dll",
         "lib/net6.0/Lucene.Net.v3.dll",
         "lib/net6.0/PDFClown.dll",
-        "lib/netcoreapp3.1/CMS.Activities.Loggers.dll",
-        "lib/netcoreapp3.1/CMS.Activities.Loggers.xml",
-        "lib/netcoreapp3.1/CMS.Activities.dll",
-        "lib/netcoreapp3.1/CMS.Activities.xml",
-        "lib/netcoreapp3.1/CMS.AmazonStorage.dll",
-        "lib/netcoreapp3.1/CMS.AmazonStorage.xml",
-        "lib/netcoreapp3.1/CMS.AspNetCore.Platform.dll",
-        "lib/netcoreapp3.1/CMS.AspNetCore.Platform.xml",
-        "lib/netcoreapp3.1/CMS.Automation.dll",
-        "lib/netcoreapp3.1/CMS.Automation.xml",
-        "lib/netcoreapp3.1/CMS.AzureStorage.dll",
-        "lib/netcoreapp3.1/CMS.AzureStorage.xml",
-        "lib/netcoreapp3.1/CMS.Base.dll",
-        "lib/netcoreapp3.1/CMS.Base.xml",
-        "lib/netcoreapp3.1/CMS.ComputerVision.Azure.dll",
-        "lib/netcoreapp3.1/CMS.ComputerVision.Azure.xml",
-        "lib/netcoreapp3.1/CMS.ContactManagement.dll",
-        "lib/netcoreapp3.1/CMS.ContactManagement.xml",
-        "lib/netcoreapp3.1/CMS.ContinuousIntegration.dll",
-        "lib/netcoreapp3.1/CMS.ContinuousIntegration.xml",
-        "lib/netcoreapp3.1/CMS.Core.dll",
-        "lib/netcoreapp3.1/CMS.Core.xml",
-        "lib/netcoreapp3.1/CMS.CustomTables.dll",
-        "lib/netcoreapp3.1/CMS.CustomTables.xml",
-        "lib/netcoreapp3.1/CMS.DataEngine.dll",
-        "lib/netcoreapp3.1/CMS.DataEngine.xml",
-        "lib/netcoreapp3.1/CMS.DataProtection.dll",
-        "lib/netcoreapp3.1/CMS.DataProtection.xml",
-        "lib/netcoreapp3.1/CMS.DocumentEngine.dll",
-        "lib/netcoreapp3.1/CMS.DocumentEngine.xml",
-        "lib/netcoreapp3.1/CMS.Ecommerce.dll",
-        "lib/netcoreapp3.1/CMS.Ecommerce.xml",
-        "lib/netcoreapp3.1/CMS.EmailEngine.dll",
-        "lib/netcoreapp3.1/CMS.EmailEngine.xml",
-        "lib/netcoreapp3.1/CMS.EventLog.dll",
-        "lib/netcoreapp3.1/CMS.EventLog.xml",
-        "lib/netcoreapp3.1/CMS.FormEngine.dll",
-        "lib/netcoreapp3.1/CMS.FormEngine.xml",
-        "lib/netcoreapp3.1/CMS.Globalization.dll",
-        "lib/netcoreapp3.1/CMS.Globalization.xml",
-        "lib/netcoreapp3.1/CMS.Helpers.dll",
-        "lib/netcoreapp3.1/CMS.Helpers.xml",
-        "lib/netcoreapp3.1/CMS.IO.dll",
-        "lib/netcoreapp3.1/CMS.IO.xml",
-        "lib/netcoreapp3.1/CMS.ImportExport.dll",
-        "lib/netcoreapp3.1/CMS.ImportExport.xml",
-        "lib/netcoreapp3.1/CMS.LicenseProvider.dll",
-        "lib/netcoreapp3.1/CMS.LicenseProvider.xml",
-        "lib/netcoreapp3.1/CMS.MacroEngine.dll",
-        "lib/netcoreapp3.1/CMS.MacroEngine.xml",
-        "lib/netcoreapp3.1/CMS.MediaLibrary.dll",
-        "lib/netcoreapp3.1/CMS.MediaLibrary.xml",
-        "lib/netcoreapp3.1/CMS.Membership.dll",
-        "lib/netcoreapp3.1/CMS.Membership.xml",
-        "lib/netcoreapp3.1/CMS.Modules.dll",
-        "lib/netcoreapp3.1/CMS.Modules.xml",
-        "lib/netcoreapp3.1/CMS.Newsletters.dll",
-        "lib/netcoreapp3.1/CMS.Newsletters.xml",
-        "lib/netcoreapp3.1/CMS.OnlineForms.dll",
-        "lib/netcoreapp3.1/CMS.OnlineForms.xml",
-        "lib/netcoreapp3.1/CMS.OnlineMarketing.dll",
-        "lib/netcoreapp3.1/CMS.OnlineMarketing.xml",
-        "lib/netcoreapp3.1/CMS.Personas.dll",
-        "lib/netcoreapp3.1/CMS.Personas.xml",
-        "lib/netcoreapp3.1/CMS.Relationships.dll",
-        "lib/netcoreapp3.1/CMS.Relationships.xml",
-        "lib/netcoreapp3.1/CMS.Reporting.dll",
-        "lib/netcoreapp3.1/CMS.Reporting.xml",
-        "lib/netcoreapp3.1/CMS.ResponsiveImages.dll",
-        "lib/netcoreapp3.1/CMS.ResponsiveImages.xml",
-        "lib/netcoreapp3.1/CMS.Routing.Web.dll",
-        "lib/netcoreapp3.1/CMS.Routing.Web.xml",
-        "lib/netcoreapp3.1/CMS.SalesForce.dll",
-        "lib/netcoreapp3.1/CMS.SalesForce.xml",
-        "lib/netcoreapp3.1/CMS.Scheduler.dll",
-        "lib/netcoreapp3.1/CMS.Scheduler.xml",
-        "lib/netcoreapp3.1/CMS.Search.Azure.dll",
-        "lib/netcoreapp3.1/CMS.Search.Azure.xml",
-        "lib/netcoreapp3.1/CMS.Search.Lucene3.dll",
-        "lib/netcoreapp3.1/CMS.Search.Lucene3.xml",
-        "lib/netcoreapp3.1/CMS.Search.TextExtractors.dll",
-        "lib/netcoreapp3.1/CMS.Search.TextExtractors.xml",
-        "lib/netcoreapp3.1/CMS.Search.dll",
-        "lib/netcoreapp3.1/CMS.Search.xml",
-        "lib/netcoreapp3.1/CMS.SiteProvider.dll",
-        "lib/netcoreapp3.1/CMS.SiteProvider.xml",
-        "lib/netcoreapp3.1/CMS.Synchronization.dll",
-        "lib/netcoreapp3.1/CMS.Synchronization.xml",
-        "lib/netcoreapp3.1/CMS.SynchronizationEngine.dll",
-        "lib/netcoreapp3.1/CMS.SynchronizationEngine.xml",
-        "lib/netcoreapp3.1/CMS.Taxonomy.dll",
-        "lib/netcoreapp3.1/CMS.Taxonomy.xml",
-        "lib/netcoreapp3.1/CMS.TextAnalytics.Azure.dll",
-        "lib/netcoreapp3.1/CMS.TextAnalytics.Azure.xml",
-        "lib/netcoreapp3.1/CMS.TranslationServices.dll",
-        "lib/netcoreapp3.1/CMS.TranslationServices.xml",
-        "lib/netcoreapp3.1/CMS.WebAnalytics.dll",
-        "lib/netcoreapp3.1/CMS.WebAnalytics.xml",
-        "lib/netcoreapp3.1/CMS.WebFarmSync.dll",
-        "lib/netcoreapp3.1/CMS.WebFarmSync.xml",
-        "lib/netcoreapp3.1/CMS.WorkflowEngine.dll",
-        "lib/netcoreapp3.1/CMS.WorkflowEngine.xml",
-        "lib/netcoreapp3.1/Lucene.Net.WordNet.SynExpand.dll",
-        "lib/netcoreapp3.1/Lucene.Net.v3.dll",
-        "lib/netcoreapp3.1/PDFClown.dll",
         "lib/netstandard2.0/CMS.Activities.Loggers.dll",
         "lib/netstandard2.0/CMS.Activities.Loggers.xml",
         "lib/netstandard2.0/CMS.Activities.dll",
@@ -5260,16 +5140,18 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.jQuery.Unobtrusive.Ajax/3.2.5": {
-      "sha512": "NBjWsx9UwnDbyFzZHQSi79VAWLzFwB3kdmd2OMg7xvSemQoM1KK5Pu2AisyGucC22igqjlPQZiv2c82Agzlsuw==",
+    "Microsoft.jQuery.Unobtrusive.Ajax/3.3.0": {
+      "sha512": "tRfDka86XMRCFi/Ab7/9ptDsaezGA6ObRHBq6lYd0GBVtk6vySCk61REvmYTQuWcb7v0evBAD6zyAPbMbgeLzg==",
       "type": "package",
-      "path": "microsoft.jquery.unobtrusive.ajax/3.2.5",
+      "path": "microsoft.jquery.unobtrusive.ajax/3.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Content/Scripts/jquery.unobtrusive-ajax.js",
         "Content/Scripts/jquery.unobtrusive-ajax.min.js",
-        "microsoft.jquery.unobtrusive.ajax.3.2.5.nupkg.sha512",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "microsoft.jquery.unobtrusive.ajax.3.3.0.nupkg.sha512",
         "microsoft.jquery.unobtrusive.ajax.nuspec"
       ]
     },
@@ -6210,10 +6092,10 @@
         "version.txt"
       ]
     },
-    "SkiaSharp/2.88.3": {
-      "sha512": "GG8X3EdfwyBfwjl639UIiOVOKEdeoqDgYrz0P1MUCnefXt9cofN+AK8YB/v1+5cLMr03ieWCQdDmPqnFIzSxZw==",
+    "SkiaSharp/2.88.6": {
+      "sha512": "wdfeBAQrEQCbJIRgAiargzP1Uy+0grZiG4CSgBnhAgcJTsPzlifIaO73JRdwIlT3TyBoeU9jEqzwFUhl4hTYnQ==",
       "type": "package",
-      "path": "skiasharp/2.88.3",
+      "path": "skiasharp/2.88.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6226,9 +6108,6 @@
         "lib/net462/SkiaSharp.dll",
         "lib/net462/SkiaSharp.pdb",
         "lib/net462/SkiaSharp.xml",
-        "lib/net5.0/SkiaSharp.dll",
-        "lib/net5.0/SkiaSharp.pdb",
-        "lib/net5.0/SkiaSharp.xml",
         "lib/net6.0-android30.0/SkiaSharp.dll",
         "lib/net6.0-android30.0/SkiaSharp.pdb",
         "lib/net6.0-android30.0/SkiaSharp.xml",
@@ -6283,14 +6162,14 @@
         "lib/xamarinwatchos1.0/SkiaSharp.dll",
         "lib/xamarinwatchos1.0/SkiaSharp.pdb",
         "lib/xamarinwatchos1.0/SkiaSharp.xml",
-        "skiasharp.2.88.3.nupkg.sha512",
+        "skiasharp.2.88.6.nupkg.sha512",
         "skiasharp.nuspec"
       ]
     },
-    "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.3": {
-      "sha512": "jBDBOw1Xwqi+1fRRDLNhBwiREvYMDM1N+A2FvjJ7F1Bg37PFrQIKOfYpf7RKD6vvMzS2oTvSQMC7RN1rfKbMrg==",
+    "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.6": {
+      "sha512": "ecgMclPor+X1wi2dZSVDo1sV2Dm8gwEKNRtS+qiE9qfnQzGHbYWlbTBWalnZBaIl3BLC21b1QO8gMgabhSAh+g==",
       "type": "package",
-      "path": "skiasharp.nativeassets.linux.nodependencies/2.88.3",
+      "path": "skiasharp.nativeassets.linux.nodependencies/2.88.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6299,21 +6178,21 @@
         "build/net462/SkiaSharp.NativeAssets.Linux.NoDependencies.targets",
         "buildTransitive/net462/SkiaSharp.NativeAssets.Linux.NoDependencies.targets",
         "lib/net462/_._",
-        "lib/net5.0/_._",
+        "lib/net6.0/_._",
         "lib/netcoreapp3.1/_._",
         "lib/netstandard1.3/_._",
         "runtimes/linux-arm/native/libSkiaSharp.so",
         "runtimes/linux-arm64/native/libSkiaSharp.so",
         "runtimes/linux-musl-x64/native/libSkiaSharp.so",
         "runtimes/linux-x64/native/libSkiaSharp.so",
-        "skiasharp.nativeassets.linux.nodependencies.2.88.3.nupkg.sha512",
+        "skiasharp.nativeassets.linux.nodependencies.2.88.6.nupkg.sha512",
         "skiasharp.nativeassets.linux.nodependencies.nuspec"
       ]
     },
-    "SkiaSharp.NativeAssets.macOS/2.88.3": {
-      "sha512": "CEbWAXMGFkPV3S1snBKK7jEG3+xud/9kmSAhu0BEUKKtlMdxx+Qal0U9bntQREM9QpqP5xLWZooodi8IlV8MEg==",
+    "SkiaSharp.NativeAssets.macOS/2.88.6": {
+      "sha512": "Sko9LFxRXSjb3OGh5/RxrVRXxYo48tr5NKuuSy6jB85GrYt8WRqVY1iLOLwtjPiVAt4cp+pyD4i30azanS64dw==",
       "type": "package",
-      "path": "skiasharp.nativeassets.macos/2.88.3",
+      "path": "skiasharp.nativeassets.macos/2.88.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6326,20 +6205,20 @@
         "buildTransitive/net6.0-macos10.15/SkiaSharp.NativeAssets.macOS.targets",
         "buildTransitive/xamarinmac2.0/SkiaSharp.NativeAssets.macOS.targets",
         "lib/net462/_._",
-        "lib/net5.0/_._",
         "lib/net6.0-macos10.15/_._",
+        "lib/net6.0/_._",
         "lib/netcoreapp3.1/_._",
         "lib/netstandard1.3/_._",
         "lib/xamarinmac2.0/_._",
         "runtimes/osx/native/libSkiaSharp.dylib",
-        "skiasharp.nativeassets.macos.2.88.3.nupkg.sha512",
+        "skiasharp.nativeassets.macos.2.88.6.nupkg.sha512",
         "skiasharp.nativeassets.macos.nuspec"
       ]
     },
-    "SkiaSharp.NativeAssets.Win32/2.88.3": {
-      "sha512": "MU4ASL8VAbTv5vSw1PoiWjjjpjtGhWtFYuJnrN4sNHFCePb2ohQij9JhSdqLLxk7RpRtWPdV93fbA53Pt+J0yw==",
+    "SkiaSharp.NativeAssets.Win32/2.88.6": {
+      "sha512": "7TzFO0u/g2MpQsTty4fyCDdMcfcWI+aLswwfnYXr3gtNS6VLKdMXPMeKpJa3pJSLnUBN6wD0JjuCe8OoLBQ6cQ==",
       "type": "package",
-      "path": "skiasharp.nativeassets.win32/2.88.3",
+      "path": "skiasharp.nativeassets.win32/2.88.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6348,13 +6227,13 @@
         "build/net462/SkiaSharp.NativeAssets.Win32.targets",
         "buildTransitive/net462/SkiaSharp.NativeAssets.Win32.targets",
         "lib/net462/_._",
-        "lib/net5.0/_._",
+        "lib/net6.0/_._",
         "lib/netcoreapp3.1/_._",
         "lib/netstandard1.3/_._",
         "runtimes/win-arm64/native/libSkiaSharp.dll",
         "runtimes/win-x64/native/libSkiaSharp.dll",
         "runtimes/win-x86/native/libSkiaSharp.dll",
-        "skiasharp.nativeassets.win32.2.88.3.nupkg.sha512",
+        "skiasharp.nativeassets.win32.2.88.6.nupkg.sha512",
         "skiasharp.nativeassets.win32.nuspec"
       ]
     },
@@ -10656,8 +10535,8 @@
     "net6.0": [
       "BuildBundlerMinifier2022 >= 2.9.9",
       "Microsoft.Extensions.Logging.Debug >= 3.1.8",
-      "Microsoft.jQuery.Unobtrusive.Ajax >= 3.2.5",
-      "kentico.xperience.aspnetcore.webapp >= 13.0.115"
+      "Microsoft.jQuery.Unobtrusive.Ajax >= 3.3.0",
+      "kentico.xperience.aspnetcore.webapp >= 13.0.128"
     ]
   },
   "packageFolders": {
@@ -10715,11 +10594,11 @@
           },
           "Microsoft.jQuery.Unobtrusive.Ajax": {
             "target": "Package",
-            "version": "[3.2.5, )"
+            "version": "[3.3.0, )"
           },
           "kentico.xperience.aspnetcore.webapp": {
             "target": "Package",
-            "version": "[13.0.115, )"
+            "version": "[13.0.128, )"
           }
         },
         "imports": [

@@ -1,7 +1,6 @@
 ﻿@model DancingGoat.Models.OrderAddressViewModel
 
-<div>@Model.AddressLine1</div>
-<div>@Model.AddressLine2</div>
-<div>@Model.AddressCity</div>
-<div>@Model.AddressPostalCode@(string.IsNullOrEmpty(Model.AddressState) ? string.Empty : ", " + Model.AddressState)</div>
-<div>@Model.AddressCountry</div>
+<h5>Address Line1: <span>@Model.AddressLine1</span></h5>
+<h5>Address City: <span>@Model.AddressCity</span></h5>
+<h5>Address PostalCode: <span>@Model.AddressPostalCode@(string.IsNullOrEmpty(Model.AddressState) ? string.Empty : ", " + Model.AddressState)</span></h5>
+<h5>Address Country: <span>@Model.AddressCountry</span></h5>

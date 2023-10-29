@@ -24,6 +24,7 @@
         public const string DOZERS = "/Store/Dozers";
         public const string EXCAVATORS = "/Store/Excavators";
         public const string CRUSHINGS = "/Store/Crushings";
+        public const string LOGIN = "/Account/Login";
 
     }
 }

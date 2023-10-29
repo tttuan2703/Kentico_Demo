@@ -1,0 +1,17 @@
+﻿@model DancingGoat.Models.ThankYouViewModel
+
+@{ 
+    ViewBag.Title = HtmlLocalizer["Thank You!"].Value;
+    ViewData["PageClass"] = "inverted no-bg";
+}
+
+<div class="col-md-9 col-lg-9">
+    <div class="thank-you-content">
+        <h2>@HtmlLocalizer["Thank You For Click!"]</h2>
+        <p class="h4">@HtmlLocalizer["Your order was successfully. Please contact us If you need to help, {0}.", Model.Phone]</p>
+
+        <div class="continue-shopping-link">
+            <a href="@Url.Kentico().PageUrl(ContentItemIdentifiers.STORE)">&rarr; @HtmlLocalizer["continue shopping"]</a>
+        </div>
+    </div>
+</div>

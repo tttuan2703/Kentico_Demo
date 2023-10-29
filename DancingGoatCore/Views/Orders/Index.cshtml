@@ -5,11 +5,12 @@
     ViewData["PageClass"] = "inverted no-bg";
 }
 
-<a asp-controller="Account" asp-action="YourAccount">&larr; @HtmlLocalizer["back to Your Account"]</a>
-
-<h2>@HtmlLocalizer["Your orders"]</h2>
-
+<div class="back-account-link">
+    <a asp-controller="Account" asp-action="YourAccount">&larr; @HtmlLocalizer["back to Your Account"]</a>
+</div>
 <div id="no-more-tables">
+
+    <h2 style="text-align:center">@HtmlLocalizer["Your orders"]</h2>
     <table class="orders-table">
         <thead>
             <tr>
@@ -17,23 +18,28 @@
                 <th class="column-date">@HtmlLocalizer["Order date"]</th>
                 <th class="column-status">@HtmlLocalizer["Status"]</th>
                 <th class="column-total">@HtmlLocalizer["Total"]</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
             @foreach (var order in Model)
             {
+                var dateOrder = order.OrderDate.ToString("dd/MM/yyyy");
+
                 <tr>
                     <td class="column-id">
                         <span class="strong">@order.OrderInvoiceNumber</span>
-                        <a asp-action="OrderDetail" asp-route-orderID="@order.OrderID" class="btn btn-terciary">@HtmlLocalizer["Order Detail"]</a>
                     </td>
-                    <td class="column-date">@order.OrderDate</td>
+                    <td class="column-date">@dateOrder</td>
                     <td class="column-status">
                         <span class="status">
                             @HtmlLocalizer[order.StatusName]
                         </span>
                     </td>
                     <td class="column-total">@order.FormattedTotalPrice</td>
+                    <td>
+                        <a asp-action="OrderDetail" asp-route-orderID="@order.OrderID" class="btn btn-terciary">@HtmlLocalizer["Order Detail"]</a>
+                    </td>
                 </tr>
             }
         </tbody>

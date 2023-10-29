@@ -73,8 +73,8 @@
                         <input type="hidden" id="selectedVariantID" name="SKUID" value="@(Model.SelectedVariantID > 0 ? Model.SelectedVariantID : Model.SKUID)" />
                         <input type="hidden" id="js-parent-product-id" name="ParentSKUID" value="@(Model.SKUID)" />
                         <label class="units-label">Qty</label>
-                        <input type="number" name="Units" value="1" class="add-to-cart-textbox" />
-                        <input type="submit" asp-controller="Checkout" asp-action="AddItem" id="js-submit-add-to-cart" value="Add to cart" class="btn btn-primary add-to-cart-button @(Model.AllowSale ? "" : "btn-disabled")" disabled="@(!Model.AllowSale)" />
+                        <input type="number" name="Units" value="1" class="add-to-cart-textbox" autocomplete="off" />
+                        <input type="submit" asp-controller="Shopping" asp-action="AddItem" id="js-submit-add-to-cart" value="Add to cart" class="btn btn-primary add-to-cart-button @(Model.AllowSale ? "" : "btn-disabled")" disabled="@(!Model.AllowSale)" />
                     </div>
                 </form>
             </div>

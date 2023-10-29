@@ -34,13 +34,13 @@ namespace DancingGoat.Controllers
         private readonly ICalculationService calculationService;
         private readonly VariantRepository variantRepository;
         private readonly TypedProductViewModelFactory typedProductViewModelFactory;
-        private readonly IShoppingService shoppingService;
+        private readonly CMS.Ecommerce.IShoppingService shoppingService;
         private readonly ISKUInfoProvider skuInfoProvider;
 
 
         public ProductController(IPageDataContextRetriever dataRetriever, ICalculationService calculationService, 
             VariantRepository variantRepository, TypedProductViewModelFactory typedProductViewModelFactory,
-            IShoppingService shoppingService, ISKUInfoProvider skuInfoProvider)
+            CMS.Ecommerce.IShoppingService shoppingService, ISKUInfoProvider skuInfoProvider)
         {
             this.dataRetriever = dataRetriever;
             this.calculationService = calculationService;

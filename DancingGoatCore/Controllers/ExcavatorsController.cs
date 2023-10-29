@@ -41,10 +41,8 @@ namespace DancingGoat.Controllers
             var pageCount = (double)items.Count() / pageSize;
             pageCount = pageCount % 2 == 0 ? (int)pageCount : (int)pageCount + 1;
 
-            var pageIndex = page ?? 1;
-            pageIndex = pageIndex == 1 ? pageIndex : (pageIndex - 1) * pageSize;
-
-            items = items.Skip(pageIndex).Take(pageSize);
+            var pageIndex = page == 0 ? page : (page - 1) * pageSize;
+            items = items.Skip((int)pageIndex).Take(pageSize);
 
             var filter = new ExcavatorFilterViewModel();
             filter.Load(localizer);

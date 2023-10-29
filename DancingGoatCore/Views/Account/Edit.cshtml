@@ -41,6 +41,17 @@
                     <span asp-validation-for="LastName"></span>
                 </div>
             </div>
+            <div class="form-group">
+                <div class="form-group-label">
+                    <label asp-for="PhoneNumber"></label>
+                </div>
+                <div class="form-group-input">
+                    <input asp-for="PhoneNumber" />
+                </div>
+                <div class="message message-error">
+                    <span asp-validation-for="PhoneNumber"></span>
+                </div>
+            </div>
             <input type="submit" value="@HtmlLocalizer["Update personal details"]" class="btn btn-primary" />
         </div>
     </form>

@@ -28,16 +28,24 @@
             <partial name="ExcavatorList" model="Model.Items" />
         </div>
     </div>
-    <div class="paginations">
-        @for (var i = 1; i <= Model.Paginations; i++)
-        {
-            var selectedStr = "";
-            if (i == Model.PageSelected)
+    <div class="pagination-container">
+        <ul class="pagination">
+            @for (var i = 1; i <= Model.Paginations; i++)
             {
-                selectedStr = "selected";
+                if (i == Model.PageSelected)
+                {
+                    <li class="active">
+                        <span>@i</span>
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <a href="@urlPagingLoad?page=@i">@i</a>
+                    </li>
+                }
             }
-            <a href="@urlPagingLoad?page=@i" class="btn btn-paginations" @selectedStr>@i</a>
-        }
+        </ul>
     </div>
 </div>
 

@@ -1,62 +1,54 @@
-﻿using System;
-using System.Net;
-using System.Threading.Tasks;
-
-using CMS.Activities.Loggers;
+﻿using CMS.Activities.Loggers;
 using CMS.Base;
 using CMS.Base.UploadExtensions;
 using CMS.ContactManagement;
 using CMS.Core;
 using CMS.Helpers;
 using CMS.Membership;
-
 using DancingGoat.Models;
-
 using Kentico.Content.Web.Mvc;
 using Kentico.Membership;
 using Kentico.Web.Mvc;
-
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
-
-using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
+using System;
+using System.Net;
+using System.Threading.Tasks;
 
 namespace DancingGoat.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly IMembershipActivityLogger membershipActivitiesLogger;
-        private readonly IStringLocalizer<SharedResources> localizer;
         private readonly IEventLogService eventLogService;
-        private readonly IAvatarService avatarService;
-        private readonly ApplicationUserManager<ApplicationUser> userManager;
         private readonly SignInManager<ApplicationUser> signInManager;
-        private readonly ISiteService siteService;
+        private readonly IStringLocalizer<SharedResources> localizer;
+        private readonly IMembershipActivityLogger membershipActivitiesLogger;
+        private readonly ApplicationUserManager<ApplicationUser> userManager;
         private readonly IMessageService emailService;
+        private readonly IAvatarService avatarService;
+        private readonly ISiteService siteService;
 
-
-        public AccountController(ApplicationUserManager<ApplicationUser> userManager,
-                                 SignInManager<ApplicationUser> signInManager,
-                                 IMessageService emailService,
-                                 ISiteService siteService,
-                                 IAvatarService avatarService,
-                                 IMembershipActivityLogger membershipActivitiesLogger,
-                                 IStringLocalizer<SharedResources> localizer,
-                                 IEventLogService eventLogService)
+        public AccountController(IEventLogService eventLogService,
+                                    SignInManager<ApplicationUser> signInManager,
+                                    IStringLocalizer<SharedResources> localizer,
+                                    IMembershipActivityLogger membershipActivitiesLogger,
+                                    ApplicationUserManager<ApplicationUser> userManager,
+                                    IMessageService emailService,
+                                    IAvatarService avatarService,
+                                    ISiteService siteService)
         {
-            this.userManager = userManager;
-            this.signInManager = signInManager;
-            this.emailService = emailService;
-            this.siteService = siteService;
-            this.avatarService = avatarService;
-            this.membershipActivitiesLogger = membershipActivitiesLogger;
-            this.localizer = localizer;
             this.eventLogService = eventLogService;
+            this.signInManager = signInManager;
+            this.localizer = localizer;
+            this.membershipActivitiesLogger = membershipActivitiesLogger;
+            this.userManager = userManager;
+            this.emailService = emailService;
+            this.avatarService = avatarService;
+            this.siteService = siteService;
         }
-
 
         // GET: Account/Login
         [HttpGet]
@@ -66,56 +58,50 @@ namespace DancingGoat.Controllers
             return View();
         }
 
-
         // POST: Account/Login
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
-
-            var signInResult = SignInResult.Failed;
-
             try
             {
-                signInResult = await signInManager.PasswordSignInAsync(model.UserName, model.Password, model.StaySignedIn, false);
+                if (!ModelState.IsValid)
+                {
+                    return View(model);
+                }
+
+                var signInResult = await signInManager.PasswordSignInAsync(model.UserName, model.Password, model.StaySignedIn, false);
+                if (!signInResult.Succeeded)
+                {
+                    var errMsg = "Your sign-in attempt was not successful. Please try again.";
+                    if (signInResult.IsNotAllowed)
+                    {
+                        errMsg = "Your account requires activation before logging in.";
+                    }
+
+                    ModelState.AddModelError(string.Empty, localizer[errMsg].ToString());
+                    return View(model);
+                }
             }
             catch (Exception ex)
             {
                 eventLogService.LogException("AccountController", "Login", ex);
+                ModelState.AddModelError(string.Empty, localizer[ex.Message].ToString());
+                return View(model);
             }
 
-            if (signInResult.Succeeded)
+            ContactManagementContext.UpdateUserLoginContact(model.UserName);
+            membershipActivitiesLogger.LogLogin(model.UserName);
+
+            var decodedReturnUrl = WebUtility.UrlDecode(returnUrl);
+            if (!string.IsNullOrEmpty(decodedReturnUrl) && Url.IsLocalUrl(decodedReturnUrl))
             {
-                ContactManagementContext.UpdateUserLoginContact(model.UserName);
-
-                membershipActivitiesLogger.LogLogin(model.UserName);
-
-                var decodedReturnUrl = WebUtility.UrlDecode(returnUrl);
-                if (!string.IsNullOrEmpty(decodedReturnUrl) && Url.IsLocalUrl(decodedReturnUrl))
-                {
-                    return Redirect(decodedReturnUrl);
-                }
-
-                return Redirect(Url.Kentico().PageUrl(ContentItemIdentifiers.HOME));
+                return Redirect(decodedReturnUrl);
             }
 
-            if (signInResult.IsNotAllowed)
-            {
-                ModelState.AddModelError(string.Empty, localizer["Your account requires activation before logging in."]);
-            }
-            else
-            {
-                ModelState.AddModelError(string.Empty, localizer["Your sign-in attempt was not successful. Please try again."].ToString());
-            }
-
-            return View(model);
+            return Redirect(Url.Kentico().PageUrl(ContentItemIdentifiers.HOME));
         }
-
 
         // POST: Account/Logout
         [Authorize]
@@ -127,194 +113,199 @@ namespace DancingGoat.Controllers
             return Redirect(Url.Kentico().PageUrl(ContentItemIdentifiers.HOME));
         }
 
-
         // GET: Account/Register
         public ActionResult Register()
         {
             return View();
         }
 
-
         // POST: Account/Register
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
-
-            var user = new ApplicationUser
-            {
-                UserName = model.UserName,
-                FirstName = model.FirstName,
-                LastName = model.LastName,
-                Email = model.UserName,
-                FullName = UserInfoProvider.GetFullName(model.FirstName, null, model.LastName),
-                Enabled = true
-            };
-
-            var registerResult = new IdentityResult();
-
             try
             {
-                registerResult = await userManager.CreateAsync(user, model.Password);
+                if (!ModelState.IsValid)
+                {
+                    return View(model);
+                }
+
+                var appUser = AppUserConstructor(model);
+                var registerResult = await userManager.CreateAsync(appUser, model.Password);
+
+                if (!registerResult.Succeeded)
+                {
+                    foreach (var error in registerResult.Errors)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
+
+                    return View(model);
+                }
+
+                membershipActivitiesLogger.LogRegistration(model.UserName);
+                model.IsSuccessfulRegistration = true;
+                return View(model);
             }
             catch (Exception ex)
             {
                 eventLogService.LogException("AccountController", "Register", ex);
                 ModelState.AddModelError(string.Empty, localizer["Your registration was not successful."]);
+                return View(model);
             }
-
-            if (registerResult.Succeeded)
-            {
-                membershipActivitiesLogger.LogRegistration(model.UserName);
-
-                var signInResult = await signInManager.PasswordSignInAsync(user, model.Password, true, false);
-
-                if (signInResult.Succeeded)
-                {
-                    ContactManagementContext.UpdateUserLoginContact(model.UserName);
-
-                    SendRegistrationSuccessfulEmail(user.Email);
-                    membershipActivitiesLogger.LogLogin(model.UserName);
-
-                    return Redirect(Url.Kentico().PageUrl(ContentItemIdentifiers.HOME));
-                }
-
-                if (signInResult.IsNotAllowed)
-                {
-                    if (user.WaitingForApproval)
-                    {
-                        SendWaitForApprovalEmail(user.Email);
-                    }
-
-                    return RedirectToAction(nameof(RequireConfirmedAccount));
-                }
-            }
-
-            foreach (var error in registerResult.Errors)
-            {
-                ModelState.AddModelError(string.Empty, error.Description);
-            }
-
-            return View(model);
         }
-
 
         // GET: Account/RetrievePassword
         public ActionResult RetrievePassword()
         {
-            bool isAjax = HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest";
-
-            if (isAjax)
-            {
-                return PartialView("_RetrievePassword");
-            }
-
-            return NotFound();
+            return View();
         }
-
 
         // POST: Account/RetrievePassword
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> RetrievePassword(RetrievePasswordViewModel model)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return PartialView("_RetrievePassword", model);
-            }
+                if (!ModelState.IsValid)
+                {
+                    return View(model);
+                }
 
-            var user = await userManager.FindByEmailAsync(model.Email);
-            if (user != null)
-            {
+                var user = await userManager.FindByEmailAsync(model.Email);
+                if (user == null)
+                {
+                    ModelState.AddModelError(string.Empty, localizer["Not found account!"].ToString());
+                    return View(model);
+                }
+
                 var token = await userManager.GeneratePasswordResetTokenAsync(user);
-                var url = Url.Action(nameof(ResetPassword), "Account", new { userId = user.Id, token }, RequestContext.URL.Scheme);
+                var url = Url.Action(nameof(ResetPassword),
+                                        "Account",
+                                        new { userId = user.Id, token },
+                                        RequestContext.URL.Scheme);
 
                 await emailService.SendEmailAsync(user.Email, localizer["Request for changing your password"],
-                    string.Format(localizer["You have submitted a request to change your password. " +
-                    "Please click <a href=\"{0}\">this link</a> to set a new password.<br/><br/> " +
-                    "If you did not submit the request please let us know."], url));
+                string.Format(localizer["You have submitted a request to change your password. " +
+                "Please click <a href=\"{0}\">this link</a> to set a new password.<br/><br/> " +
+                "If you did not submit the request please let us know."], url));
+
+                model.IsSuccessfulRetrievePassword = true;
+            }
+            catch (Exception ex)
+            {
+                eventLogService.LogException("AccountController", "RetrievePassword", ex);
+                ModelState.AddModelError(string.Empty, localizer[ex.Message].ToString());
             }
 
-            return Content(localizer["If the email address is known to us, we'll send a password recovery link in a few minutes."]);
-        }
+            return View(model);
+            // Get an instance of the IMessageService interface.
+            //var emailMessage = new EmailMessage
+            //{
+            //    Recipients = user.Email,
+            //    Subject = localizer["Request for changing your password"],
+            //    Body = string.Format(localizer["You have submitted a request to change your password. " +
+            //            "Please click <a href=\"{0}\">this link</a> to set a new password.<br/><br/> " +
+            //            "If you did not submit the request please let us know."], url)
+            //};
 
+            //EmailSender.SendEmail("DancingGoatCore", emailMessage, true);
+        }
 
         // GET: Account/ResetPassword
         [HttpGet]
         public async Task<ActionResult> ResetPassword(int userId, string token)
         {
-            if (string.IsNullOrEmpty(token))
+            var model = new ResetPasswordViewModel();
+            try
             {
-                return NotFound();
+                if (string.IsNullOrEmpty(token))
+                {
+                    return NotFound();
+                }
+
+                var user = await userManager.FindByIdAsync(userId.ToString());
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                model.UserId = user.Id;
+                model.Token = token;
             }
-
-            var user = await userManager.FindByIdAsync(userId.ToString());
-
-            if (user == null)
+            catch (Exception ex)
             {
-                return NotFound();
+                eventLogService.LogException("AccountController", "ResetPassword", ex);
+                ModelState.AddModelError(string.Empty, localizer[ex.Message].ToString());
             }
-
-            var model = new ResetPasswordViewModel()
-            {
-                UserId = user.Id,
-                Token = token
-            };
 
             return View(model);
         }
-
 
         // POST: Account/ResetPassword
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> ResetPassword(ResetPasswordViewModel model)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return View(model);
+                if (!ModelState.IsValid)
+                {
+                    return View(model);
+                }
+
+                var user = await userManager.FindByIdAsync(model.UserId.ToString());
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                var resetResult = await userManager.ResetPasswordAsync(user, model.Token, model.Password);
+                if (resetResult.Succeeded) // if successed
+                {
+                    return View("ResetPasswordSucceeded");
+                }
+
+                foreach (var error in resetResult.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
             }
-
-            var user = await userManager.FindByIdAsync(model.UserId.ToString());
-
-            if (user == null)
+            catch (Exception ex)
             {
-                return NotFound();
-            }
-
-            var resetResult = await userManager.ResetPasswordAsync(user, model.Token, model.Password);
-
-            if (resetResult.Succeeded)
-            {
-                return View("ResetPasswordSucceeded");
-            }
-
-            foreach (var error in resetResult.Errors)
-            {
-                ModelState.AddModelError(string.Empty, error.Description);
+                eventLogService.LogException("AccountController", "ResetPassword", ex);
+                ModelState.AddModelError(string.Empty, localizer[ex.Message].ToString());
             }
 
             return View(model);
         }
-
 
         // GET: Account/YourAccount
         [Authorize]
         public async Task<ActionResult> YourAccount(bool avatarUpdateFailed = false)
         {
-            var model = new YourAccountViewModel
+            var model = new YourAccountViewModel();
+            try
             {
-                User = await userManager.FindByNameAsync(User.Identity.Name),
-                AvatarUpdateFailed = avatarUpdateFailed
-            };
+                var user = await userManager.FindByNameAsync(User.Identity.Name);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                model.User = user;
+                model.AvatarUpdateFailed = avatarUpdateFailed;
+            }
+            catch (Exception ex)
+            {
+                eventLogService.LogException("AccountController", "YourAccount", ex);
+                ModelState.AddModelError(string.Empty, localizer[ex.Message].ToString());
+            }
 
             return View(model);
         }
-
 
         // GET: Account/Edit
         [Authorize]
@@ -324,46 +315,6 @@ namespace DancingGoat.Controllers
             var model = new PersonalDetailsViewModel(user);
             return View(model);
         }
-
-
-        // POST: Account/Edit
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit(PersonalDetailsViewModel model)
-        {
-            if (!ModelState.IsValid)
-            {
-                model.UserName = User.Identity.Name;
-                return View(model);
-            }
-
-            try
-            {
-                var user = await userManager.FindByNameAsync(User.Identity.Name);
-                
-                // Set full name only if it was automatically generated
-                if (user.FullName == UserInfoProvider.GetFullName(user.FirstName, null, user.LastName))
-                {
-                    user.FullName = UserInfoProvider.GetFullName(model.FirstName, null, model.LastName);
-                }
-
-                user.FirstName = model.FirstName;
-                user.LastName = model.LastName;
-
-                await userManager.UpdateAsync(user);
-
-                return RedirectToAction(nameof(YourAccount));
-            }
-            catch (Exception ex)
-            {
-                eventLogService.LogException("AccountController", "Edit", ex);
-                ModelState.AddModelError(string.Empty, localizer["Personal details save failed"]);
-
-                model.UserName = User.Identity.Name;
-                return View(model);
-            }
-        }
-
 
         // POST: Account/ChangeAvatar
         [HttpPost]
@@ -385,30 +336,23 @@ namespace DancingGoat.Controllers
             return RedirectToAction(nameof(YourAccount), routeValues);
         }
 
+        #region Private Methods
 
-        // GET: Account/RequireConfirmedAccount
-        [HttpGet]
-        public ActionResult RequireConfirmedAccount()
+        private ApplicationUser AppUserConstructor(RegisterViewModel model)
         {
-            return View();
+            var user = new ApplicationUser
+            {
+                UserName = model.UserName,
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                Email = model.UserName,
+                FullName = UserInfoProvider.GetFullName(model.FirstName, null, model.LastName),
+                Enabled = true
+            };
+
+            return user;
         }
 
-
-        private void SendRegistrationSuccessfulEmail(string email)
-        {
-            var subject = localizer["Registration information"];
-            var body = localizer["Thank you for registering at our site."];
-
-            emailService.SendEmailAsync(email, subject, body);
-        }
-
-
-        private void SendWaitForApprovalEmail(string email)
-        {
-            var subject = localizer["Your registration must be approved"];
-            var body = string.Format(localizer["Thank you for registering at our site {0}. Your registration must be approved by administrator."], siteService.CurrentSite.DisplayName);
-
-            emailService.SendEmailAsync(email, subject, body);
-        }
+        #endregion Private Methods
     }
 }

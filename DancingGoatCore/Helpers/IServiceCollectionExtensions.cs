@@ -23,6 +23,7 @@ namespace DancingGoat
             services.AddSingleton<TypedSearchItemViewModelFactory>();
             services.AddSingleton<ICalculationService, CalculationService>();
             services.AddSingleton<ICheckoutService, CheckoutService>();
+            services.AddSingleton<ICartShoppingService, CartShoppingService>();
             services.AddSingleton<RepositoryCacheHelper>();
         }
 

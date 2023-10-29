@@ -40,7 +40,7 @@ namespace DancingGoat
         /// The constraint ensures that broken URLs lead to a "404 page not found" page and are not handled by a controller dedicated to the component or
         /// to a page handled by the content tree-based router (which would lead to an exception).
         /// </summary>
-        private const string CONSTRAINT_FOR_NON_ROUTER_PAGE_CONTROLLERS = "Account|Consent|Coupon|Checkout|NewsletterSubscriptionWidget|Orders|Search|Subscription";
+        private const string CONSTRAINT_FOR_NON_ROUTER_PAGE_CONTROLLERS = "Account|Consent|Coupon|Checkout|Shopping|NewsletterSubscriptionWidget|Orders|Search|Subscription";
 
         // Application authentication cookie name
         private const string AUTHENTICATION_COOKIE_NAME = "identity.authentication";

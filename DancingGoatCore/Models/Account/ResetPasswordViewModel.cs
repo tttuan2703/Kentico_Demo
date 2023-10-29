@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.SqlServer.Dac.Model;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace DancingGoat.Models
@@ -11,18 +12,26 @@ namespace DancingGoat.Models
         public string Token { get; set; }
 
 
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Password")]
         [Required(ErrorMessage = "Please enter your password")]
         [MaxLength(100, ErrorMessage = "Maximum allowed length of the input text is {1}")]
         public string Password { get; set; }
 
 
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Confirm your password")]
         [Required(ErrorMessage = "Please confirm your password")]
         [MaxLength(100, ErrorMessage = "Maximum allowed length of the input text is {1}")]
         [Compare("Password", ErrorMessage = "Password does not match the confirmation password")]
         public string PasswordConfirmation { get; set; }
+
+        public ResetPasswordViewModel() { }
+
+        public ResetPasswordViewModel(int userId, string token)
+        {
+            UserId = userId;
+            Token = token;
+        }
     }
 }

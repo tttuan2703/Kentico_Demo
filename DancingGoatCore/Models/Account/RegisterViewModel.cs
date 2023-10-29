@@ -38,5 +38,8 @@ namespace DancingGoat.Models
         [Required(ErrorMessage = "Please enter your last name")]
         [MaxLength(100, ErrorMessage = "Maximum allowed length of the input text is {1}")]
         public string LastName { get; set; }
+
+        // Flag check true register
+        public bool IsSuccessfulRegistration { get; set; }
     }
 }

@@ -28,6 +28,7 @@ namespace DancingGoat.Models
 
         public CartViewModel(ShoppingCartInfo cart)
         {
+            //Price = cart.
             TotalTax = cart.TotalTax;
             TotalShipping = cart.TotalShipping;
             GrandTotal = cart.GrandTotal;

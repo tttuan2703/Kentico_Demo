@@ -1,0 +1,55 @@
+﻿@model DancingGoat.Models.DeliveryDetailsViewModel
+
+@{
+    ViewBag.Title = HtmlLocalizer["Customer details"].Value;
+}
+
+<div class="checkout-container">
+    <div class="cart delivery-details">
+        <div class="checkout-back-link">
+            <a asp-action="ShoppingCart">&larr; @HtmlLocalizer["back to shopping cart"]</a>
+        </div>
+        <form class="shipping-cart-form" asp-action="DeliveryDetails" asp-controller="Shopping" method="post">
+            <br />
+            <h2>@HtmlLocalizer["Pay Check"]</h2>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="customer-details">
+                <div class="form-horizontal row">
+                    <div class="group-customer form-group-hidden">
+                        @Html.EditorFor(m => m.Customer)
+                    </div>
+                    <div class="col-md-6 col-lg-6 plr-3r">
+                        <div class="group-customer">
+                            @Html.EditorFor(m => m.BillingAddress)
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 plr-3r">
+                        <div class="group-customer">
+                            @if (Model.ShippingOption.IsVisible)
+                            {
+                                @Html.EditorFor(m => m.ShippingOption)
+                            }
+                            <div class="payment-container">
+                                @if (!User.Identity.IsAuthenticated)
+                                {
+                                    <h2>@HtmlLocalizer["Already a customer?"]</h2>
+                                    <p>@HtmlLocalizer["Sign in to access your billing and delivery details"]</p>
+                                    var routeData = new Dictionary<string, string> { { "returnUrl", Context.Request.PathBase + Context.Request.Path } };
+                                    <a asp-action="Login" asp-controller="Account" asp-all-route-data="routeData" class="btn btn-secondary btn-default">
+                                        @HtmlLocalizer["Sign in"]
+                                    </a>
+                                }
+                                <input type="submit" class="btn btn-primary btn-default checkout-button" value="@HtmlLocalizer["review order"]" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Scripts/countryStateSelector.js"></script>
+    <script src="~/Scripts/addressSelector.js"></script>
+}

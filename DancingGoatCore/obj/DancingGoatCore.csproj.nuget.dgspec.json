@@ -55,11 +55,11 @@
             },
             "Microsoft.jQuery.Unobtrusive.Ajax": {
               "target": "Package",
-              "version": "[3.2.5, )"
+              "version": "[3.3.0, )"
             },
             "kentico.xperience.aspnetcore.webapp": {
               "target": "Package",
-              "version": "[13.0.115, )"
+              "version": "[13.0.128, )"
             }
           },
           "imports": [

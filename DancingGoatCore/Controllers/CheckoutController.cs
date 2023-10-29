@@ -19,7 +19,7 @@ namespace DancingGoat.Controllers
 {
     public class CheckoutController : Controller
     {
-        private readonly IShoppingService shoppingService;
+        private readonly CMS.Ecommerce.IShoppingService shoppingService;
         private readonly ICheckoutService checkoutService;
         private readonly ContactRepository contactRepository;
         private readonly ProductRepository productRepository;
@@ -29,7 +29,7 @@ namespace DancingGoat.Controllers
         private readonly IStateInfoProvider stateInfoProvider;
 
 
-        public CheckoutController(IShoppingService shoppingService, ContactRepository contactRepository, ProductRepository productRepository, 
+        public CheckoutController(CMS.Ecommerce.IShoppingService shoppingService, ContactRepository contactRepository, ProductRepository productRepository, 
             ICheckoutService checkoutService, IPageUrlRetriever pageUrlRetriever, ISKUInfoProvider skuInfoProvider, ICountryInfoProvider countryInfoProvider,
             IStateInfoProvider stateInfoProvider)
         {

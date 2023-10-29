@@ -11,11 +11,11 @@ namespace DancingGoat.Web.Controllers
 {
     public class CouponController : Controller
     {
-        private readonly IShoppingService shoppingService;
+        private readonly CMS.Ecommerce.IShoppingService shoppingService;
         private readonly ICheckoutService checkoutService;
 
 
-        public CouponController(IShoppingService shoppingService, ICheckoutService checkoutService)
+        public CouponController(CMS.Ecommerce.IShoppingService shoppingService, ICheckoutService checkoutService)
         {
             this.shoppingService = shoppingService;
             this.checkoutService = checkoutService;

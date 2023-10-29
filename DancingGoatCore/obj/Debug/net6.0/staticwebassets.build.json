@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x4QzOGWxkyYV9EVqIh6DAPQSTk0VVOjugbx8VlD26E8=",
+  "Hash": "YAkiy8/SJPsvgRohczJnNd43z7dVKTUfRswfjMIDRTI=",
   "Source": "DancingGoatCore",
   "BasePath": "_content/DancingGoatCore",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemFormComponents.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemFormComponents.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Admin/systemFormComponents.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemFormComponents.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemFormComponents.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemFormComponents.min.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemFormComponents.min.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Admin/systemFormComponents.min.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemFormComponents.min.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemFormComponents.min.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Admin/systemPageComponents.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Admin/systemPageComponents.js",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.min.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.min.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Admin/systemPageComponents.min.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.min.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.min.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.min.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.min.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Admin/systemPageComponents.min.js",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.min.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Admin\\systemPageComponents.min.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Public/systemFormComponents.css",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Public/systemFormComponents.js",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.min.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.min.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Public/systemFormComponents.min.css",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.min.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.min.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.min.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.min.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Public/systemFormComponents.min.js",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.min.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemFormComponents.min.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Public/systemPageComponents.css",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Public/systemPageComponents.js",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.min.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.min.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Public/systemPageComponents.min.css",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.min.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.min.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.min.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.min.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Bundles/Public/systemPageComponents.min.js",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.min.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Bundles\\Public\\systemPageComponents.min.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\Attachments\\attachment-selector.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\Attachments\\attachment-selector.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Selectors/Dialogs/Attachments/attachment-selector.css",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\Attachments\\attachment-selector.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\Attachments\\attachment-selector.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\MediaFiles\\media-files-selector.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\MediaFiles\\media-files-selector.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Selectors/Dialogs/MediaFiles/media-files-selector.css",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\MediaFiles\\media-files-selector.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\MediaFiles\\media-files-selector.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\MediaFiles\\media-files-selector.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\MediaFiles\\media-files-selector.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Selectors/Dialogs/MediaFiles/media-files-selector.js",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\MediaFiles\\media-files-selector.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\MediaFiles\\media-files-selector.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\Pages\\page-selector.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\Pages\\page-selector.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Selectors/Dialogs/Pages/page-selector.css",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\Pages\\page-selector.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\Pages\\page-selector.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\PageTemplates\\DefaultTemplateImage.png",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\PageTemplates\\DefaultTemplateImage.png",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Selectors/Dialogs/PageTemplates/DefaultTemplateImage.png",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\PageTemplates\\DefaultTemplateImage.png"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\PageTemplates\\DefaultTemplateImage.png"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\PageTemplates\\page-template-selector.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\PageTemplates\\page-template-selector.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Selectors/Dialogs/PageTemplates/page-template-selector.js",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\PageTemplates\\page-template-selector.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\PageTemplates\\page-template-selector.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\Shared\\error-page.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\Shared\\error-page.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Content/Selectors/Dialogs/Shared/error-page.css",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Content\\Selectors\\Dialogs\\Shared\\error-page.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Content\\Selectors\\Dialogs\\Shared\\error-page.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\FormBuilder\\Public\\FormComponents\\FileUploader\\file-uploader.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\FormBuilder\\Public\\FormComponents\\FileUploader\\file-uploader.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "FormBuilder/Public/FormComponents/FileUploader/file-uploader.js",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\FormBuilder\\Public\\FormComponents\\FileUploader\\file-uploader.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\FormBuilder\\Public\\FormComponents\\FileUploader\\file-uploader.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\FormBuilder\\Public\\FormComponents\\USPhone\\inputmask.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\FormBuilder\\Public\\FormComponents\\USPhone\\inputmask.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "FormBuilder/Public/FormComponents/USPhone/inputmask.js",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\FormBuilder\\Public\\FormComponents\\USPhone\\inputmask.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\FormBuilder\\Public\\FormComponents\\USPhone\\inputmask.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\FormBuilder\\Public\\FormComponents\\USPhone\\inputmask.min.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\FormBuilder\\Public\\FormComponents\\USPhone\\inputmask.min.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "FormBuilder/Public/FormComponents/USPhone/inputmask.min.js",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\FormBuilder\\Public\\FormComponents\\USPhone\\inputmask.min.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\FormBuilder\\Public\\FormComponents\\USPhone\\inputmask.min.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\FormBuilder\\Public\\forms\\updatableFormHelper.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\FormBuilder\\Public\\forms\\updatableFormHelper.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "FormBuilder/Public/forms/updatableFormHelper.js",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\FormBuilder\\Public\\forms\\updatableFormHelper.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\FormBuilder\\Public\\forms\\updatableFormHelper.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\InlineEditors\\DropdownEditor\\DropdownEditor.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\InlineEditors\\DropdownEditor\\DropdownEditor.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "PageBuilder/Admin/InlineEditors/DropdownEditor/DropdownEditor.css",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\InlineEditors\\DropdownEditor\\DropdownEditor.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\InlineEditors\\DropdownEditor\\DropdownEditor.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\InlineEditors\\DropdownEditor\\dropdown-editor.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\InlineEditors\\DropdownEditor\\dropdown-editor.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "PageBuilder/Admin/InlineEditors/DropdownEditor/dropdown-editor.js",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\InlineEditors\\DropdownEditor\\dropdown-editor.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\InlineEditors\\DropdownEditor\\dropdown-editor.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Attachments\\attachment-selector.admin.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Attachments\\attachment-selector.admin.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "PageBuilder/Admin/Selectors/FormComponents/Attachments/attachment-selector.admin.js",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Attachments\\attachment-selector.admin.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Attachments\\attachment-selector.admin.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\MediaFiles\\media-files-selector.admin.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\MediaFiles\\media-files-selector.admin.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "PageBuilder/Admin/Selectors/FormComponents/MediaFiles/media-files-selector.admin.js",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\MediaFiles\\media-files-selector.admin.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\MediaFiles\\media-files-selector.admin.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Pages\\page-selector.admin.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Pages\\page-selector.admin.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "PageBuilder/Admin/Selectors/FormComponents/Pages/page-selector.admin.js",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Pages\\page-selector.admin.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Pages\\page-selector.admin.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Path\\path-selector.admin.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Path\\path-selector.admin.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "PageBuilder/Admin/Selectors/FormComponents/Path/path-selector.admin.js",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Path\\path-selector.admin.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Admin\\Selectors\\FormComponents\\Path\\path-selector.admin.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Public\\Widgets\\RichText\\froala_style.min.css",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Public\\Widgets\\RichText\\froala_style.min.css",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "PageBuilder/Public/Widgets/RichText/froala_style.min.css",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\PageBuilder\\Public\\Widgets\\RichText\\froala_style.min.css"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\PageBuilder\\Public\\Widgets\\RichText\\froala_style.min.css"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Scripts\\jquery.unobtrusive-ajax.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Scripts\\jquery.unobtrusive-ajax.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Scripts/jquery.unobtrusive-ajax.js",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Scripts\\jquery.unobtrusive-ajax.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Scripts\\jquery.unobtrusive-ajax.js"
     },
     {
-      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Scripts\\jquery-3.5.1.js",
+      "Identity": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Scripts\\jquery-3.5.1.js",
       "SourceId": "Kentico.Content.Web.Rcl",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\",
       "BasePath": "_content/Kentico.Content.Web.Rcl",
       "RelativePath": "Scripts/jquery-3.5.1.js",
       "AssetKind": "All",
@@ -592,7 +592,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.115\\staticwebassets\\Scripts\\jquery-3.5.1.js"
+      "OriginalItemSpec": "C:\\Users\\tuan.tai\\.nuget\\packages\\kentico.xperience.aspnetcore.webapp\\13.0.128\\staticwebassets\\Scripts\\jquery-3.5.1.js"
     },
     {
       "Identity": "D:\\_Kentico\\Kentico_Demo\\DancingGoatCore\\wwwroot\\Content\\Bundles\\Admin\\pageComponents.css",
