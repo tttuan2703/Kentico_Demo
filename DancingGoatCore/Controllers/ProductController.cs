@@ -16,10 +16,6 @@ using Kentico.Content.Web.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 
-[assembly: RegisterPageRoute(Coffee.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.Detail))]
-[assembly: RegisterPageRoute(Brewer.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.Detail))]
-[assembly: RegisterPageRoute(FilterPack.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.Detail))]
-[assembly: RegisterPageRoute(Tableware.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.Detail))]
 [assembly: RegisterPageRoute(ManualGrinder.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.Detail))]
 [assembly: RegisterPageRoute(ElectricGrinder.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.Detail))]
 [assembly: RegisterPageRoute(Dozer.CLASS_NAME, typeof(ProductController), ActionName = nameof(ProductController.DozerDetail))]

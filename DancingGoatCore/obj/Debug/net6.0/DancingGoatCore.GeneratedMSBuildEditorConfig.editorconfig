@@ -104,10 +104,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXEJhbm5lcldpZGdldFxfQmFubmVyV2lkZ2V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Components/Widgets/CafeCardWidget/_CafeCardWidget.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXENhZmVDYXJkV2lkZ2V0XF9DYWZlQ2FyZFdpZGdldC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Components/Widgets/CardWidget/_CardWidget.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXENhcmRXaWRnZXRcX0NhcmRXaWRnZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -164,26 +160,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZVRlbXBsYXRlc1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/About/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Accessories/AccessoriesFilter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzb3JpZXNcQWNjZXNzb3JpZXNGaWx0ZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Accessories/AccessoriesList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzb3JpZXNcQWNjZXNzb3JpZXNMaXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Accessories/EditorTemplates/AccessoriesProductFilter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzb3JpZXNcRWRpdG9yVGVtcGxhdGVzXEFjY2Vzc29yaWVzUHJvZHVjdEZpbHRlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Accessories/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzb3JpZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Account/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -222,110 +198,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Articles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Brewers/BrewersFilter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJld2Vyc1xCcmV3ZXJzRmlsdGVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Brewers/BrewersList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJld2Vyc1xCcmV3ZXJzTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Brewers/EditorTemplates/BrewersProductFilter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJld2Vyc1xFZGl0b3JUZW1wbGF0ZXNcQnJld2Vyc1Byb2R1Y3RGaWx0ZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Brewers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJld2Vyc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Cafes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/DeliveryDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRGVsaXZlcnlEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/DisplayTemplates/BillingAddressViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRGlzcGxheVRlbXBsYXRlc1xCaWxsaW5nQWRkcmVzc1ZpZXdNb2RlbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/DisplayTemplates/CustomerViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRGlzcGxheVRlbXBsYXRlc1xDdXN0b21lclZpZXdNb2RlbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/EditorTemplates/AddressSelectorViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRWRpdG9yVGVtcGxhdGVzXEFkZHJlc3NTZWxlY3RvclZpZXdNb2RlbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/EditorTemplates/BillingAddressViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRWRpdG9yVGVtcGxhdGVzXEJpbGxpbmdBZGRyZXNzVmlld01vZGVsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/EditorTemplates/CountryStateViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRWRpdG9yVGVtcGxhdGVzXENvdW50cnlTdGF0ZVZpZXdNb2RlbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/EditorTemplates/CustomerViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRWRpdG9yVGVtcGxhdGVzXEN1c3RvbWVyVmlld01vZGVsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/EditorTemplates/PaymentMethodViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRWRpdG9yVGVtcGxhdGVzXFBheW1lbnRNZXRob2RWaWV3TW9kZWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/EditorTemplates/ShippingOptionViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRWRpdG9yVGVtcGxhdGVzXFNoaXBwaW5nT3B0aW9uVmlld01vZGVsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/PreviewAndPay.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcUHJldmlld0FuZFBheS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/ShoppingCart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcU2hvcHBpbmdDYXJ0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/ThankYou.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcVGhhbmtZb3UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/_ShoppingCartContentEdit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcX1Nob3BwaW5nQ2FydENvbnRlbnRFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/_ShoppingCartContentPreview.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcX1Nob3BwaW5nQ2FydENvbnRlbnRQcmV2aWV3LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Checkout/_ShoppingCartTotals.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcX1Nob3BwaW5nQ2FydFRvdGFscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Coffees/CoffeeFilter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlc1xDb2ZmZWVGaWx0ZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Coffees/CoffeeList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlc1xDb2ZmZWVMaXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Coffees/EditorTemplates/CoffeeProductFilter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlc1xFZGl0b3JUZW1wbGF0ZXNcQ29mZmVlUHJvZHVjdEZpbHRlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Coffees/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Contacts/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Coupon/_CouponCodeEdit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXF9Db3Vwb25Db2RlRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Crushings/CrushingFilter.cshtml]
@@ -376,44 +248,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjYXZhdG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Generator/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhdG9yXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Generator/_Button.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhdG9yXF9CdXR0b24uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Grinders/EditorTemplates/GrindersProductFilter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JpbmRlcnNcRWRpdG9yVGVtcGxhdGVzXEdyaW5kZXJzUHJvZHVjdEZpbHRlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Grinders/GrindersFilter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JpbmRlcnNcR3JpbmRlcnNGaWx0ZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Grinders/GrindersList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JpbmRlcnNcR3JpbmRlcnNMaXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Grinders/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JpbmRlcnNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/HttpErrors/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHR0cEVycm9yc1xOb3RGb3VuZC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Manufacturers/Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xEZXRhaWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Manufacturers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Orders/DisplayTemplates/OrderAddressViewModel.cshtml]
@@ -428,32 +268,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXE9yZGVyRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Privacy/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Product/CrushingDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcnVzaGluZ0RldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Product/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Product/DisplayTemplates/BrewerViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEaXNwbGF5VGVtcGxhdGVzXEJyZXdlclZpZXdNb2RlbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Product/DisplayTemplates/CoffeeViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEaXNwbGF5VGVtcGxhdGVzXENvZmZlZVZpZXdNb2RlbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Product/DisplayTemplates/ElectricGrinderViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEaXNwbGF5VGVtcGxhdGVzXEVsZWN0cmljR3JpbmRlclZpZXdNb2RlbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Product/DisplayTemplates/FilterPackViewModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEaXNwbGF5VGVtcGxhdGVzXEZpbHRlclBhY2tWaWV3TW9kZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Product/DozerDetail.cshtml]
@@ -492,28 +312,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERpc3BsYXlUZW1wbGF0ZXNcUHJvZHVjdExpc3RJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Shared/_GoogleMaps.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Hb29nbGVNYXBzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Shared/_LandingPageLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYW5kaW5nUGFnZUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Shared/_Layout_Old.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfT2xkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Shared/_ManufacturerList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYW51ZmFjdHVyZXJMaXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Shared/_Reference.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWZlcmVuY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Shared/_StoreLayout.cshtml]
@@ -586,14 +390,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Store/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Subscription/ConfirmSubscription.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uXENvbmZpcm1TdWJzY3JpcHRpb24uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/Subscription/Unsubscribe.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uXFVuc3Vic2NyaWJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_Kentico/Kentico_Demo/DancingGoatCore/Views/_ViewImports.cshtml]

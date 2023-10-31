@@ -1,7 +1,7 @@
 function replaceForm(event) {
     event.preventDefault();
     var form = event.target;
-    
+
     $.ajax({
         method: "POST",
         url: form.action,

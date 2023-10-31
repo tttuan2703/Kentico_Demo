@@ -45,7 +45,7 @@ namespace DancingGoat.Sections
         public static IEnumerable<string> GetWideZoneRestrictions()
         {
             var restrictedWidgets = new List<string> {
-                CafeCardWidgetViewComponent.IDENTIFIER,
+                //CafeCardWidgetViewComponent.IDENTIFIER,
                 CardWidgetViewComponent.IDENTIFIER,
             };
 

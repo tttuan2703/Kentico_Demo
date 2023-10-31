@@ -30,25 +30,19 @@ namespace DancingGoat
         private static void AddRepositories(IServiceCollection services)
         {
             services.AddSingleton<ArticleRepository>();
-            services.AddSingleton<CafeRepository>();
             services.AddSingleton<ContactRepository>();
             services.AddSingleton<CountryRepository>();
             services.AddSingleton<NavigationRepository>();
             services.AddSingleton<SocialLinkRepository>();
-            services.AddSingleton<BrewerRepository>();
-            services.AddSingleton<CoffeeRepository>();
             services.AddSingleton<DozerRepository>();
             services.AddSingleton<CrushingRepository>();
             services.AddSingleton<ExcavatorRepository>();
-            services.AddSingleton<ManufacturerRepository>();
-            services.AddSingleton<PublicStatusRepository>();
             services.AddSingleton<ProductRepository>();
             services.AddSingleton<VariantRepository>();
             services.AddSingleton<HotTipsRepository>();
             services.AddSingleton<CustomerAddressRepository>();
             services.AddSingleton<ShippingOptionRepository>();
             services.AddSingleton<PaymentMethodRepository>();
-            services.AddSingleton<AboutUsRepository>();
             services.AddSingleton<MediaFileRepository>();
             services.AddSingleton<ReferenceRepository>();
             services.AddSingleton<HomeRepository>();

@@ -72,9 +72,6 @@ namespace DancingGoat.Controllers
                 .Select(searchItemViewModelFactory.GetTypedSearchResultItemModel)
                 .FilterKomatsuProduct();
 
-            //searchResults = searchResults.Items.Where(t => t.Data.Children.FirstOrDefault(m=>m.);
-            //searchResultItemModels.Where(t=>t.)
-
             var model = new SearchResultsModel
             {
                 Items = searchResultItemModels.ToList(),

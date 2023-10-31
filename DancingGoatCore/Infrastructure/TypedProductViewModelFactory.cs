@@ -23,29 +23,5 @@ namespace DancingGoat.Infrastructure
         {
             return null;
         }
-
-
-        private BrewerViewModel CreateViewModel(Brewer brewer)
-        {
-            return BrewerViewModel.GetViewModel(brewer);
-        }
-
-
-        private CoffeeViewModel CreateViewModel(Coffee coffee)
-        {
-            return CoffeeViewModel.GetViewModel(coffee);
-        }
-
-
-        private ElectricGrinderViewModel CreateViewModel(ElectricGrinder grinder)
-        {
-            return ElectricGrinderViewModel.GetViewModel(grinder);
-        }
-
-
-        private FilterPackViewModel CreateViewModel(FilterPack filterPack)
-        {
-            return FilterPackViewModel.GetViewModel(filterPack);
-        }
     }
 }

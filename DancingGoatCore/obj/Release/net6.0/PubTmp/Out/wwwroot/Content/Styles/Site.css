@@ -6371,7 +6371,7 @@ footer .row .subscribe-form input[type="submit"] {
     left: 0;
     top: -158px;
     z-index: 1;
-    background: url(../Images/plant-2.png) top right;
+    /*background: url(../Images/plant-2.png) top right;*/
     content: '';
   }
   footer .footer-container .container .row {
