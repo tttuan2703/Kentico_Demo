@@ -5,8 +5,8 @@ using DancingGoat.Models.Crushings;
 using DancingGoat.Models.Dozers;
 using DancingGoat.Models.Excavators;
 using DancingGoat.PageTemplates;
+using DancingGoatCore.SchedulerTasks;
 using DancingGoat.Services;
-
 using Microsoft.Extensions.DependencyInjection;
 
 namespace DancingGoat
@@ -25,6 +25,7 @@ namespace DancingGoat
             services.AddSingleton<ICheckoutService, CheckoutService>();
             services.AddSingleton<ICartShoppingService, CartShoppingService>();
             services.AddSingleton<RepositoryCacheHelper>();
+            services.AddSingleton<UpdateUserStatusTask>();
         }
 
         private static void AddRepositories(IServiceCollection services)

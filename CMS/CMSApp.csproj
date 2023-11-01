@@ -77,6 +77,9 @@
     <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
       <HintPath>..\packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
+    <Reference Include="DancingGoatCore.Schedulers">
+      <HintPath>..\DancingGoatCore.Schedulers\bin\Debug\net7.0\DancingGoatCore.Schedulers.dll</HintPath>
+    </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.19.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>..\packages\DocumentFormat.OpenXml.2.19.0\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
@@ -2999,6 +3002,7 @@
     <Content Include="DancingGoatCore\media\Graphics\Manufacturers\chemex.png" />
     <Content Include="DancingGoatCore\media\Graphics\Manufacturers\Espro.png" />
     <Content Include="DancingGoatCore\media\Graphics\Manufacturers\Hario.png" />
+    <Content Include="DancingGoatCore\media\Videos\Smart-Contruction_Drone_Dashboard_web-banner-video.mp4" />
     <Content Include="DancingGoatMvc\media\CoffeeGallery\Bakery-And-Coffee.jpg" />
     <Content Include="DancingGoatMvc\media\CoffeeGallery\Brew-Bar.jpg" />
     <Content Include="DancingGoatMvc\media\CoffeeGallery\Cauca-Farmer.jpg" />
@@ -10826,6 +10830,7 @@
     <Compile Include="CMSWebParts\Widgets\WidgetActions.ascx.designer.cs">
       <DependentUpon>WidgetActions.ascx</DependentUpon>
     </Compile>
+    <Compile Include="DancingGoatCore\SchedulerTasks\UpdateUserStatusTask.cs" />
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
@@ -14393,7 +14398,6 @@
   <ItemGroup>
     <Folder Include="CMSModules\EmailEngine\FormControls\" />
     <Folder Include="CMSScripts\Custom\" />
-    <Folder Include="CMSScripts\WebComponents\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CMSScripts\WebComponents\components.esm.js" />

@@ -3,8 +3,12 @@ using CMS.Base;
 using CMS.Base.UploadExtensions;
 using CMS.ContactManagement;
 using CMS.Core;
+using CMS.EventLog;
 using CMS.Helpers;
 using CMS.Membership;
+using CMS.Scheduler;
+using CMS.SiteProvider;
+using DancingGoat.Infrastructure.BaseModels;
 using DancingGoat.Models;
 using Kentico.Content.Web.Mvc;
 using Kentico.Membership;
@@ -14,8 +18,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
+using Newtonsoft.Json;
+using SkiaSharp;
 using System;
+using System.CodeDom.Compiler;
 using System.Net;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace DancingGoat.Controllers
@@ -146,6 +154,8 @@ namespace DancingGoat.Controllers
 
                 membershipActivitiesLogger.LogRegistration(model.UserName);
                 model.IsSuccessfulRegistration = true;
+
+                UpdateUserStatus(model);
                 return View(model);
             }
             catch (Exception ex)
@@ -316,6 +326,46 @@ namespace DancingGoat.Controllers
             return View(model);
         }
 
+        // POST: Account/Edit
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Edit(PersonalDetailsViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                model.UserName = User.Identity.Name;
+                return View(model);
+            }
+
+            try
+            {
+                var user = await userManager.FindByNameAsync(User.Identity.Name);
+
+                // Set full name only if it was automatically generated
+                if (user.FullName == UserInfoProvider.GetFullName(user.FirstName, null, user.LastName))
+                {
+                    user.FullName = UserInfoProvider.GetFullName(model.FirstName, null, model.LastName);
+                }
+
+                user.FirstName = model.FirstName;
+                user.LastName = model.LastName;
+                user.PhoneNumber = model.PhoneNumber;
+
+                await userManager.UpdateAsync(user);
+
+                return RedirectToAction(nameof(YourAccount));
+            }
+            catch (Exception ex)
+            {
+                eventLogService.LogException("AccountController", "Edit", ex);
+                ModelState.AddModelError(string.Empty, localizer["Personal details save failed"]);
+
+                model.UserName = User.Identity.Name;
+                return View(model);
+            }
+        }
+
+
         // POST: Account/ChangeAvatar
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -338,19 +388,67 @@ namespace DancingGoat.Controllers
 
         #region Private Methods
 
-        private ApplicationUser AppUserConstructor(RegisterViewModel model)
+        private ExtendedApplicationUser AppUserConstructor(RegisterViewModel model)
         {
-            var user = new ApplicationUser
+            var applicationUser = new ExtendedApplicationUser
             {
                 UserName = model.UserName,
                 FirstName = model.FirstName,
                 LastName = model.LastName,
                 Email = model.UserName,
                 FullName = UserInfoProvider.GetFullName(model.FirstName, null, model.LastName),
-                Enabled = true
+                Enabled = true,
+                UserStatus = "New"
             };
 
-            return user;
+            //user.SetValue("UserStatus", "New");
+
+            //// Map properties from ApplicationUser to UserInfo
+            //var applicationUser = new ExtendedApplicationUser();
+            //applicationUser.MapToUserInfo(user);
+            return applicationUser;
+        }
+
+        private void UpdateUserStatus(RegisterViewModel user)
+        {
+            // Create a new TaskInterval object
+            TaskInterval interval = new TaskInterval
+            {
+                StartTime = DateTime.Now.AddSeconds(15),
+                Every = 1,
+                BetweenStart = DateTime.Now,
+                Day = "1",
+                Period = "1",
+                UseSpecificTime = false,
+                Order = "1",
+                Days = new System.Collections.Generic.List<DayOfWeek> { 
+                    DayOfWeek.Sunday,DayOfWeek.Monday,DayOfWeek.Tuesday,DayOfWeek.Wednesday,DayOfWeek.Thursday,DayOfWeek.Friday,DayOfWeek.Saturday
+                }, // This will set the task to run every day of the week
+                BetweenEnd = DateTime.Now.AddDays(1) // This will set the end time to be 24 hours from now
+            };
+            // Create a new scheduled task
+            TaskInfo newTask = new TaskInfo
+            {
+                TaskAssemblyName = "DancingGoatCore.SchedulerTasks",
+                TaskClass = "DancingGoatCore.SchedulerTasks.UpdateUserStatusTask",
+                TaskEnabled = true,
+                TaskNextRunTime = DateTime.Now.AddSeconds(15),
+                TaskDisplayName = "Update user status for " + user.UserName,
+                TaskName = "UpdateUserStatusTask" + user.UserName.Split('@')[0] + "_" + Guid.NewGuid(),
+                TaskType = ScheduledTaskTypeEnum.Standard,
+                //TaskInterval = "Once", // Run once
+                TaskDeleteAfterLastRun = true,
+                TaskRunInSeparateThread = false,
+                TaskData = user.UserName,
+                TaskSiteID = SiteContext.CurrentSiteID,
+                TaskAvailability = TaskAvailabilityEnum.LiveSite,
+            };
+
+            var taskStartTime = DateTime.Now.AddSeconds(10);
+            newTask.TaskInterval = SchedulingHelper.EncodeInterval(new TaskInterval { Period = "once", UseSpecificTime = true, StartTime = taskStartTime });
+
+            // Save the scheduled task
+            TaskInfoProvider.SetTaskInfo(newTask);
         }
 
         #endregion Private Methods

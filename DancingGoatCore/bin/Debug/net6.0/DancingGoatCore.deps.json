@@ -11,7 +11,8 @@
           "BuildBundlerMinifier2022": "2.9.9",
           "Microsoft.Extensions.Logging.Debug": "3.1.8",
           "Microsoft.jQuery.Unobtrusive.Ajax": "3.3.0",
-          "Kentico.Xperience.AspNetCore.WebApp": "13.0.128"
+          "Kentico.Xperience.AspNetCore.WebApp": "13.0.128",
+          "DancingGoatCore.Schedulers": "1.0.0.0"
         },
         "runtime": {
           "DancingGoatCore.dll": {}
@@ -2264,6 +2265,14 @@
             "fileVersion": "1.0.2.0"
           }
         }
+      },
+      "DancingGoatCore.Schedulers/1.0.0.0": {
+        "runtime": {
+          "DancingGoatCore.Schedulers.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -3609,6 +3618,11 @@
       "sha512": "sha512-zRWpPAxBg3lNdm4UiKixTe+DFPoNid9CILggTCy/0WR2WKETe17kTWhiiIpLB2k5IEgnvA0QLfKlvd6Tvu0pzA==",
       "path": "ude.netstandard/1.2.0",
       "hashPath": "ude.netstandard.1.2.0.nupkg.sha512"
+    },
+    "DancingGoatCore.Schedulers/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
